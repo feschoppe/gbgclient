@@ -1,24 +1,19 @@
------BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA512
-
 Format: 1.0
 Source: gbglehrerclient
 Binary: gbglehrerclient
 Architecture: source
 Version: 0.1-28
 Checksums-Md5:
- 3d92ad7f08d37c14230c80da3e199da4 1610 gbglehrerclient_0.1-28.dsc
+ 4ed6782a080a315caaac1062ffbd1eb0 901 gbglehrerclient_0.1-28.dsc
 Checksums-Sha1:
- 6565c807ee1e876f3458d41473ea7463c6e0a5f2 1610 gbglehrerclient_0.1-28.dsc
+ 241c4c772e04f76b18a4c7649bb549c87ee68103 901 gbglehrerclient_0.1-28.dsc
 Checksums-Sha256:
- 2e1264c22aa377cb7eb2132c78f4045d3d9ca2f4ed8e2726d7abb75794c581fb 1610 gbglehrerclient_0.1-28.dsc
+ 8db270911edf6056352a05d836a994ca1268f9d737b100004630cd22140f17d0 901 gbglehrerclient_0.1-28.dsc
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Sat, 10 Oct 2020 18:32:27 +0200
+Build-Date: Sat, 10 Oct 2020 20:56:09 +0200
 Build-Tainted-By:
- usr-local-has-configs
- usr-local-has-libraries
- usr-local-has-programs
+ merged-usr-via-symlinks
 Installed-Build-Depends:
  autoconf (= 2.69-11.1),
  automake (= 1:1.16.1-4ubuntu6),
@@ -36,8 +31,6 @@ Installed-Build-Depends:
  bzip2 (= 1.0.8-2),
  coreutils (= 8.30-3ubuntu2),
  cpp (= 4:9.3.0-1ubuntu2),
- cpp-7 (= 7.5.0-6ubuntu2),
- cpp-8 (= 8.4.0-3ubuntu2),
  cpp-9 (= 9.3.0-17ubuntu1~20.04),
  dash (= 0.5.10.2-6),
  debconf (= 1.5.73),
@@ -53,13 +46,8 @@ Installed-Build-Depends:
  findutils (= 4.7.0-1ubuntu1),
  g++ (= 4:9.3.0-1ubuntu2),
  g++-9 (= 9.3.0-17ubuntu1~20.04),
- gawk (= 1:5.0.1+dfsg-1),
  gcc (= 4:9.3.0-1ubuntu2),
  gcc-10-base (= 10.2.0-5ubuntu1~20.04),
- gcc-7 (= 7.5.0-6ubuntu2),
- gcc-7-base (= 7.5.0-6ubuntu2),
- gcc-8 (= 8.4.0-3ubuntu2),
- gcc-8-base (= 8.4.0-3ubuntu2),
  gcc-9 (= 9.3.0-17ubuntu1~20.04),
  gcc-9-base (= 9.3.0-17ubuntu1~20.04),
  gettext (= 0.19.8.1-10build1),
@@ -73,7 +61,6 @@ Installed-Build-Depends:
  intltool-debian (= 0.35.0+20060710.5),
  libacl1 (= 2.2.53-6),
  libarchive-zip-perl (= 1.67-2),
- libasan4 (= 7.5.0-6ubuntu2),
  libasan5 (= 9.3.0-17ubuntu1~20.04),
  libatomic1 (= 10.2.0-5ubuntu1~20.04),
  libattr1 (= 1:2.4.48-5),
@@ -89,7 +76,6 @@ Installed-Build-Depends:
  libc6-dev (= 2.31-0ubuntu9.1),
  libcap-ng0 (= 0.7.9-2.1build1),
  libcc1-0 (= 10.2.0-5ubuntu1~20.04),
- libcilkrts5 (= 7.5.0-6ubuntu2),
  libcroco3 (= 0.6.13-1),
  libcrypt-dev (= 1:4.4.10-10ubuntu4),
  libcrypt1 (= 1:4.4.10-10ubuntu4),
@@ -102,8 +88,6 @@ Installed-Build-Depends:
  libelf1 (= 0.176-1.1build1),
  libffi7 (= 3.3-4),
  libfile-stripnondeterminism-perl (= 1.7.0-1),
- libgcc-7-dev (= 7.5.0-6ubuntu2),
- libgcc-8-dev (= 8.4.0-3ubuntu2),
  libgcc-9-dev (= 9.3.0-17ubuntu1~20.04),
  libgcc-s1 (= 10.2.0-5ubuntu1~20.04),
  libgcrypt20 (= 1.8.5-5ubuntu1),
@@ -124,7 +108,6 @@ Installed-Build-Depends:
  libmount1 (= 2.34-0.1ubuntu9.1),
  libmpc3 (= 1.1.0-1),
  libmpfr6 (= 4.0.2-1),
- libmpx2 (= 8.4.0-3ubuntu2),
  libpam-modules (= 1.3.1-5ubuntu4.1),
  libpam-modules-bin (= 1.3.1-5ubuntu4.1),
  libpam-runtime (= 1.3.1-5ubuntu4.1),
@@ -134,7 +117,6 @@ Installed-Build-Depends:
  libperl5.30 (= 5.30.0-9build1),
  libpipeline1 (= 1.5.2-2build1),
  libquadmath0 (= 10.2.0-5ubuntu1~20.04),
- libreadline8 (= 8.0-4),
  libseccomp2 (= 2.4.3-1ubuntu3.20.04.3),
  libselinux1 (= 3.0-1build2),
  libsigsegv2 (= 2.12-2),
@@ -146,7 +128,6 @@ Installed-Build-Depends:
  libtinfo6 (= 6.2-0ubuntu2),
  libtool (= 2.4.6-14),
  libtsan0 (= 10.2.0-5ubuntu1~20.04),
- libubsan0 (= 7.5.0-6ubuntu2),
  libubsan1 (= 10.2.0-5ubuntu1~20.04),
  libuchardet0 (= 0.0.6-3build1),
  libudev1 (= 245.4-4ubuntu3.2),
@@ -168,7 +149,6 @@ Installed-Build-Depends:
  perl-base (= 5.30.0-9build1),
  perl-modules-5.30 (= 5.30.0-9build1),
  po-debconf (= 1.0.21),
- readline-common (= 8.0-4),
  sed (= 4.7-1),
  sensible-utils (= 0.0.12+nmu1),
  sysvinit-utils (= 2.96-2.1ubuntu1),
@@ -178,21 +158,6 @@ Installed-Build-Depends:
  xz-utils (= 5.2.4-1ubuntu1),
  zlib1g (= 1:1.2.11.dfsg-2ubuntu1.1)
 Environment:
- DEB_BUILD_OPTIONS="parallel=8"
+ DEB_BUILD_OPTIONS="parallel=2"
  LANG="de_DE.UTF-8"
  SOURCE_DATE_EPOCH="1599386552"
-
------BEGIN PGP SIGNATURE-----
-
-iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAl+B4jkACgkQs7/Yjblg
-MBA/cwv/W7aYjNFgZQU0t9qQ+Zo8L4QBDRHm3Eb0PmdMphaxSLUEwGaMvV/mBeuR
-g1Pf0XGFjD9ZoEIZTwwDVM53yHse5kPuhFxWPeBKqnQwvh9lX52qD7UYBzPKThk+
-206JlLP5SsVZj1GLKNbgt/K/SR3BDfpMqx80hqzGL+F53tvi6BZnj3mayOOQXv6d
-iuPvYlYHBPsthA8jX38Q4ZOGuSHkGeiXB61S+XdEBvKd+DoMLU0GHz+f2RRf4Xg7
-qYmJIIahksQth7HjLVXMb5yLqlF5kQ9qKKSSPmk5P5WYUfT9djr2Syz010dMO4VG
-9RW3lQIJIJ0ScXpZ7G8ws3ZktIh4MrBZWgMdvE9bSVnOLv1sz3oolwws569WlZwF
-CmQ+DtvIJZ4VEkj8EAF3mLHvbihVhauyJB1NS2+dTSbiLfiOQvFeqpVJiPwT00S7
-+L6iYVDvTBI8RgdrUTw1aXkUuwZzix4JtOIGlyNXOCw4tTUYMTxtgp2skCieIBGX
-uAa4rRNN
-=dyo3
------END PGP SIGNATURE-----

@@ -10,7 +10,7 @@ Homepage: <insert the upstream URL, if relevant>
 
 Package: gbgclient
 Architecture: all
-Depends: musescore3
+Depends: musescore3, openssh-server, cryptsetup
 Description: Standard-GBG-Client
  Das ist der Standard-GBG-Client.
 Replaces: gdm3, gbgsusclient, gbglzclient, gbglehrerclient

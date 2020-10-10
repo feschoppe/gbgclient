@@ -7,11 +7,11 @@ Binary: gbglehrerclient
 Architecture: source
 Version: 0.1-27
 Checksums-Md5:
- c2030787af0ff8527dd009ec5acffd5a 1610 gbglehrerclient_0.1-27.dsc
+ 8e42ebc5587cc5bae5bd01484a4364d3 1610 gbglehrerclient_0.1-27.dsc
 Checksums-Sha1:
- c57ae7554394f1ceaa897a31473623e0cea84ce0 1610 gbglehrerclient_0.1-27.dsc
+ 2c7d1bfea29d6d6ecc040d35fb2f6b3b6112fa73 1610 gbglehrerclient_0.1-27.dsc
 Checksums-Sha256:
- 12633a35121e266e93332cf65a4ff8a26be7e8bf3d9bfadde6f6e6bb1c9fafb9 1610 gbglehrerclient_0.1-27.dsc
+ 9ae012070e79d3cd3a016432c2c2ca1fd0f6715c7f9fb39c0749a8e8807978e8 1610 gbglehrerclient_0.1-27.dsc
 Build-Origin: Ubuntu
 Build-Architecture: amd64
 Build-Date: Sat, 10 Oct 2020 17:57:25 +0200
@@ -184,15 +184,15 @@ Environment:
 
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAl+B2gIACgkQs7/Yjblg
-MBCssgwAlqVa62M3tq7IuYaDUbomXWbuzLkMQdjI16k8UEr7HRljXn+HUGWNyp1L
-HffJLZ1IxlvRg/WiONsEhajsvLuHxqI1ydypQyV5E7wuLuJLQGFK9R5FMg5uOA2G
-i0g0rGi2Jg8LdWCIcMqZqpDJAQnqGFKN9KzvBXsEolOeZlrYqNz3zBFpsssCXfVJ
-JKiuiby2UhXu2oFPywkWu23lD3ZdOvVQKoKtokmSXcG0AaPqH8bKwtA5I8ao64ca
-xguRWJeMZKJCoZ6oyvDt+bQASpUYC9Ys/QTt0piIIcLnhs8mhTMcsH7tpoRUtXaI
-Kd2+3LHkKOvZ6LQ+gnDlDAP6jCteEJbU0C1GWQ2+zz4202oM9aQF1VBXhp26n90f
-eSrPyiB/U0V9HqCcmP5xXLGoDufAnTy1JxmzRnGysRCRSBBnEvG7kPhOvenoleob
-aITQ8JhGWArNb4sdnJHXqSXAIOJfHn0MNA5SgXEqP+Q+8rzE/8Ury47qWlFAes9G
-E055SR/l
-=6Obt
+iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAl+CGywACgkQs7/Yjblg
+MBCoPwwAm6b6V2oaQOpAapgTa7U0h+Q8xD1V1bA+cC1PbqQknW7NSCdHtZYKWw90
+U7uUis9tuLKbcs/+xQl/DpWcWBdrVf2IpQAmchAOSLdOcX/N+7VVPDn8R9ljkjuO
+YZbqzYjftLhBnAzQt0uCO0HCJs9o7enVYeDYbzZkfmsn9/9e87Oo2YCOGtHxwKu3
+2OKop87GHoCghDoSaUILEdNno33lFRRp+2obCiN0dCWZVf1OsSfikqiY7Ntj86ix
+IS1CGFTQy/660Za5SOpC8IXpd9L8JzCKjlX7GWqlA0/mJ2Yxw89eO3cUHtnJGKsB
+/ZRCQFM6jpJ+Ma/cibXKXgDilRjTau8wq3xs5OFtvRDUzaWZwd3LzlAST9eljNOU
+Kw8fI/TmQCLCBfd/9dWQhGwj/zu+OgYjqTKQvRhhL7xHtXCRh15ddoyTWRwqEcyE
+F7buNWAJjwQjgt7LamYUvJpSTE0VCagnnRs/6vF2/nYf6fsFtdKVRy7JVrWP6gpQ
+bq5vg3pk
+=F80j
 -----END PGP SIGNATURE-----

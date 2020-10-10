@@ -1,6 +1,3 @@
------BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA512
-
 Format: 1.8
 Date: Sun, 06 Sep 2020 12:02:32 +0200
 Source: gbglehrerclient
@@ -15,32 +12,17 @@ Changes:
  .
    * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 Checksums-Sha1:
- 6565c807ee1e876f3458d41473ea7463c6e0a5f2 1610 gbglehrerclient_0.1-28.dsc
+ 241c4c772e04f76b18a4c7649bb549c87ee68103 901 gbglehrerclient_0.1-28.dsc
  3608f740d70ec59ac184e6a15ef578004e0f12a2 8984 gbglehrerclient_0.1.orig.tar.xz
- 7db6b109a329810441393e81e4e0aab0e920ae28 6051996 gbglehrerclient_0.1-28.debian.tar.xz
- 11bb8821df517be06a8b19aa94dec8531d6c4a66 6237 gbglehrerclient_0.1-28_source.buildinfo
+ f5f81d274fbedc8d5fd729f612034636e62040ff 6052172 gbglehrerclient_0.1-28.debian.tar.xz
+ cd0da73d9a9013cf4d08dd3ca7d13151af565b2a 5036 gbglehrerclient_0.1-28_source.buildinfo
 Checksums-Sha256:
- 2e1264c22aa377cb7eb2132c78f4045d3d9ca2f4ed8e2726d7abb75794c581fb 1610 gbglehrerclient_0.1-28.dsc
+ 8db270911edf6056352a05d836a994ca1268f9d737b100004630cd22140f17d0 901 gbglehrerclient_0.1-28.dsc
  d2146ea0e93128ea57812986768dcf7abd52b264fb3048de9d5b33c64f2574b6 8984 gbglehrerclient_0.1.orig.tar.xz
- ef0c3bf8189664a502cb08b64965c51a6cd7b06b751775dc8a305660bc053098 6051996 gbglehrerclient_0.1-28.debian.tar.xz
- 74e3ca1d6afb6696c07b73f92ca30ac19a38ccede953da7d9aac42c3538ffd22 6237 gbglehrerclient_0.1-28_source.buildinfo
+ dd30a4918d7104bcfc88250e49246bbb960d76c05198e05cced6bf672f78a79c 6052172 gbglehrerclient_0.1-28.debian.tar.xz
+ 5a074aabf25d0e4f51259812567c1dee5d8e6c1200e86e5f3e1638baa5383cc7 5036 gbglehrerclient_0.1-28_source.buildinfo
 Files:
- 3d92ad7f08d37c14230c80da3e199da4 1610 utils optional gbglehrerclient_0.1-28.dsc
+ 4ed6782a080a315caaac1062ffbd1eb0 901 utils optional gbglehrerclient_0.1-28.dsc
  8d5d8d797c96e5028a9af9a505dfbd9f 8984 utils optional gbglehrerclient_0.1.orig.tar.xz
- 21c6ea2b1214f83c9062e900ccb53f53 6051996 utils optional gbglehrerclient_0.1-28.debian.tar.xz
- d3a4dd7b153c268112f5f462d2d72e90 6237 utils optional gbglehrerclient_0.1-28_source.buildinfo
-
------BEGIN PGP SIGNATURE-----
-
-iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAl+B4joACgkQs7/Yjblg
-MBDKZQwAhGEy9EaWKhA8TddzQ6o64fug0gQ+Ro4q/RG5tfnRVcmIMRFeyJedtoaw
-AkDDhCL4Q3PNsNclYZDckeGud+bZaUrOyxls5hsP9hQ4TEaAlzD+M4Yo/k391tVR
-+GJa1EhavEu3cTGg+war37puEOt3tPjY0/yJgdf9x2fbnvy6xMDlh0q1ves+mhKz
-9EUyIQYq8ky9TixGFd2Pl/mTHXhkUBofEqoAkSF3QH6u2tXAHgbwoEpvYTX0GcTI
-V7r+XZMcJihOQxVcIGNMBKWgiaCoG6lKProfJS04FZWM+13sr/aGDXxYkxtgvAhQ
-TOlexuJ0+WZyLeufZ6ALiwTgboyoPAUPbx5olGVsF/VfnVBhiFIg/UaBUobxcHcR
-2eBx9ddjeJBr89pBd/Hv/CLG16R3r4RpigGtSO9Nm/UQ52aB1gZus4zTUVlW2WXR
-fDJucQG/3OMRvLDbXtapT5pZuy3oGOthfgXmQv8KSwyhAgQo1zAyKmqFTOOv9gnX
-Fe4K+lQB
-=WcQs
------END PGP SIGNATURE-----
+ 1482b87d0043e18396ede70c0cbf3f72 6052172 utils optional gbglehrerclient_0.1-28.debian.tar.xz
+ 70a4eb89b54448641af8f9fd1a4e705a 5036 utils optional gbglehrerclient_0.1-28_source.buildinfo
