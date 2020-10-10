@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sun, 06 Sep 2020 12:02:32 +0200
+Source: gbglehrerclient
+Architecture: source
+Version: 0.1-13
+Distribution: focal
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changes:
+ gbglehrerclient (0.1-13) focal; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ b3594a4f1553d7a73613b1a39a78f4b0ce199010 1610 gbglehrerclient_0.1-13.dsc
+ 3608f740d70ec59ac184e6a15ef578004e0f12a2 8984 gbglehrerclient_0.1.orig.tar.xz
+ 2480111b3000ae3ca1728486122efaafaa00912b 6037884 gbglehrerclient_0.1-13.debian.tar.xz
+ 2248f5d73aeb28d3eb0e8d60aca1d36883a5a8c8 6174 gbglehrerclient_0.1-13_source.buildinfo
+Checksums-Sha256:
+ 565deb611c01e144a4ebaf0e526b7b636af6a645efbb370791fa17e3ee4e7661 1610 gbglehrerclient_0.1-13.dsc
+ d2146ea0e93128ea57812986768dcf7abd52b264fb3048de9d5b33c64f2574b6 8984 gbglehrerclient_0.1.orig.tar.xz
+ 7effd69826b304105799f57b2ac3904c94afc4185addf2748ccea1f720b121f6 6037884 gbglehrerclient_0.1-13.debian.tar.xz
+ dcfad9edf67a45a62e7d65938a0f3ab969b105dc7da23f4b08af87436158661a 6174 gbglehrerclient_0.1-13_source.buildinfo
+Files:
+ 45e779d8412f0d18713b847921fee314 1610 utils optional gbglehrerclient_0.1-13.dsc
+ 8d5d8d797c96e5028a9af9a505dfbd9f 8984 utils optional gbglehrerclient_0.1.orig.tar.xz
+ b88f9afc647f0621010241ba9edd07a9 6037884 utils optional gbglehrerclient_0.1-13.debian.tar.xz
+ 5522e8586b87c0ba8c4e6ed602097f72 6174 utils optional gbglehrerclient_0.1-13_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAl9sxAgACgkQs7/Yjblg
+MBCCnQwAlQCElKRfot2GWW97AGvcqPd3EztY7wxD2IV2bcJJcr2oK5V1+N+l5f6C
+cfkTlWEn56aGa8yjR7TkVbjD2+F8Ce/BXLOYwAfvn2KrFhrfUWPkXi5skGJGlYeF
+MaZ0ytz+HH4+895+sLDnVn/iYmmTTcfy9C/OEr5KrmXL8bc9N5N64/IZkFFbj/8W
+VickG1MnFDUTFtlxbgMls1u9uARZ+OYtoOtIdfLl61/zWRuQhYV3OIBQUz4SX3Zs
+cF0O4JjxPbsdftTlrVzWFh611Ha6nJn2iUADFs3GFQpbEXedKL3TNGIYUGVEMP7P
+xMFBl9XbetJ3bnxzkEGOUej+AHinr1sAUfYhm+OSEPchYyxUEckOmKMxFwUBoCSo
+xXyj0fHl+fAnR8SKyDs05dvrx/JG2WMsR5TwwvIqIal+xdMNjjaMsH1YI1TOgONx
+pxvVcV8NF6iqjIda5Rp0fvOVa3hPACsFaNaEZKVq9aXzyeRc12/u9Oj1yCM5eE5i
+45aybSr7
+=HDRN
+-----END PGP SIGNATURE-----

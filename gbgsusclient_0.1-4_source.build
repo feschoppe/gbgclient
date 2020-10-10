@@ -1,0 +1,39 @@
+ dpkg-buildpackage -us -uc -ui -S -sa
+dpkg-buildpackage: Information: Quellpaket gbgsusclient
+dpkg-buildpackage: Information: Quellversion 0.1-4
+dpkg-buildpackage: Information: Quelldistribution focal
+dpkg-buildpackage: Information: Quelle geändert durch Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+ dpkg-source --before-build .
+ fakeroot debian/rules clean
+dh clean
+   dh_clean
+ dpkg-source -b .
+dpkg-source: Information: Quellformat »3.0 (quilt)« wird verwendet
+dpkg-source: Information: gbgsusclient wird unter Benutzung des existierenden ./gbgsusclient_0.1.orig.tar.xz gebaut
+dpkg-source: Information: Patchliste aus debian/patches/series wird verwendet
+dpkg-source: Information: gbgsusclient wird in gbgsusclient_0.1-4.debian.tar.xz gebaut
+dpkg-source: Information: gbgsusclient wird in gbgsusclient_0.1-4.dsc gebaut
+ dpkg-genbuildinfo --build=source
+ dpkg-genchanges -sa --build=source >../gbgsusclient_0.1-4_source.changes
+dpkg-genchanges: Information: kompletter Quellcode beim Hochladen hinzufügen
+ dpkg-source --after-build .
+dpkg-buildpackage: Information: Alles hochzuladen (Originalquellen enthalten)
+Now running lintian gbgsusclient_0.1-4_source.changes ...
+E: gbgsusclient source: debian-rules-is-dh_make-template
+E: gbgsusclient source: readme-source-is-dh_make-template
+W: gbgsusclient source: bad-homepage <insert the upstream URL, if relevant>
+W: gbgsusclient source: debhelper-but-no-misc-depends gbgsusclient
+W: gbgsusclient source: dh-make-template-in-source debian/gbgsusclient.cron.d.ex
+W: gbgsusclient source: dh-make-template-in-source debian/gbgsusclient.doc-base.EX
+W: gbgsusclient source: dh-make-template-in-source debian/manpage.1.ex
+W: gbgsusclient source: dh-make-template-in-source debian/manpage.sgml.ex
+W: gbgsusclient source: dh-make-template-in-source debian/manpage.xml.ex
+W: gbgsusclient source: dh-make-template-in-source debian/postinst.ex
+W: gbgsusclient source: dh-make-template-in-source debian/postrm.ex
+W: gbgsusclient source: dh-make-template-in-source debian/preinst.ex
+W: gbgsusclient source: dh-make-template-in-source debian/prerm.ex
+W: gbgsusclient source: dh-make-template-in-source debian/salsa-ci.yml.ex
+W: gbgsusclient source: dh-make-template-in-source debian/watch.ex
+W: gbgsusclient source: space-in-std-shortname-in-dep5-copyright <special license> (paragraph at line 6)
+W: gbgsusclient source: superfluous-clutter-in-homepage <insert the upstream URL, if relevant>
+Finished running lintian.

@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Tue, 23 Jun 2020 16:47:10 +0200
+Source: gbgclient
+Architecture: source
+Version: 0.1-4
+Distribution: focal
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changes:
+ gbgclient (0.1-4) focal; urgency=medium
+ .
+   * Initial release
+Checksums-Sha1:
+ 212e41eca8cadcdc082306841c9d9c532336a1f2 1540 gbgclient_0.1-4.dsc
+ 922fc69e48faba25311330bce967cec13a1478af 240 gbgclient_0.1.orig.tar.xz
+ bb86e9de25089a2fe873c3933b6c560ac04281b8 7888 gbgclient_0.1-4.debian.tar.xz
+ 43b2db3e869faf95e21db02ca2aaf6a2ddcc337d 6084 gbgclient_0.1-4_source.buildinfo
+Checksums-Sha256:
+ f24c81cfa4fa0bb9c4a293a1e5969e181e0cc43d50185e84d9a44b246e20f837 1540 gbgclient_0.1-4.dsc
+ e93e064e66a053d560dc118c68ed4168389bc7976964168c571d7a7cf5136571 240 gbgclient_0.1.orig.tar.xz
+ e123e14adf2b1db58d5c6acd6de545b432c36afb9220e7311499d5fc0370c9ae 7888 gbgclient_0.1-4.debian.tar.xz
+ 87488c466fbe3f488b60cc2098e33a4d1a3f8011997a439fa735503059c22e3f 6084 gbgclient_0.1-4_source.buildinfo
+Files:
+ d30aac7204e48351a6d8d8fa11cbdf91 1540 utils optional gbgclient_0.1-4.dsc
+ 11c6c12da5b80dfd70c2c5cce0ffc4bc 240 utils optional gbgclient_0.1.orig.tar.xz
+ 434c6396bb48bbbbad9ae0962b19f300 7888 utils optional gbgclient_0.1-4.debian.tar.xz
+ 8c64c3fc80c71498745686f4e4028e7a 6084 utils optional gbgclient_0.1-4_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAl73o98ACgkQs7/Yjblg
+MBCvYAv+I8hnlDWqNk5lVNwm+eJ3nNMtqGb9uT+2m6NvQRxJwUdwC1hG/zZKUPbr
+B+wjvjhqDkiSfyOoAbTa0itlkFmvejienxby/V9JiKnz4YydM4UvVAaVh3w4+uoh
+NkWPO3quh+zPfaNUc3yv5ltZC5vDhZhQIdR8jng79eJ4L1XkFO+91lf/MdlUJsYR
+PSAlQuXmKMgmCt5GaFK4Um2Y/1SrerQbXY/K+64AlTtCDb4ko2zaZD/hqvhQDaOy
+VQPYJT5g0xgruhNbeP9IN6VQQmAiKOTMF4K9gyy8NEmQOAWkaI9SIXmKjfFwEbBl
+Treo7c5JDMiSQHIjamt1HMlYmmMlxzWeRwt6UDM49ozgbmK6zwLGbzQhjuG36XAm
+pOHy7jlsvaQcwpC5ORVVBLCLKJzyNUl02DNASVkXysF5dNW/UMLit1SA4KeWnBuW
+4axGvim7+KOBwaPXP3h+eZYUgkFEnWJU8uJlealeWFg8SibH/K8AE2FlWdXNgcAC
+A1a7faJK
+=PMKP
+-----END PGP SIGNATURE-----

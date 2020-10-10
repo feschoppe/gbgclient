@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 26 Aug 2020 19:43:58 +0200
+Source: gbglzclient
+Architecture: source
+Version: 0.1-6
+Distribution: focal
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changes:
+ gbglzclient (0.1-6) focal; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ f75a385b3d42a8c6aa332b63ced983142fa786c7 1564 gbglzclient_0.1-6.dsc
+ 1ab0c5867b02f572ecc25d1ef506d235123a39bb 8388 gbglzclient_0.1.orig.tar.xz
+ 8aa9630d19f61086b6eaadcc9d5d4cd990a828c9 10228 gbglzclient_0.1-6.debian.tar.xz
+ afc20952b687a82c0dc1128891720a6d7d965042 6138 gbglzclient_0.1-6_source.buildinfo
+Checksums-Sha256:
+ db8a810ca30032083939e2654bd98fb51141aa00da233891721e6b15bac738f7 1564 gbglzclient_0.1-6.dsc
+ dbd804d451ff3d0ca0acc49a21764e2fe28c3a09a71d7b0f6f660bbd5dd6b26b 8388 gbglzclient_0.1.orig.tar.xz
+ 3444fdb1e31850f1385bb29f757add7bc180d5dd2d8251ebf9ce01ff87fab110 10228 gbglzclient_0.1-6.debian.tar.xz
+ f90fbeee7388d6bffebc664cba5fbfc7798ec2cd197ab973a5e98ddfdd991050 6138 gbglzclient_0.1-6_source.buildinfo
+Files:
+ 12891f2b1497880fac4226a6b387649b 1564 utils optional gbglzclient_0.1-6.dsc
+ 7d10b440522d0343f0381191d358da2d 8388 utils optional gbglzclient_0.1.orig.tar.xz
+ 074970f6db52ec2bd2537aa112d04a03 10228 utils optional gbglzclient_0.1-6.debian.tar.xz
+ 5c25da373a6b3bbb86331021d29aa61c 6138 utils optional gbglzclient_0.1-6_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAl9SddcACgkQs7/Yjblg
+MBDVigwAlC2NDAruism8fK/LaIay9wjeX/3l0gP+FXge+RWuxTODyon/65KYnA0p
+/U/NDRaJlqGUnfZFe3sOmf/vkv1Iwz4+TGIcMaFg+6xMEZ032xwHhWTgYb+SG/Wj
+a3iBCKnUrz2S/7D71v/bECu0dtbOLzcs+0ot5nieca3hJB/2y6B1i5zOcrE4udZI
+AmWtSdwHVHzyJNCq+TOnc6iXM8ibMzm3JxRdNqV5m0OeCys6EoZJIWhDjUGe3wLF
+XypNqFjBA8r+9ynB20+JWlVUQkEi0aSfdfOsyCXSHkgZHDhS5WUUPMb/R3yfMaiD
+gqks9UlRXBEu2mt+LuaCucv0dCh5zLA6kmMRWcGGDd9tJxsPLPaQC5sNLyUEP8cM
+RdUdI2nTkRrTsNDivk+tSJ/XbDM2CIcMeIVUjWrezQnvJBN3uSQxXBEsoFmYFyam
+jVf8HESD7sHHT7YRAHqm88sck+Mwv0qxO98bZiU/6gV5abZcwKMgGvaOsLs6DKm9
+EqQjWN8M
+=IYZb
+-----END PGP SIGNATURE-----

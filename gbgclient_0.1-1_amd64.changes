@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Tue, 23 Jun 2020 16:47:10 +0200
+Source: gbgclient
+Binary: gbgclient
+Architecture: source all
+Version: 0.1-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Description:
+ gbgclient  - <insert up to 60 chars description>
+Changes:
+ gbgclient (0.1-1) unstable; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ ab23f87b485d14b86474077b2cce6affb23c7bad 833 gbgclient_0.1-1.dsc
+ 922fc69e48faba25311330bce967cec13a1478af 240 gbgclient_0.1.orig.tar.xz
+ bc37decadd5b41e6937e78677011920175cb3cda 7924 gbgclient_0.1-1.debian.tar.xz
+ a1d3470ee44fc61ceaf79a429a6e85b3a43f5641 2476 gbgclient_0.1-1_all.deb
+ 5bb5936e32bc734dbe66768f8ff759782aff72ef 5605 gbgclient_0.1-1_amd64.buildinfo
+Checksums-Sha256:
+ 6838708c39604adf95ce5d3bd80306de59b14b47a720d405b866ecf9ec4afe4b 833 gbgclient_0.1-1.dsc
+ e93e064e66a053d560dc118c68ed4168389bc7976964168c571d7a7cf5136571 240 gbgclient_0.1.orig.tar.xz
+ 6f4fa56abc84d88a00f7fa4657f66323996fa0c439afcc2325186d1afd69d2c6 7924 gbgclient_0.1-1.debian.tar.xz
+ ae59471c294535cafafbfe8c89ad5386fe4b6eba3461297fe5d2510297abb5da 2476 gbgclient_0.1-1_all.deb
+ e7f5042de91687efde47ea8f1dacf1161d6c5e90f922b4a5699fdaa5efd2fbbc 5605 gbgclient_0.1-1_amd64.buildinfo
+Files:
+ a172dc846d503a58c85c5a858de7c87c 833 unknown optional gbgclient_0.1-1.dsc
+ 11c6c12da5b80dfd70c2c5cce0ffc4bc 240 unknown optional gbgclient_0.1.orig.tar.xz
+ 46e9de04e986986d3f72f15a03e6d8c3 7924 unknown optional gbgclient_0.1-1.debian.tar.xz
+ 4516a5cb5cfa1ae590363f28b6b7b61d 2476 unknown optional gbgclient_0.1-1_all.deb
+ 1a83ef25fb8104f29b55f8d33ab643a9 5605 unknown optional gbgclient_0.1-1_amd64.buildinfo

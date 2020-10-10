@@ -1,0 +1,3 @@
+davs://__NUTZERNAME@gbg-seelze.eu/webdav IServ Webdav
+smb://SCHULE;__NUTZERNAME@10.0.0.1/home/ IServ Home
+smb://SCHULE;__NUTZERNAME@10.0.0.1/groups/ IServ Groups

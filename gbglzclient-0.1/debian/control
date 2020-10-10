@@ -1,0 +1,16 @@
+Source: gbglzclient
+Section: utils
+Priority: optional
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.4.1
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Browser: https://salsa.debian.org/debian/gbglzclient
+#Vcs-Git: https://salsa.debian.org/debian/gbglzclient.git
+
+Package: gbglzclient
+Architecture: all
+Description: GBG-Client für Lehrerzimmer-PC
+ Dieses Paket konfiguriert einen Lehrerzimmer-PC.
+Replaces: gdm3, gbgclient
+Conflicts: gbgclient

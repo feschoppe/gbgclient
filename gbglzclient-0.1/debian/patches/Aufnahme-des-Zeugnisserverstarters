@@ -1,0 +1,149 @@
+Description: <short summary of the patch>
+ TODO: Put a short summary on the line above and replace this paragraph
+ with a longer explanation of this change. Complete the meta-information
+ with other relevant fields (see below for details). To make it easier, the
+ information below has been extracted from the changelog. Adjust it or drop
+ it.
+ .
+ gbglzclient (0.1-1) unstable; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Author: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+
+---
+The information above should follow the Patch Tagging Guidelines, please
+checkout http://dep.debian.net/deps/dep3/ to learn about the format. Here
+are templates for supplementary fields that you might want to add:
+
+Origin: <vendor|upstream|other>, <url of original patch>
+Bug: <url in upstream bugtracker>
+Bug-Debian: https://bugs.debian.org/<bugnumber>
+Bug-Ubuntu: https://launchpad.net/bugs/<bugnumber>
+Forwarded: <no|not-needed|url proving that it has been forwarded>
+Reviewed-By: <name and email of someone who approved the patch>
+Last-Update: 2020-08-26
+
+--- /dev/null
++++ gbglzclient-0.1/etc/skel/.x2goclient/sessions
+@@ -0,0 +1,62 @@
++[20200621120216330]
++applications=WWWBROWSER, MAILCLIENT, OFFICE, TERMINAL
++autologin=false
++clipboard=both
++command=MATE
++defsndport=true
++directrdp=false
++directrdpsettings=
++directxdmcp=false
++directxdmcpsettings=
++display=1
++dpi=92
++export=
++fstunnel=true
++fullscreen=false
++height=768
++host=10.1.31.201
++icon=:/img/icons/128x128/x2gosession.png
++iconvfrom=ISO8859-1
++iconvto=UTF-8
++kdrive=false
++key=
++krbdelegation=false
++krblogin=false
++maxdim=false
++multidisp=false
++name=Zeugnisserver
++pack=16m-jpeg
++print=true
++published=false
++quality=9
++rdpclient=rdesktop
++rdpoptions=
++rdpport=3389
++rdpserver=
++rootless=false
++setdpi=true
++sndport=4713
++sound=true
++soundsystem=pulse
++soundtunnel=true
++speed=2
++sshport=22
++sshproxyautologin=false
++sshproxyhost=
++sshproxykeyfile=
++sshproxykrblogin=false
++sshproxyport=22
++sshproxysamepass=false
++sshproxysameuser=false
++sshproxytype=SSH
++sshproxyuser=
++startsoundsystem=true
++type=auto
++useiconv=false
++usekbd=true
++user=
++usesshproxy=false
++width=1024
++xdmcpclient=Xnest
++xdmcpserver=localhost
++xinerama=false
+--- /dev/null
++++ gbglzclient-0.1/etc/skel/.x2goclient/sizes
+@@ -0,0 +1,4 @@
++[mainwindow]
++maximized=false
++pos=@Point(20 27)
++size=@Size(1017 600)
+--- gbglzclient-0.1.orig/scripts/delete_connections.sh
++++ gbglzclient-0.1/scripts/delete_connections.sh
+@@ -1,12 +1,11 @@
+ #!/bin/sh
+-#Dieses Skript setzt alle Verbindungen zurück und definiert das Aussehen des GBG-Desktops
+ setxkbmap de
+ gsettings set org.gnome.desktop.background picture-uri file:///usr/share/backgrounds/GBG_Custom_Background.png
+-gsettings set org.gnome.shell favorite-apps "['org.gnome.Nautilus.desktop', 'firefox.desktop','libreoffice-writer.desktop','libreoffice-calc.desktop','libreoffice-impress.desktop','gimp.desktop','inkscape.desktop','gnome-terminal.desktop','atom.desktop','audacity.desktop','google-chrome.desktop','openboard.desktop','Write.desktop','xournal.desktop','jupyter.desktop','processing.desktop']"
++gsettings set org.gnome.shell favorite-apps "['org.gnome.Nautilus.desktop','IServ.desktop','IServ_unmount.desktop','Zeugnisserver.desktop','firefox.desktop','libreoffice-writer.desktop','libreoffice-calc.desktop','libreoffice-impress.desktop','gimp.desktop','inkscape.desktop','gnome-terminal.desktop','chromium-browser.desktop','atom.desktop','audacity.desktop','google-chrome.desktop','openboard.desktop','Write.desktop','xournal.desktop']"
+ gsettings set org.gnome.shell.extensions.dash-to-dock show-apps-at-top true
+ gsettings set org.gnome.shell.extensions.dash-to-dock dock-position BOTTOM
+ gsettings set org.gnome.shell.extensions.dash-to-dock dash-max-icon-size 30
+ notify-send "Auf diesem Gerät werden keine Daten lokal gespeichert!"
+-python /usr/bin/delete_connections.py
++python /usr/local/bin/delete_connections.py
+ setxkbmap de
+-sudo /usr/bin/nutzerdatenerfassung.sh
++sudo /usr/local/bin/nutzerdatenerfassung.sh
+--- gbglzclient-0.1.orig/scripts/nutzerdatenerfassung.sh
++++ gbglzclient-0.1/scripts/nutzerdatenerfassung.sh
+@@ -29,15 +29,9 @@ ln -s /tmp/gbg/public_html /opt/lampp/ht
+ #Standardanwendungen korrekt einstellen
+ cp /etc/skel/.config/mimeapps.list /tmp/gbg/.config/
+ chown gbg:gbg /tmp/gbg/.config/mimeapps.list
+-chmod 755 /tmp/gbg/.config/mimeapps.list
+-
+-if ! NAME=$(zenity --entry --text "IServ-Benutzername:" --title "Nutzername"); then
+-  exit;
+-fi
+-
+-#if ! PASS=$(zenity --entry --hide-text --text "IServ-Passwort:" --title "Passwort"); then
+-#  exit;
+-#fi
+-
+-sed "s/\__NUTZERNAME/$NAME/g" /etc/skel/.templates/bookmarks_TEMPLATE > /tmp/gbg/.config/gtk-3.0/bookmarks
++chmod 777 /tmp/gbg/.config/mimeapps.list
+ 
++#x2go-Config für den Zeugnisserver kopieren
++cp -r /etc/skel/.x2goclient /tmp/gbg/
++chown -R gbg:gbg /tmp/gbg/.x2goclient
++chmod 755 -R /tmp/gbg/.x2goclient
+--- /dev/null
++++ gbglzclient-0.1/usr/share/applications/Zeugnisserver.desktop
+@@ -0,0 +1,8 @@
++[Desktop Entry]
++Exec=x2goclient --sessionid=20200621120216330
++Icon=/usr/share/x2goclient/icons/x2gosession.png
++Name=Zeugnisserver
++StartupNotify=true
++Terminal=false
++Type=Application
++X-KDE-SubstituteUID=false

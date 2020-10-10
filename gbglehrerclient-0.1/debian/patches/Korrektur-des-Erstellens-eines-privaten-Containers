@@ -1,0 +1,64 @@
+Description: Fehler in CreatePrivateContainer.sh behoben und snap refresh
+ Dieses Update behebt einen Fehler beim Erstellen des privaten Containers und
+ sorgt außerdem dafür, dass snaps auch aktualisiert werden.
+ .
+ gbglehrerclient (0.1-6) focal; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Author: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+
+---
+The information above should follow the Patch Tagging Guidelines, please
+checkout http://dep.debian.net/deps/dep3/ to learn about the format. Here
+are templates for supplementary fields that you might want to add:
+
+Origin: <vendor|upstream|other>, <url of original patch>
+Bug: <url in upstream bugtracker>
+Bug-Debian: https://bugs.debian.org/<bugnumber>
+Bug-Ubuntu: https://launchpad.net/bugs/<bugnumber>
+Forwarded: <no|not-needed|url proving that it has been forwarded>
+Reviewed-By: <name and email of someone who approved the patch>
+Last-Update: 2020-09-21
+
+--- gbglehrerclient-0.1.orig/scripts/CreatePrivateContainer.sh
++++ gbglehrerclient-0.1/scripts/CreatePrivateContainer.sh
+@@ -5,9 +5,12 @@ CRYPTNAME=PrivateContainer
+ MNT=/home/gbg/PrivateContainer
+ FS=ext4
+ 
++#Füllen des Containers mit Zufallszahlen
+ echo "Der private Datencontainer wird angelegt. Bitte hab etwas Geduld. Dieser Vorgang dauert etwa 5 Minuten."
+ dd if=/dev/urandom of=$SAFE bs=1M count=60000 status=progress
+-echo "Jetzt wird der Container verschlüsselt!"
+-cryptsetup -c aes-xts-plain64 -s 512 -h sha512 -y luksFormat $SAFE
+-cryptsetup luksOpen $SAFE $CRYPTNAME
+-mkfs.ext4 /dev/mapper/$CRYPTNAME
++
++
++#echo "Jetzt wird der Container verschlüsselt!"
++#cryptsetup -c aes-xts-plain64 -s 512 -h sha512 -y luksFormat $SAFE
++#cryptsetup luksOpen $SAFE $CRYPTNAME
++#mkfs.ext4 /dev/mapper/$CRYPTNAME
+--- gbglehrerclient-0.1.orig/scripts/EncryptPrivateContainer.sh
++++ gbglehrerclient-0.1/scripts/EncryptPrivateContainer.sh
+@@ -5,8 +5,7 @@ CRYPTNAME=PrivateContainer
+ MNT=/home/gbg/PrivateContainer
+ FS=ext4
+ 
+-#echo "Der private Datencontainer wird angelegt. Bitte hab etwas Geduld. Dieser Vorgang dauert etwa 5 Minuten."
+-#dd if=/dev/urandom of=$SAFE bs=1M count=60000 status=progress
++
+ echo "Jetzt wird der Container verschlüsselt!"
+ cryptsetup -c aes-xts-plain64 -s 512 -h sha512 -y luksFormat $SAFE
+ cryptsetup luksOpen $SAFE $CRYPTNAME
+--- gbglehrerclient-0.1.orig/updater/updater.sh
++++ gbglehrerclient-0.1/updater/updater.sh
+@@ -5,3 +5,8 @@
+ sudo DEBIAN_FRONTEND=noninteractive apt-get -y update
+ sudo DEBIAN_FRONTEND=noninteractive apt-get -y -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" dist-upgrade
+ sudo apt-get autoremove -y
++
++#snaps aktualisieren
++snap refresh
++#fractal installieren
++snap install fractal

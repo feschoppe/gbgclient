@@ -1,0 +1,48 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 26 Aug 2020 19:43:58 +0200
+Source: gbglzclient
+Architecture: source
+Version: 0.1-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changes:
+ gbglzclient (0.1-1) unstable; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 782047783c9d016fa9065ee3b44c4c40c5b754d0 1738 gbglzclient_0.1-1.dsc
+ 1ab0c5867b02f572ecc25d1ef506d235123a39bb 8388 gbglzclient_0.1.orig.tar.xz
+ bc8ff529c9e4bef11ee5af1547f21778d63b3b2a 10072 gbglzclient_0.1-1.debian.tar.xz
+ 8bcd02e028122a44930bd70d3335b70e0b48c2f4 6304 gbglzclient_0.1-1_source.buildinfo
+Checksums-Sha256:
+ 6eed67b628e98a657ee99edbae6d03d8396beccf2fd09f0ccdfd12194df9ef6e 1738 gbglzclient_0.1-1.dsc
+ dbd804d451ff3d0ca0acc49a21764e2fe28c3a09a71d7b0f6f660bbd5dd6b26b 8388 gbglzclient_0.1.orig.tar.xz
+ e97e40b2a26190280bc7891356661e86850feb74a5e7e529a144d6764e72dffa 10072 gbglzclient_0.1-1.debian.tar.xz
+ 09809fbedb4becea56e9ebc7de853724f747b1dfe55241c9580dcba455121d4c 6304 gbglzclient_0.1-1_source.buildinfo
+Files:
+ de8930f44039f29c1820f073818b78dd 1738 utils optional gbglzclient_0.1-1.dsc
+ 7d10b440522d0343f0381191d358da2d 8388 utils optional gbglzclient_0.1.orig.tar.xz
+ 9ef264da2f56203e27e34a751a7fcdb0 10072 utils optional gbglzclient_0.1-1.debian.tar.xz
+ 99f3ba2dbc8d491f871a7ed659139f01 6304 utils optional gbglzclient_0.1-1_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE4R+Kj94rzNrmSzTi1VwE04rquPMFAl9GqqoACgkQ1VwE04rq
+uPOviA/+MheypdpEGZpJ8KO8CwSoJxi2RAkt40Myr/ATFSFSW9Z6RAdPozZtoCBa
+BXvQcVN48GPR0qDfoQiyAdhABF6WW6IuON5L+6zgd5H3d8w2d5FTmQbYKuA56ibB
+hpVNW550sXXqHM+7HZzap9ORIaznNyFWAPpRQgRevyEEG2Ehc3Zb1SwKi6zuh8Bt
+HWWAjO/+9ijTq3iswVaY1HrD/4S1hMWocMrgxsq6dIXVazsgYnV764HEY2FCnoLY
+/Sr1yKVa0svrR6evBE1l33ygI/Hb7K7J4zgAGX36r7jTTFvoeAXq/WOpzT2xho3L
+1YfVpwZ0QL6eFdoXh3cnJeEYZ5Gk7MH0IYe+tjocj/etFxSLgH7K9nGucxEg4f5i
+3dIz4CGBXOv7kkWNCqWR4J0WyD+KqZWKRdkXEIhxt+DwsFU8xFZUGB78ehC+7y3K
+hIE6ggUgizH9W0+Zbs9TnWWEem98LEXkQoqk6KBVgwZy1INJZzGfSPgYzmFf+Zkp
+2ocf/JtSOySaKDJLHakV/Mt1We+EkjYCmnBHrfrfT5xwNeX6PSZsLcs3sCrAoYma
+iBsQJvubW3n36rTqziuCHAbwrQ8uYGZHksB7mqnFQBBESQvfXfvgNlOGIzGKbr/r
+zySNAKg+WkBcU/9LJdAG1OzHJMKJAAOMZQu6Njf8x0WDr5vNKO4=
+=AfL6
+-----END PGP SIGNATURE-----

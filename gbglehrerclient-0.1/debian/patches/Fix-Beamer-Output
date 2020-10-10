@@ -1,0 +1,34 @@
+Description: <short summary of the patch>
+ TODO: Put a short summary on the line above and replace this paragraph
+ with a longer explanation of this change. Complete the meta-information
+ with other relevant fields (see below for details). To make it easier, the
+ information below has been extracted from the changelog. Adjust it or drop
+ it.
+ .
+ gbglehrerclient (0.1-25) focal; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Author: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+
+---
+The information above should follow the Patch Tagging Guidelines, please
+checkout http://dep.debian.net/deps/dep3/ to learn about the format. Here
+are templates for supplementary fields that you might want to add:
+
+Origin: <vendor|upstream|other>, <url of original patch>
+Bug: <url in upstream bugtracker>
+Bug-Debian: https://bugs.debian.org/<bugnumber>
+Bug-Ubuntu: https://launchpad.net/bugs/<bugnumber>
+Forwarded: <no|not-needed|url proving that it has been forwarded>
+Reviewed-By: <name and email of someone who approved the patch>
+Last-Update: 2020-10-09
+
+--- gbglehrerclient-0.1.orig/beamer/beamer.sh
++++ gbglehrerclient-0.1/beamer/beamer.sh
+@@ -2,4 +2,5 @@
+ 
+ #Modus 1920x1080 Pixel
+ #		ggf. anpassen		ggf. anpassen		Beamerauflösung
+-xrandr --output eDP-1 --preferred --output HDMI-1 --pos 0x0 --mode "1920x1080"
++#für E14 HDMI-2
++xrandr --output eDP-1 --rate 60 --mode 1920x1080 --fb 1920x1080 --panning 1920x1080* --output HDMI-2 --mode 1920x1080 --same-as eDP-1

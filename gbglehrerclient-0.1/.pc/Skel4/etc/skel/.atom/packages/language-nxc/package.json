@@ -1,0 +1,66 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-118317-9044-1ygzhlb.ug8dleg66r/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-118317-9044-1ygzhlb.ug8dleg66r/package.tgz",
+        "spec": "/tmp/d-118317-9044-1ygzhlb.ug8dleg66r/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-118317-9044-e501qr.hijf9zr529"
+    ]
+  ],
+  "_from": "../d-118317-9044-1ygzhlb.ug8dleg66r/package.tgz",
+  "_id": "language-nxc@3.6.1",
+  "_inCache": true,
+  "_location": "/language-nxc",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-118317-9044-1ygzhlb.ug8dleg66r/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-118317-9044-1ygzhlb.ug8dleg66r/package.tgz",
+    "spec": "/tmp/d-118317-9044-1ygzhlb.ug8dleg66r/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-118317-9044-1ygzhlb.ug8dleg66r/package.tgz",
+  "_shasum": "f7b1924ddcdc97045dcee4932953ecf77b270f66",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-118317-9044-1ygzhlb.ug8dleg66r/package.tgz",
+  "_where": "/tmp/apm-install-dir-118317-9044-e501qr.hijf9zr529",
+  "bugs": {
+    "url": "https://github.com/nloomans/language-nxc/issues"
+  },
+  "dependencies": {},
+  "description": "Atom language support for NXC",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.19.0 <2.0.0"
+  },
+  "homepage": "https://github.com/nloomans/language-nxc#readme",
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "language-nxc",
+  "optionalDependencies": {},
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  },
+  "readme": "# NXC language support in Atom\n\nlanguage-nxc makes it easier to develop in NXC, which requires little to no setup (depending on your OS / distribution). Its goal is to make developing for NXC easier for everyone.\n\n## Features\n### Comping and uploading\nbuilt-in (cross-platform) compiling and uploading, try `nxc:upload`. **This works on Linux as well!**\n\n![menu](http://i.imgur.com/92Gd8cA.png)\n![bug](http://i.imgur.com/6yuUSmT.png)\n\n### Auto completion\nauto completion for ~~built in~~ **all** functions\n- description\n- link to docs\n\n![Example Usage](http://i.imgur.com/I1v9dMs.gif)\n\n### Syntax highlighting\n\n![syntax highlighting](http://i.imgur.com/SrMTC46.png)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nloomans/language-nxc.git"
+  },
+  "version": "3.6.1"
+}

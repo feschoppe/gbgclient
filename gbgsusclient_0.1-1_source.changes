@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sun, 06 Sep 2020 19:45:48 +0200
+Source: gbgsusclient
+Architecture: source
+Version: 0.1-1
+Distribution: focal
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changes:
+ gbgsusclient (0.1-1) focal; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ f8e51fb3ee09bb6a56028453c9faf7d92436170f 1570 gbgsusclient_0.1-1.dsc
+ 552b8441078ded05dd3a5ea3528929fa18604ee1 9180 gbgsusclient_0.1.orig.tar.xz
+ e2884d800f9384bed7182b71b781f421fb7cb27f 8208 gbgsusclient_0.1-1.debian.tar.xz
+ cae8741eb0bece2fab5a8510dddb06d61057c465 6143 gbgsusclient_0.1-1_source.buildinfo
+Checksums-Sha256:
+ 9bdee05f7e4eb52931bfa10b032ff748333eedec9315ee41ad042de454f0058a 1570 gbgsusclient_0.1-1.dsc
+ 03df229ecd958d60906cb198f83120020197943836c215d36b20a37bf26d6c45 9180 gbgsusclient_0.1.orig.tar.xz
+ fc1c6930d0e200f6c207c014d35b3d1fb1d57307f51fe719157b4364403a93e6 8208 gbgsusclient_0.1-1.debian.tar.xz
+ 833505a2f26687bfee5c2c79baa92d45a693299aaf2795c3a20a9e77470eee8d 6143 gbgsusclient_0.1-1_source.buildinfo
+Files:
+ 0f141e488d293fd6b2d63c99ceebe5fd 1570 utils optional gbgsusclient_0.1-1.dsc
+ 7c65cfd8a106b94b4465f26a1c5b8854 9180 utils optional gbgsusclient_0.1.orig.tar.xz
+ dc8f23b256882c3bc0e4bead061a863a 8208 utils optional gbgsusclient_0.1-1.debian.tar.xz
+ 586b2a774eff3ce739b6b8750a9700c5 6143 utils optional gbgsusclient_0.1-1_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAl9VITEACgkQs7/Yjblg
+MBAfYAv/XXxn3dvYuDP2Fha+uwjfKSblH4Y5Zzevu9JhaXw26vbdszNUUI3jvlCS
+GOwWuSlrTEpgDUVPOTbEcHgJC42RfgmMva0UdXa7u5149z1GGnP9wKx/G16tFuWZ
+2/NTwaXhLn7xCYVqYaDohuIvPVp3DKbuw1Aycfa/glI78XqdnDmxAlIfbd+6co9o
+FDK8gd0v0HkzEOBDVuKgaGqjWYz8hNjuVmDt6uACsmU3b6fKVk4qCevjf/vC+xVd
+AqNe6MefMMnzJwI7hJDeFY9OWvkD/X9L5PfiE4A/GpOqtxt+5i+6Kb0sbSXFMl5r
+Z78Fka55il3Zzw2d6PZh/Ry/ywqo2fuFWqhc6C0xlyqymbqamAAYQ8fKzteE+/KH
+0iHGgDNOn9Sy5sSAO63e4g5plj5hIm5QgXlPijIFZ+94Rotn+Alt5ZUY1FNdNjGh
+AmUeVZeYjV0UFTuJMfUYJK0Yy01PtviZhwj+Uct02bUxIHmOBd5qtRHflZ2Yiu9t
+cwb6W/ud
+=7vdk
+-----END PGP SIGNATURE-----

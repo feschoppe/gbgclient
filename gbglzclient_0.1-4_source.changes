@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 26 Aug 2020 19:43:58 +0200
+Source: gbglzclient
+Architecture: source
+Version: 0.1-4
+Distribution: focal
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changes:
+ gbglzclient (0.1-4) focal; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 803b8f834ab09aaed9834ffa71f91da0505d6298 1564 gbglzclient_0.1-4.dsc
+ 1ab0c5867b02f572ecc25d1ef506d235123a39bb 8388 gbglzclient_0.1.orig.tar.xz
+ fdfbb73d1ba182aee5571fd852a8d5e6ec3f6022 10076 gbglzclient_0.1-4.debian.tar.xz
+ ef5f2d3833f0b80a8fe2af38e53d1e946a709f3c 6130 gbglzclient_0.1-4_source.buildinfo
+Checksums-Sha256:
+ 8bfe6d30066e897266ce1e9f423fe3a106e51d1788a38a3db2b1ca4d949d0b8b 1564 gbglzclient_0.1-4.dsc
+ dbd804d451ff3d0ca0acc49a21764e2fe28c3a09a71d7b0f6f660bbd5dd6b26b 8388 gbglzclient_0.1.orig.tar.xz
+ abe42daffd3b76d4155ca7a17b5d49f2e44fc99b6fd507147d8751e870109044 10076 gbglzclient_0.1-4.debian.tar.xz
+ 9eb9b6d0450b84d5f150b4aa2d3bb043126df2b3a657c14e8c220b822f2fde85 6130 gbglzclient_0.1-4_source.buildinfo
+Files:
+ 5ccd39aaca210b9781af7d5cd63be5e7 1564 utils optional gbglzclient_0.1-4.dsc
+ 7d10b440522d0343f0381191d358da2d 8388 utils optional gbglzclient_0.1.orig.tar.xz
+ 6fc96f45f0c74f3210da8cf9ae501248 10076 utils optional gbglzclient_0.1-4.debian.tar.xz
+ 2233f49e9bfa6ff3bce61422947b28f4 6130 utils optional gbglzclient_0.1-4_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAl9GsswACgkQs7/Yjblg
+MBCeLAwAmDnPPGFGqygeW+1R+ej1MOy5G8BnfoyquauUPVgjhC4F+LwMm6bAyhy9
+QEeXrKOD0+qG0g8rSCrVSE7yyf7wA6zmZxopepAchmrf095lq7K8YwmfJGXH/LZg
+3Xj6Azd36ppe5hNqrD6NfksM5fxzjNocIuR6uySirjZ66MeeV0/f9e3k9q8r4lHa
+2l9dD9uJdlstZJyp1C1wwkJHNvFmA4L9Hu7PU3ar67nEd6Fe1/w1L86b6nxZOrAU
+zv27fKQCsbiKY7uHxEGjbPnvG6+P1HrPVBGvRCO2Eud87X5qRW2E2tu6PJP+YTHh
+c62sUuNrgOYAZYj6T9PxuqlbWajOCQK//jb2it4ZJ0UFtu9TxhW5Ck8f03QWYn0K
+cu50ixZrM41BkON8ZTKge7jk9PA3Poxl3mgfhGc2apKPrJpLFl/E/7Y9jnP0zpGj
+lBvP8QLtIT4jdRAFQoELvtiS74jSClK5DKDRbOKolDfFVewgy3+lfjQhUvs7y1Jo
++A+joFQa
+=4lwK
+-----END PGP SIGNATURE-----

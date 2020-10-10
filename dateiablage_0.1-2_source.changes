@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 29 Jun 2020 21:40:21 +0200
+Source: dateiablage
+Architecture: source
+Version: 0.1-2
+Distribution: focal
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changes:
+ dateiablage (0.1-2) focal; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ c676948473bcb89e515fde299fa0c0b269754006 1560 dateiablage_0.1-2.dsc
+ efb58b6bd9a174ea0887aed2e47fa328d1cd58d3 480 dateiablage_0.1.orig.tar.xz
+ 8680c8067b250b0a6fa5d4ead057957a7e812984 8536 dateiablage_0.1-2.debian.tar.xz
+ 13b95926b7259dce58d53c708d620ddf8daa8ebb 6094 dateiablage_0.1-2_source.buildinfo
+Checksums-Sha256:
+ c5be2c14ae5bd290f2d6ef9d92f6eff00bd3cf6ff617877556b53087cc85029e 1560 dateiablage_0.1-2.dsc
+ 98fdb31c9ed2861c7a9fc80fc280ba28a87b10eff085d9e76985459e05c1d431 480 dateiablage_0.1.orig.tar.xz
+ c98272edcbbb7b2788fbfe37f155b5910f83413621a137862b06e89ac4715e08 8536 dateiablage_0.1-2.debian.tar.xz
+ 084fca38222d5f9b4ce005cd6b4cf926afd7dbe8071324d259fdf1d08d7a0d34 6094 dateiablage_0.1-2_source.buildinfo
+Files:
+ b5a4b72619aac070a9b0d264b90a262e 1560 unknown optional dateiablage_0.1-2.dsc
+ 0f8085479e8b9782691c744323694869 480 unknown optional dateiablage_0.1.orig.tar.xz
+ a63b3f41dd1240e8fd959eac531d54b0 8536 unknown optional dateiablage_0.1-2.debian.tar.xz
+ 36e43c8fe6408f86db49cd3d5aae9a90 6094 unknown optional dateiablage_0.1-2_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAl76RVgACgkQs7/Yjblg
+MBBbYQv/etY8wbPdlrrks0KfcRgnH2bpqVVR6rcXHL7y85l3tl3uPAMHaz5arGDn
+/rFu5NNQhhggac8Ftc3QTXTQf16OBz9YhUZQaPQC57hxUctBmmRQXNANfeA4VmS6
+AJjDo88fe5vhaLHs/mOwUt202EoXV5qpe1kM77sRDfCa/YVHFnoD9qVB0tqCJ5aV
+Mn5T+3V06AEJp4s0LIIue6ZH14YQNv4ruT6fnzNzC6ZVgvgyka+QamUMZY870cQO
+axz2YtgqoYnkvyRpxZ9Cl7GfiiQ5NUjpE3E2klK+9Oud3y//NXWX4CH9A/m6G41Y
+492p7FHEu7NcqHzJDlW0/qHUpL9Q40DfXInrTgMOwyH+cXGmgdHPzPSNFKSKPhPR
+nrhTAt9CRHtNN8DGJIfYETM2sIl8C4dxI1YT9KMMRSA3q/fdpUQdB0GbyB9WefHG
+sxe6JGtFybaYPUeSUIZWr73HDKVPmqJd8B+dbjPKIelpMsyQXLu0tw0dKRMZGlGK
+3wotPUDD
+=n+AR
+-----END PGP SIGNATURE-----

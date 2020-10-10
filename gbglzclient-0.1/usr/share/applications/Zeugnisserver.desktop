@@ -1,0 +1,8 @@
+[Desktop Entry]
+Exec=x2goclient --sessionid=20200621120216330
+Icon=/usr/share/x2goclient/icons/x2gosession.png
+Name=Zeugnisserver
+StartupNotify=true
+Terminal=false
+Type=Application
+X-KDE-SubstituteUID=false

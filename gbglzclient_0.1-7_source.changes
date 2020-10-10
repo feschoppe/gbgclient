@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 26 Aug 2020 19:43:58 +0200
+Source: gbglzclient
+Architecture: source
+Version: 0.1-7
+Distribution: focal
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changes:
+ gbglzclient (0.1-7) focal; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 4e8fe9b7a1e2e7f67d3003ee55e373cc7babdcfb 1564 gbglzclient_0.1-7.dsc
+ 1ab0c5867b02f572ecc25d1ef506d235123a39bb 8388 gbglzclient_0.1.orig.tar.xz
+ 4d90a7c10fc93dbcebfbe62ee8efb1b7075486a5 10344 gbglzclient_0.1-7.debian.tar.xz
+ ea9ca97909b41d75ebae25bd16dfb0be99c65ed7 6138 gbglzclient_0.1-7_source.buildinfo
+Checksums-Sha256:
+ 5e34f11350dc64f46e29c69f02019e3d16e4b7f4d294de79d6029f6e88372e7e 1564 gbglzclient_0.1-7.dsc
+ dbd804d451ff3d0ca0acc49a21764e2fe28c3a09a71d7b0f6f660bbd5dd6b26b 8388 gbglzclient_0.1.orig.tar.xz
+ efebff5528d40c302efc9e43137f892becb7e6dd9f01a3ad0f5640c6d2126ca1 10344 gbglzclient_0.1-7.debian.tar.xz
+ 816b6a7269651de7b7caf5f9c10fe0a2a591fcc0064eb7ff17050d19dec6637a 6138 gbglzclient_0.1-7_source.buildinfo
+Files:
+ e62ef77ff029fb5247e708fe53e8fc7e 1564 utils optional gbglzclient_0.1-7.dsc
+ 7d10b440522d0343f0381191d358da2d 8388 utils optional gbglzclient_0.1.orig.tar.xz
+ 0a60f5d92924474a9435444a5c9c1fce 10344 utils optional gbglzclient_0.1-7.debian.tar.xz
+ 49ad4dc3f68822815c524c1639dd0c48 6138 utils optional gbglzclient_0.1-7_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAl9SlFUACgkQs7/Yjblg
+MBD03gv/et/1UCvPTMFRb2MiqGzkg7x+FjpbBjNK24wyD1I8RjxC8TGHDIc73cAy
+UkSLjrYMQ5Ps3bmtzof3N+sbm331TGCMon3Y1YMY2XkGhLxY7099XL+osXl+PkR7
+WKb9X3ZFtK2xvIocSpvS43y2Q7+Uf83fxtOsbX/p2ZZ7j5+cA1tEXUj+lMcAKfuE
+uNt77oRSWhqnjWUAtfJICv1NOmtOb12aaVq5ug7gwiw/OPiLZPeVJT7i1iGzWgWi
+X1Iw0Nbl9+Sd682uQ5kGoLeSLBSm/nkS3nQclTfCa6djt40ZqvtFmFy8//c7QGmy
+7zsz7ZSQBKsTC87IQTTB8k25uL4FYvLkTnyBH3yKordU7mVMc6hhBYJQH9pJDwE/
+KQbJ/sFSqj6hY0wBdIDaY6B7phpd4rFvWHvWgpz4nhlPzZtoaeuxUYNgrzW7972W
+qpoI0DkTb2I8Z9/VtWYxGTLN1a2graHswlmXdyzrTjG+PlOH+IG1XCNpiLHytonH
+LCPyo6V7
+=huIF
+-----END PGP SIGNATURE-----

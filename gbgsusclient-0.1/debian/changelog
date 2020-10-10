@@ -1,0 +1,5 @@
+gbgsusclient (0.1-6) focal; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Felix Schoppe <felix.schoppe@gbg-seelze.eu>  Sun, 06 Sep 2020 19:45:48 +0200

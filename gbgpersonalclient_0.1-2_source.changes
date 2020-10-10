@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Fri, 10 Jul 2020 18:37:27 +0200
+Source: gbgpersonalclient
+Architecture: source
+Version: 0.1-2
+Distribution: focal
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changes:
+ gbgpersonalclient (0.1-2) focal; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 534958a00ddf3710dca204e103bbfd2ea3b9426f 1615 gbgpersonalclient_0.1-2.dsc
+ ba8edfa2639612ae68a13e337745f29bd3840a38 8356 gbgpersonalclient_0.1.orig.tar.xz
+ 6f80ad4c33a3ffd5da008634676ec64aaf3813f9 8868 gbgpersonalclient_0.1-2.debian.tar.xz
+ f4f040d83b169798fb50b248662e84536050b01b 6138 gbgpersonalclient_0.1-2_source.buildinfo
+Checksums-Sha256:
+ 5e39790ef334b79de7ab6f928f01d19bfdcbf2e50317b30e110f8ce7c3d878fd 1615 gbgpersonalclient_0.1-2.dsc
+ 72de2cbc7d6e13a6e9af22dab136a087189b3dbeb32dc9dc1ec7a3a8f553d18c 8356 gbgpersonalclient_0.1.orig.tar.xz
+ f73e743a7be3db684b936a15fb715ef6a50cf50bd810ee2d6fe5fb7018150825 8868 gbgpersonalclient_0.1-2.debian.tar.xz
+ 9d53f7e8ea5c408179669fa0563984e3a49e253b935c59a8a6f0eb8cc99eb42d 6138 gbgpersonalclient_0.1-2_source.buildinfo
+Files:
+ 70cbed1ed83a580bfa7649d6a783a82e 1615 utils optional gbgpersonalclient_0.1-2.dsc
+ 80d76275257774898292d64c5dee9eb2 8356 utils optional gbgpersonalclient_0.1.orig.tar.xz
+ 4c87589986073c3d6e67889d74cb12fd 8868 utils optional gbgpersonalclient_0.1-2.debian.tar.xz
+ 723d601706336645a5af801459d0eef7 6138 utils optional gbgpersonalclient_0.1-2_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAl8Im+cACgkQs7/Yjblg
+MBAeegv8CjFpk7TBtNTO2a8tkNZ1XQgRk7ajRSyUJ44KfCF+uTeJGZ5+4E6dUErO
++pu9Bm/BfBucS6ZRhqmvOUmNUQrzTsD7oARpqDhoLyPM2m8JMIj5TE57r0sTdImX
+9d1yu5XoWGBrjRwHKCLiUK15zDUHcPN88XzU8oDgoDYFwn77jiI9qlBHAKx9FFmh
+nEjGlGyxtH7v91aESwoSdcLEoIWpPxcCJl+3Gb1+qZsTArMIE8JQSEAHDxSsblX0
+tMc9zmggcc5L9bavqTcjM88010bbKjkZiZffslFcCtYRAlaR+QBSLqWhrQX0pGVC
+xZVaGcQC1IZDJXyFDwu88t21XHPYzUlXeVRd85NNxh0XPFF2Mg3d6V3832jvIjoU
+WJ2JXJa2vKQ/ME8CCfh1BH4j3hV/j5gScDYUt3VMr5DvCc0qGVCU4SUIm4JA99ns
+zOkakp/FBhe7Wty+/GV9DoXt0Yo6L5XfqDJZ68dlTdXsasfnYyE7IAd/SXMN4Uy7
+iUZOckbs
+=HrmS
+-----END PGP SIGNATURE-----

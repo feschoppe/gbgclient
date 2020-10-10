@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sun, 06 Sep 2020 19:45:48 +0200
+Source: gbgsusclient
+Architecture: source
+Version: 0.1-3
+Distribution: focal
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changes:
+ gbgsusclient (0.1-3) focal; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ fe86e5e018388e1d3f298c3eb66899b031b4fca4 1570 gbgsusclient_0.1-3.dsc
+ 552b8441078ded05dd3a5ea3528929fa18604ee1 9180 gbgsusclient_0.1.orig.tar.xz
+ d879bcbcdc25bc280fde3bd4a3f581360c10d26a 9308 gbgsusclient_0.1-3.debian.tar.xz
+ 4c64b521b0ea25a3ae63a91673692172dd6276cd 6143 gbgsusclient_0.1-3_source.buildinfo
+Checksums-Sha256:
+ 72071daf524650a0ec352acde091f9dac54dfa8e60bd943823814214775e63ac 1570 gbgsusclient_0.1-3.dsc
+ 03df229ecd958d60906cb198f83120020197943836c215d36b20a37bf26d6c45 9180 gbgsusclient_0.1.orig.tar.xz
+ a142a9a02824882de3368b3ce44de560a5fe338040c68b69d7ed4c81257b1055 9308 gbgsusclient_0.1-3.debian.tar.xz
+ 940730b18ed662241819c63ac13e648dc4d07265a40036e1ead683527c6daa9d 6143 gbgsusclient_0.1-3_source.buildinfo
+Files:
+ 0f0c6f0c3f0c73c9a6e0dc333f6ce76a 1570 utils optional gbgsusclient_0.1-3.dsc
+ 7c65cfd8a106b94b4465f26a1c5b8854 9180 utils optional gbgsusclient_0.1.orig.tar.xz
+ 5654b339d693c037352e306b91f989f9 9308 utils optional gbgsusclient_0.1-3.debian.tar.xz
+ 721e967f0ac341594a580b5914a8b886 6143 utils optional gbgsusclient_0.1-3_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAl9igccACgkQs7/Yjblg
+MBCgtgwAmVu+ja/SAAOQ1z4qwFOfuMxUHr6ZEy8LGih2MXktBrBp8+LijXFEC8cK
+BRWHe/jSfTlSS6SprZ+3n7+MwfJ7aLuNCIBqN3yIuHCxqBp7TGAdBe9Fm+HWgpVg
+7bgbPQb5e0cszAE+ZissgLP3K+lnDAfdwDr8c1mZBgTqPJTi58GFKf4Y6KGMnhzB
+R9GzGsy1mRzvWxD36imsgL2fp8XCkwlcvpkQNZE5XWNE4ue/bYI7lOyKO0VQxXUu
+GYkhHgPTR30km3scpYMbeOXys+Z5Mz3XH4lmaQ0yaiQp3uG04E6UCVM+04XunsBh
+Mrkd4dImv/28WISlfkXSgEp6IAB4s17kAVhkOuUin4tdWPJ3uCgxATnoXw4fGSFQ
+oJsLlrLCeSZmy8Rnf3H7BOMnro57IKDXKxs802tu3qTGmZSoxSI2f5FUVpC5U2jE
+cfhhACkiz0lQsMs8tG5MKZKJUQM3y1/jEjdcLTgb/BGBdDk97GcSShVHQqfGIv08
+2cDssugZ
+=nxnQ
+-----END PGP SIGNATURE-----

@@ -1,0 +1,51 @@
+Description: <short summary of the patch>
+ TODO: Put a short summary on the line above and replace this paragraph
+ with a longer explanation of this change. Complete the meta-information
+ with other relevant fields (see below for details). To make it easier, the
+ information below has been extracted from the changelog. Adjust it or drop
+ it.
+ .
+ gbgclient (0.1-5) focal; urgency=medium
+ .
+   * Initial release
+Author: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+
+---
+The information above should follow the Patch Tagging Guidelines, please
+checkout http://dep.debian.net/deps/dep3/ to learn about the format. Here
+are templates for supplementary fields that you might want to add:
+
+Origin: <vendor|upstream|other>, <url of original patch>
+Bug: <url in upstream bugtracker>
+Bug-Debian: https://bugs.debian.org/<bugnumber>
+Bug-Ubuntu: https://launchpad.net/bugs/<bugnumber>
+Forwarded: <no|not-needed|url proving that it has been forwarded>
+Reviewed-By: <name and email of someone who approved the patch>
+Last-Update: 2020-06-28
+
+--- gbgclient-0.1.orig/updater/updater.desktop
++++ gbgclient-0.1/updater/updater.desktop
+@@ -1,22 +1,8 @@
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+ [Desktop Entry]
+ Type=Application
+ Name=Updates installieren
+ GenericName=Updates installieren
+-Exec=sudo /usr/local/bin/updater.sh
++Exec=sudo /usr/bin/updater.sh
+ Icon=/usr/share/icons/updater.svg
+ Terminal=true
+ Categories=System;

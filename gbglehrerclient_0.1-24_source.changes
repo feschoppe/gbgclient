@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sun, 06 Sep 2020 12:02:32 +0200
+Source: gbglehrerclient
+Architecture: source
+Version: 0.1-24
+Distribution: focal
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changes:
+ gbglehrerclient (0.1-24) focal; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ a1bb7eec6f6fc23d12a2f23386599651ff0dc6f2 1610 gbglehrerclient_0.1-24.dsc
+ 3608f740d70ec59ac184e6a15ef578004e0f12a2 8984 gbglehrerclient_0.1.orig.tar.xz
+ 081ea2f2221c673bf9d3c23bfe3370e7f9503a9f 6051584 gbglehrerclient_0.1-24.debian.tar.xz
+ 1a32e5964c9824d40efb1b2f6d1d6c06dc763b31 6182 gbglehrerclient_0.1-24_source.buildinfo
+Checksums-Sha256:
+ aa87c361f36ca3dc7e7ca2ac191db83a335fee2e5f21028bb1f8e3d32e3585a5 1610 gbglehrerclient_0.1-24.dsc
+ d2146ea0e93128ea57812986768dcf7abd52b264fb3048de9d5b33c64f2574b6 8984 gbglehrerclient_0.1.orig.tar.xz
+ 124f40d1b02326016f187d03a751fc3ae01c80d8571386042acaaa121be5237b 6051584 gbglehrerclient_0.1-24.debian.tar.xz
+ 34703150475c5359415604bab9da328d2ab98825af2a176a509067462eaa1197 6182 gbglehrerclient_0.1-24_source.buildinfo
+Files:
+ d6ae1cea0f3c20387c24d845d46c3e55 1610 utils optional gbglehrerclient_0.1-24.dsc
+ 8d5d8d797c96e5028a9af9a505dfbd9f 8984 utils optional gbglehrerclient_0.1.orig.tar.xz
+ 7ef366d4d2215ee2bbe06c83a3904d15 6051584 utils optional gbglehrerclient_0.1-24.debian.tar.xz
+ 000fe130cd698d3b9c8a2465bce013b7 6182 utils optional gbglehrerclient_0.1-24_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAl9/LEAACgkQs7/Yjblg
+MBBKNgv/RxfwqT8XmeQEvHrfCrWYKF48xywiYnD9RRwCngY5TqYpKP35KyHVDHYq
+a5hbqj7h9rxBYRvIkXQBqdhBlKa4L0hpfj7WDg/BMSDLlDojU5mLYnBmKK15Et2t
+E42WeH1xVv27MysFqstvu+eQ6LWpLTJO9ax8b6FJY/MaeImR4/rPk6kStGCnaFC0
+MdFhWrYaBf8YPvagtpENvejOTnDjRjz/3QguMPF6YIXlTMu4P6LRZPaIuz4StTXa
+LVC3O5oKArwHYuMv+sWXmdRepiQ656/g1UY98UHclnJeeD97/WHxBpRbnX8Rlc7R
+zJTrmvbz4g897+MJSPZE7UvNH3nZnG4vFhC5BWkJkMaULvjZBe04CVCOuOa/oe8u
+Saw3GBjjINa05lhOqVMag4LKBLMi8x6UQlAdgvNK+ZbIN9qACyoJT7ab7/YoQ/V0
+xtAcDE4RpUXbjW92QBdVakNFcY9yexGfWQJMwjmarK1sR5CdU54cGm88l3xNbiyz
+MUxtj5s3
+=iDrt
+-----END PGP SIGNATURE-----

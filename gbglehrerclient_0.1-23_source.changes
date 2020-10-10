@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sun, 06 Sep 2020 12:02:32 +0200
+Source: gbglehrerclient
+Architecture: source
+Version: 0.1-23
+Distribution: focal
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changes:
+ gbglehrerclient (0.1-23) focal; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 4fb13e540308f84cb1b8931f89231264126e8941 1610 gbglehrerclient_0.1-23.dsc
+ 3608f740d70ec59ac184e6a15ef578004e0f12a2 8984 gbglehrerclient_0.1.orig.tar.xz
+ 6c17dd84c35ebafb22f9ad137091399f05c4b1d0 6052316 gbglehrerclient_0.1-23.debian.tar.xz
+ 601fe07910869cfb4b1da7bebc3a946698dacba2 6182 gbglehrerclient_0.1-23_source.buildinfo
+Checksums-Sha256:
+ 7d8b938d2597243ec7c290f6ea03b5c0f18c1912b213fc1933181bbf95031096 1610 gbglehrerclient_0.1-23.dsc
+ d2146ea0e93128ea57812986768dcf7abd52b264fb3048de9d5b33c64f2574b6 8984 gbglehrerclient_0.1.orig.tar.xz
+ 5808298e7f9e3b8bd0d4b132eb9b49a0c8aab5762acf4054a2fa5ef38ab6ae22 6052316 gbglehrerclient_0.1-23.debian.tar.xz
+ 1a5fa23ae175a4a137a9be6995aca7bca904183989c0d0232546e4ffe555efab 6182 gbglehrerclient_0.1-23_source.buildinfo
+Files:
+ fd8cd376e1adb34c2f249a60c1ff8b8f 1610 utils optional gbglehrerclient_0.1-23.dsc
+ 8d5d8d797c96e5028a9af9a505dfbd9f 8984 utils optional gbglehrerclient_0.1.orig.tar.xz
+ bfd4945caeb1c159bb3a3a82fdf74891 6052316 utils optional gbglehrerclient_0.1-23.debian.tar.xz
+ e2a6753a82a4e136f9902a51170c44c7 6182 utils optional gbglehrerclient_0.1-23_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAl9974wACgkQs7/Yjblg
+MBAP3wv/QchmOI3jiHAnoMWQFEZgscLUQqBloDaHJaXe77EFIB4fmxDlwAV/v+iX
+ENKyY4ZvcwbKDq3lixChVHSeGc4AlYInNvj11NlbqIJOwZRnXjkJFnwVqKCFT51B
+NriY2csSSqCllkNDzU9IgKTFtOiR3cC4aubkCAE5dZvKd0fqfOv7zQnNzhNpdsYs
+q49dEesHkzYMGVL1eguYsb1VzcCvdFRM5MRbwy7GqRYKtEerZRkN5pSj1S7FthnO
+4dM9GdTDvqlI9i+sczl4sAHZIs9+nSPCEFVJi0pbYcbXWjs2jUo/yHBXMJJQUVjN
+d1mMNYDRRq5+P8AWF+TLQG2rITUspNghThRRibJez4ourFrY5ahx3dCB+vrAHfeL
+xkuu1ECY/CCtpCpTioMcmQJtA6MR/dgLrCOWfONo1TqRvdmAAvbnJ84NZKJvEFqZ
+yOlbTYvunmO+X1pGAt5y9Rob7JozbS++gsbzP5aAjHLquQ0YhORPwn+ePq77ZMlO
+dMwurDMn
+=PCF9
+-----END PGP SIGNATURE-----

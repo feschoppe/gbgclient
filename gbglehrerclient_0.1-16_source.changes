@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sun, 06 Sep 2020 12:02:32 +0200
+Source: gbglehrerclient
+Architecture: source
+Version: 0.1-16
+Distribution: focal
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changes:
+ gbglehrerclient (0.1-16) focal; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 7a74c156bd5b959703e7ec8b5e50d84cb10182ff 1610 gbglehrerclient_0.1-16.dsc
+ 3608f740d70ec59ac184e6a15ef578004e0f12a2 8984 gbglehrerclient_0.1.orig.tar.xz
+ 9704e2d929da7c3811671bece86fb6f7cc193b89 6039748 gbglehrerclient_0.1-16.debian.tar.xz
+ 135aca103f8d8726e654e74ef664b9c8bc8354e1 6182 gbglehrerclient_0.1-16_source.buildinfo
+Checksums-Sha256:
+ 93831bd632e9757c0ab6b35c04ca625ce682e4ce12d73c335539370c814c11f0 1610 gbglehrerclient_0.1-16.dsc
+ d2146ea0e93128ea57812986768dcf7abd52b264fb3048de9d5b33c64f2574b6 8984 gbglehrerclient_0.1.orig.tar.xz
+ 8428173e19950329b78b704669bf0c9af532152c1f158139dfda0c8c5ed39cdf 6039748 gbglehrerclient_0.1-16.debian.tar.xz
+ 004ef8a9ae0f56bd69057b7489800f48d2c266b8d3309d2f4b0abba9c1480c08 6182 gbglehrerclient_0.1-16_source.buildinfo
+Files:
+ f1991d25615884184dadf72f67d5f570 1610 utils optional gbglehrerclient_0.1-16.dsc
+ 8d5d8d797c96e5028a9af9a505dfbd9f 8984 utils optional gbglehrerclient_0.1.orig.tar.xz
+ 1cb3ef82e50696a5437f97ecd7a623ed 6039748 utils optional gbglehrerclient_0.1-16.debian.tar.xz
+ f4e1e1084060cb151875a4d29664fb5a 6182 utils optional gbglehrerclient_0.1-16_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAl90g3QACgkQs7/Yjblg
+MBCRqQv+L/1w2If+eEtkJmq+RZt2Gm6hV0mT9dNTZorQCwTcIwdtBHvUL72Enru5
+HOtjMEZh0qL1m7616MO8a1hHr6ArnadcekxRkex2iWFEdErf2gaC0poGz2/aAf1m
+4qS7RgQvnqu3gwrJqia/6RJ2D51RD9M2UaOLh9HxyqjFfvDyNJ0vgODBT1duQq0c
+0OQtRc9KxTq40rNkWkqNTXRgxm6xpa4LUyedMfJL9Y+o5+ZTyIyH5UvGzeAn8nXl
+lwGnOYFSSzXdY4qplqbSweu3r6Fp2CByXQxSgGfV1rSleXhn3eZJa5GnfI3mPGgM
+909rKIgRfuC013AthBqosCf3FRGdm8cZzjUZBR51VO0T2xg+XLtxffNkk1d5gwMY
+SLdPyYhGQUNCllz6Wkr49y3CDLWoSVFRN8l8t4iQ5QdD9QlBmXwO2Ib/TxsdX1mq
+NfCjks9Whkb3UsqC7pxNRmhcN2NTNKOkhefPBkNpqwzVVK7h2p7EVQdGe/ojprVi
+1qDq5x50
+=sadz
+-----END PGP SIGNATURE-----

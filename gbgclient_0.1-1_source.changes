@@ -1,0 +1,48 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Tue, 23 Jun 2020 16:47:10 +0200
+Source: gbgclient
+Architecture: source
+Version: 0.1-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changes:
+ gbgclient (0.1-1) unstable; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 760255f68693cb37188bd0d288d71344d2cdacca 1716 gbgclient_0.1-1.dsc
+ 922fc69e48faba25311330bce967cec13a1478af 240 gbgclient_0.1.orig.tar.xz
+ bc37decadd5b41e6937e78677011920175cb3cda 7924 gbgclient_0.1-1.debian.tar.xz
+ 2c492b79e0f59e3c64f02c8b99da62255c746119 6258 gbgclient_0.1-1_source.buildinfo
+Checksums-Sha256:
+ 804900c842853c9fb7419746a89c1d5ea4236916866d8018cc019122262b041f 1716 gbgclient_0.1-1.dsc
+ e93e064e66a053d560dc118c68ed4168389bc7976964168c571d7a7cf5136571 240 gbgclient_0.1.orig.tar.xz
+ 6f4fa56abc84d88a00f7fa4657f66323996fa0c439afcc2325186d1afd69d2c6 7924 gbgclient_0.1-1.debian.tar.xz
+ b5c1034dfc6cabd8d378ab2b8e7fba303574e9fb747607ef0f5177f5da4269c1 6258 gbgclient_0.1-1_source.buildinfo
+Files:
+ cb05b4faa612b2fb2a3e58e77a50d314 1716 unknown optional gbgclient_0.1-1.dsc
+ 11c6c12da5b80dfd70c2c5cce0ffc4bc 240 unknown optional gbgclient_0.1.orig.tar.xz
+ 46e9de04e986986d3f72f15a03e6d8c3 7924 unknown optional gbgclient_0.1-1.debian.tar.xz
+ 5ee5be45d042b627c27d169b37bdd1b3 6258 unknown optional gbgclient_0.1-1_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE4R+Kj94rzNrmSzTi1VwE04rquPMFAl7yHY0ACgkQ1VwE04rq
+uPNksRAAk868rp2xl8OE5a9HfSxtcPpDeLi//jsCTZzARN6WeBFiGe9OOEgkkWb/
+9fK0pmZ/TS5/wMIjTXvgbYl8UCyuQEO2bvcMLDLgUHcpWF0v5XPU6F8pGoDzvs11
+x8L1VZAve+/VQGjp8yAmMsUxuYpwc4x+vIbfCXReLZnSzwjMhhvPoR1RtvNUJfNv
+C8peYc71AOYHcHU/YYSCruevEbg+j2SU050ypLq2RpX3c09aL9pPJxOuGGv6uSVK
+fsHzqCbAPJ0PralFzwNtO1sSPK3nbGhAiGF7pwmGwOE4G2vdxWIVZcs3UJ3HmavH
+kGqONbFKAcoMZ8zjjs3ZgWBhORYUfJUfdxdXmvbDF7wouZRoaJrrnMcvdsrU8ulO
++4BDmJimFakovkG2KRqGPIpDfaZ3h0n+mamP9PggCNylRsQJ/597fxpbnJg/Thu1
+u/uZyXf3Sxoq68aN6vCImjkCquwfSjJydf7KNLo7yd2aBwLFtRJobNXdy6cXDiD9
+I7Cedn7Fli+pxEhLcUoyK4LjQ6U0M9BNINZGxXI+cWojIYhTLH2ucP7kL7oef6ky
+swXKmdxU9pZh6w66x6jwpDd0TmRya0JVejqp5uMtwn0mw2gUxU/YM9VHGX3oh6pn
+lZOef20XpsZrD1sRmx0QLDImwtX5igGyP6bcCl3sZ1Z5FFL+4W4=
+=tlip
+-----END PGP SIGNATURE-----

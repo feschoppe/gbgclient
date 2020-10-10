@@ -1,0 +1,52 @@
+Description: <short summary of the patch>
+ TODO: Put a short summary on the line above and replace this paragraph
+ with a longer explanation of this change. Complete the meta-information
+ with other relevant fields (see below for details). To make it easier, the
+ information below has been extracted from the changelog. Adjust it or drop
+ it.
+ .
+ gbgclient (0.1-7) focal; urgency=medium
+ .
+   * Initial release
+Author: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+
+---
+The information above should follow the Patch Tagging Guidelines, please
+checkout http://dep.debian.net/deps/dep3/ to learn about the format. Here
+are templates for supplementary fields that you might want to add:
+
+Origin: <vendor|upstream|other>, <url of original patch>
+Bug: <url in upstream bugtracker>
+Bug-Debian: https://bugs.debian.org/<bugnumber>
+Bug-Ubuntu: https://launchpad.net/bugs/<bugnumber>
+Forwarded: <no|not-needed|url proving that it has been forwarded>
+Reviewed-By: <name and email of someone who approved the patch>
+Last-Update: 2020-06-28
+
+--- gbgclient-0.1.orig/misc/clear_connections.desktop
++++ gbgclient-0.1/misc/clear_connections.desktop
+@@ -1,5 +1,5 @@
+ [Desktop Entry]
+ Type=Application
+ Name=Reset all connections and initialize gbgclient
+-Exec=/usr/local/bin/delete_connections.sh
++Exec=/usr/bin/delete_connections.sh
+ X-GNOME-Autostart-enabled=true
+--- gbgclient-0.1.orig/scripts/delete_connections.sh
++++ gbgclient-0.1/scripts/delete_connections.sh
+@@ -7,6 +7,6 @@ gsettings set org.gnome.shell.extensions
+ gsettings set org.gnome.shell.extensions.dash-to-dock dock-position BOTTOM
+ gsettings set org.gnome.shell.extensions.dash-to-dock dash-max-icon-size 30
+ notify-send "Auf diesem Gerät werden keine Daten lokal gespeichert!"
+-python /usr/local/bin/delete_connections.py
++python /usr/bin/delete_connections.py
+ setxkbmap de
+-sudo /usr/local/bin/nutzerdatenerfassung.sh
++sudo /usr/bin/nutzerdatenerfassung.sh
+--- /dev/null
++++ gbgclient-0.1/sudoers.d/sudogbgclient
+@@ -0,0 +1,4 @@
++#GBG-Linux-Updater ohne Passwort mit sudo ausführen
++gbg ALL = NOPASSWD: /usr/bin/updater.sh
++#nutzerdatenerfassung.sh für gbg
++gbg ALL = NOPASSWD: /usr/bin/nutzerdatenerfassung.sh

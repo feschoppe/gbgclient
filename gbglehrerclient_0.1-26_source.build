@@ -1,0 +1,46 @@
+ dpkg-buildpackage -us -uc -ui -S -sa
+dpkg-buildpackage: Information: Quellpaket gbglehrerclient
+dpkg-buildpackage: Information: Quellversion 0.1-26
+dpkg-buildpackage: Information: Quelldistribution focal
+dpkg-buildpackage: Information: Quelle geändert durch Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+ dpkg-source --before-build .
+ fakeroot debian/rules clean
+dh clean
+   dh_clean
+ dpkg-source -b .
+dpkg-source: Information: Quellformat »3.0 (quilt)« wird verwendet
+dpkg-source: Information: gbglehrerclient wird unter Benutzung des existierenden ./gbglehrerclient_0.1.orig.tar.xz gebaut
+dpkg-source: Information: Patchliste aus debian/patches/series wird verwendet
+dpkg-source: Warnung: ausführbarer Modus 0755 von »beamer/beamer.png« wird im Diff nicht dargestellt werden
+dpkg-source: Warnung: neu angelegte leere Datei »etc/skel/.mozilla/firefox/ksxezk70.default/.parentlock« wird im Diff nicht dargestellt werden
+dpkg-source: Warnung: neu angelegte leere Datei »etc/skel/.mozilla/firefox/ksxezk70.default/AlternateServices.txt« wird im Diff nicht dargestellt werden
+dpkg-source: Warnung: neu angelegte leere Datei »etc/skel/.mozilla/firefox/ksxezk70.default/SecurityPreloadState.txt« wird im Diff nicht dargestellt werden
+dpkg-source: Warnung: neu angelegte leere Datei »etc/skel/.mozilla/firefox/ksxezk70.default/TRRBlacklist.txt« wird im Diff nicht dargestellt werden
+dpkg-source: Warnung: ausführbarer Modus 0755 von »misc/GBG_Custom_Background.png« wird im Diff nicht dargestellt werden
+dpkg-source: Information: gbglehrerclient wird in gbglehrerclient_0.1-26.debian.tar.xz gebaut
+dpkg-source: Information: gbglehrerclient wird in gbglehrerclient_0.1-26.dsc gebaut
+ dpkg-genbuildinfo --build=source
+ dpkg-genchanges -sa --build=source >../gbglehrerclient_0.1-26_source.changes
+dpkg-genchanges: Information: kompletter Quellcode beim Hochladen hinzufügen
+ dpkg-source --after-build .
+dpkg-buildpackage: Information: Alles hochzuladen (Originalquellen enthalten)
+Now running lintian gbglehrerclient_0.1-26_source.changes ...
+E: gbglehrerclient source: debian-rules-is-dh_make-template
+E: gbglehrerclient source: readme-source-is-dh_make-template
+E: gbglehrerclient source: source-is-missing etc/skel/.mozilla/firefox/ksxezk70.default/prefs.js line length is 663 characters (>512)
+W: gbglehrerclient source: bad-homepage <insert the upstream URL, if relevant>
+W: gbglehrerclient source: debhelper-but-no-misc-depends gbglehrerclient
+W: gbglehrerclient source: dh-make-template-in-source debian/gbglehrerclient.cron.d.ex
+W: gbglehrerclient source: dh-make-template-in-source debian/gbglehrerclient.doc-base.EX
+W: gbglehrerclient source: dh-make-template-in-source debian/manpage.1.ex
+W: gbglehrerclient source: dh-make-template-in-source debian/manpage.sgml.ex
+W: gbglehrerclient source: dh-make-template-in-source debian/manpage.xml.ex
+W: gbglehrerclient source: dh-make-template-in-source debian/postinst.ex
+W: gbglehrerclient source: dh-make-template-in-source debian/postrm.ex
+W: gbglehrerclient source: dh-make-template-in-source debian/preinst.ex
+W: gbglehrerclient source: dh-make-template-in-source debian/prerm.ex
+W: gbglehrerclient source: dh-make-template-in-source debian/salsa-ci.yml.ex
+W: gbglehrerclient source: dh-make-template-in-source debian/watch.ex
+W: gbglehrerclient source: space-in-std-shortname-in-dep5-copyright <special license> (paragraph at line 6)
+W: gbglehrerclient source: superfluous-clutter-in-homepage <insert the upstream URL, if relevant>
+Finished running lintian.

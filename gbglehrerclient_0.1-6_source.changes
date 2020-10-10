@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sun, 06 Sep 2020 12:02:32 +0200
+Source: gbglehrerclient
+Architecture: source
+Version: 0.1-6
+Distribution: focal
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changes:
+ gbglehrerclient (0.1-6) focal; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ b37a75c3e19fa32f87bc2d1d96994d6acbc237c0 1600 gbglehrerclient_0.1-6.dsc
+ 3608f740d70ec59ac184e6a15ef578004e0f12a2 8984 gbglehrerclient_0.1.orig.tar.xz
+ 586e99b030c35a1e431108a4610e2340b4e409b3 10332 gbglehrerclient_0.1-6.debian.tar.xz
+ 9ef520b06d5c47faf44a0576d19ed4df3e1ab731 6170 gbglehrerclient_0.1-6_source.buildinfo
+Checksums-Sha256:
+ ffe57a51fb2e71d3244b27ccaf27ae11e34342416aed96fbcda412712eb33ce7 1600 gbglehrerclient_0.1-6.dsc
+ d2146ea0e93128ea57812986768dcf7abd52b264fb3048de9d5b33c64f2574b6 8984 gbglehrerclient_0.1.orig.tar.xz
+ 65954a3993b856c055ea537913cf51de35deeed6bff106ce78d409ee04b4b96b 10332 gbglehrerclient_0.1-6.debian.tar.xz
+ c00f6ab268fd87c93614b71ac1141e59286b257e7d97a927db555525a38c9095 6170 gbglehrerclient_0.1-6_source.buildinfo
+Files:
+ 233048568a607fcd3a1a7c3a4db5b53c 1600 utils optional gbglehrerclient_0.1-6.dsc
+ 8d5d8d797c96e5028a9af9a505dfbd9f 8984 utils optional gbglehrerclient_0.1.orig.tar.xz
+ ff9ded325083dffbcdc75b0e01625092 10332 utils optional gbglehrerclient_0.1-6.debian.tar.xz
+ 6a03c539efc034199e758a9457a1bd8d 6170 utils optional gbglehrerclient_0.1-6_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAl9oaYwACgkQs7/Yjblg
+MBDSYwv9E9i6oLnn8K+d02B8Z+ebg6xDB+bpLdm1V2Dy7yoFqau8BWCqIO4We/Qg
+FkjlMW6NDtsyFIAayQ6eARN8IOX1BUt78wz8SyapEt2DbU51mb2im3OnhzhBzbYH
+PeXn5sVXW+rgtgqjTucHOU3GYjOFpFvreI2k99En5laRxKRSVIMvnqtonXRC6WM0
+Sm6VOlqUvygbw2kXt4jShQVQA0FrRhpy57nd1n9bkup/HWrVXwKRAnpM8KnN8z0H
+xuucj9XZvtFAFCYrKR1a36x644WF4P2vqLhshBp0IB5kgntYt/s18xzwnKNwa70+
+T7eAeL6SAWvrnCTF8O0uBWVCJzVu113nOuD49Gb/BRbGVmn9jErR82ljRngNcsw3
+xuzckTJO9nh1AaZkcUncwlLcVLTfqOfiipBfFzgGFLS6pSC603cpM232/QDfjsKm
+yr413mu7XensdD0xEXMnOCDTkNzlDMHnV65DvmNdIA1oawSF9gl0MDK+lE2i+LY/
+oG3wMS7P
+=jsMh
+-----END PGP SIGNATURE-----

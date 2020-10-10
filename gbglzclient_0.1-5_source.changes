@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 26 Aug 2020 19:43:58 +0200
+Source: gbglzclient
+Architecture: source
+Version: 0.1-5
+Distribution: focal
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changes:
+ gbglzclient (0.1-5) focal; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 9c4dccebb3a1a3aab920e360f8aaf8a2894b3e60 1564 gbglzclient_0.1-5.dsc
+ 1ab0c5867b02f572ecc25d1ef506d235123a39bb 8388 gbglzclient_0.1.orig.tar.xz
+ 224ca31e5ad39a06a3b5071b0a82a2b5c437bb44 10156 gbglzclient_0.1-5.debian.tar.xz
+ 44c929d8d8920c52ee03210123c8f3d2a7bc98fb 6130 gbglzclient_0.1-5_source.buildinfo
+Checksums-Sha256:
+ 28176caac42ad5f7857df52d799287efdb75f8a9f6c653dd276ebefc504b68f1 1564 gbglzclient_0.1-5.dsc
+ dbd804d451ff3d0ca0acc49a21764e2fe28c3a09a71d7b0f6f660bbd5dd6b26b 8388 gbglzclient_0.1.orig.tar.xz
+ 1ab7c07f09ff0ff98da2e5273d870cb43260c11ae6ee121e738961192e2554a3 10156 gbglzclient_0.1-5.debian.tar.xz
+ 71a8358471400b0a00b0e9584c39f7095885817ff021686ba11397b7ce65f830 6130 gbglzclient_0.1-5_source.buildinfo
+Files:
+ 7d7de657a9ea26be2dd8e7d8da8f3fdb 1564 utils optional gbglzclient_0.1-5.dsc
+ 7d10b440522d0343f0381191d358da2d 8388 utils optional gbglzclient_0.1.orig.tar.xz
+ c1d3a78a7623a531d0476a8f725a30f5 10156 utils optional gbglzclient_0.1-5.debian.tar.xz
+ a519de496e741550982bb373fc987b8d 6130 utils optional gbglzclient_0.1-5_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAl9HbOYACgkQs7/Yjblg
+MBCu8gv/Yz6crTkWwDz7useGAm90pFCtQRYaB9D7rdDmB85ED67hJOb9BbvTtd1F
+oCEOBSLgYNZf7vcbL0SrOsdkSmwsOmsdtBExclR+eeiJmlzCNMQE/zOiIagnjFXW
+DrdCUhiHjP7gz/nrHowwqTbsExm7KBRtBA7CFUVy6aYq4r4P2Ikivue8fCgGWs19
+KFp5jGLmDhzwTdJlVUIYQxb7yxPqyIcPpInr4mzXHU4ZVdRtbr0c+338Bvy3htW/
+lCfQ9RvuXu7/SXBQLVO3njLI43L+/1AX+pn/S1vtxply63i2vH2QdDxesmqUeQpC
+9QMPCq1QFfdDlCfzjijZl1aFnGoW+PgA8FyeI3mYS1fFW6Ni1ClaxwAxEz4P35ue
+fMLQY6NNBnaBrdTjhDvmnPBsNyzVbqCcsi9dt4mVW5JHVJlUJv9HvpuCMWMrbFug
+w7CdJIrY64Azy+PL7KKEBh6+hTQ9tyInh4YlDX2WC6j5mPqB2siGd8uY0J/bbQUb
+M0lTBsm9
+=FXfn
+-----END PGP SIGNATURE-----

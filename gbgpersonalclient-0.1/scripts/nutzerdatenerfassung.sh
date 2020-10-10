@@ -1,0 +1,56 @@
+#!/bin/bash
+#Dieses Skript muss als root ausgeführt werden!
+#chown root:root nutzerdatenerfassung.sh
+#Anpassen der /etc/sudoers/
+#gbg ALL = NOPASSWD: /usr/local/bin/nutzerdatenerfassung.sh
+
+cp -r /etc/skel/.mozilla /tmp/gbg/
+chown -R gbg:gbg /tmp/gbg/.mozilla
+chmod 755 -R /tmp/gbg/.mozilla
+
+cp -r /etc/skel/.atom /tmp/gbg/
+chown -R gbg:gbg /tmp/gbg/.atom
+chmod 755 -R /tmp/gbg/.atom
+
+cp -r /etc/skel/.config/chromium /tmp/gbg/.config/
+chown -R gbg:gbg /tmp/gbg/.config/chromium
+chmod 755 -R /tmp/gbg/.config/chromium
+
+cp -r /etc/skel/.config/google-chrome /tmp/gbg/.config/google-chrome
+chown -R gbg:gbg /tmp/gbg/.config/google-chrome
+chmod 755 -R /tmp/gbg/.config/google-chrome
+
+mkdir /tmp/gbg/public_html
+chown -R gbg:gbg /tmp/gbg/public_html
+chmod 755 -R /tmp/gbg/public_html
+rm /opt/lampp/htdocs/gbg
+ln -s /tmp/gbg/public_html /opt/lampp/htdocs/gbg
+
+#Standardanwendungen korrekt einstellen
+cp /etc/skel/.config/mimeapps.list /tmp/gbg/.config/
+chown gbg:gbg /tmp/gbg/.config/mimeapps.list
+chmod 755 /tmp/gbg/.config/mimeapps.list
+
+#Dateien der snaps in der Dateiablage sichern
+if [ -d "/tmp/gbg/Dateiablage/snap" ]; then
+echo "Ordner existiert!"
+cp -r /tmp/gbg/Dateiablage/snap/ /tmp/gbg/
+chown -R gbg:gbg /tmp/gbg/snap/
+chmod 755 -R /tmp/gbg/snap/
+else
+#mkdir /tmp/gbg/Dateiablage/snap
+#chown -R gbg:gbg /tmp/gbg/Dateiablage/snap
+echo "Ordner existiert nicht!"
+fi
+#ln -s /tmp/gbg/Dateiablage/snap /tmp/gbg/snap
+
+if ! NAME=$(zenity --entry --text "IServ-Benutzername:" --title "Nutzername"); then
+  exit;
+fi
+
+#if ! PASS=$(zenity --entry --hide-text --text "IServ-Passwort:" --title "Passwort"); then
+#  exit;
+#fi
+
+sed "s/\__NUTZERNAME/$NAME/g" /etc/skel/.templates/bookmarks_TEMPLATE > /tmp/gbg/.config/gtk-3.0/bookmarks
+

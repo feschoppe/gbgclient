@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Sun, 06 Sep 2020 12:02:32 +0200
+Source: gbglehrerclient
+Architecture: source
+Version: 0.1-1
+Distribution: focal
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changes:
+ gbglehrerclient (0.1-1) focal; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 14ef66bcf75668615059193621cea87388a6e4f0 888 gbglehrerclient_0.1-1.dsc
+ 3608f740d70ec59ac184e6a15ef578004e0f12a2 8984 gbglehrerclient_0.1.orig.tar.xz
+ c1cc27d2fce4e86be8bc52656e4ea1a4232121cc 9212 gbglehrerclient_0.1-1.debian.tar.xz
+ a7afc18615ee4b5f0b2329ee25cc48e53830d51c 5446 gbglehrerclient_0.1-1_source.buildinfo
+Checksums-Sha256:
+ 78a687288bab20a1a495e43a008b47401c1fdf7603df42cc7bebbe5f3468b17e 888 gbglehrerclient_0.1-1.dsc
+ d2146ea0e93128ea57812986768dcf7abd52b264fb3048de9d5b33c64f2574b6 8984 gbglehrerclient_0.1.orig.tar.xz
+ 59588e24e5c833c7d9ebda15d0631b688a406934d82922de22c48899b6d68503 9212 gbglehrerclient_0.1-1.debian.tar.xz
+ 8bd961621ca22b7859680c2758f34286fd18680387a227494ce5f658a56b0dc0 5446 gbglehrerclient_0.1-1_source.buildinfo
+Files:
+ e49736f7213b67602fb8ff3e8420a8bc 888 utils optional gbglehrerclient_0.1-1.dsc
+ 8d5d8d797c96e5028a9af9a505dfbd9f 8984 utils optional gbglehrerclient_0.1.orig.tar.xz
+ d66d9ffb09e8b489dc4363e76335e4c7 9212 utils optional gbglehrerclient_0.1-1.debian.tar.xz
+ 59d34ed46c915fd7271a0a2fdb9c8731 5446 utils optional gbglehrerclient_0.1-1_source.buildinfo

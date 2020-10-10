@@ -1,0 +1,17 @@
+Source: gbgsusclient
+Section: utils
+Priority: optional
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.4.1
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Browser: https://salsa.debian.org/debian/gbgsusclient
+#Vcs-Git: https://salsa.debian.org/debian/gbgsusclient.git
+
+Package: gbgsusclient
+Architecture: all
+Description: GBG-Client für Leihgeräte-Geräte
+ Dieses Paket konfiguriert einen Leihlaptop, sodass man einen verschlüsselten persönlichen Speicherbereich hat und sodass Netzwerkeinstellungen nicht verlorengehen.
+Replaces: gdm3, gbgclient, gbglehrerclient, gbglzclient
+Conflicts: gbgclient, gbglehrerclient, gbglzclient
+Depends: musescore3

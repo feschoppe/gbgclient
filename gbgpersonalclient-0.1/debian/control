@@ -1,0 +1,17 @@
+Source: gbgpersonalclient
+Section: utils
+Priority: optional
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.4.1
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Browser: https://salsa.debian.org/debian/gbgpersonalclient
+#Vcs-Git: https://salsa.debian.org/debian/gbgpersonalclient.git
+
+Package: gbgpersonalclient
+Architecture: all
+Depends: dateiablage
+Description: Persönlicher GBG-Laptop
+ Dieses Paket konfiguriert einen Laptop zur persönlichen Nutzung, sodass beispielsweise die W-Lan-Verbindungsdaten erhalten bleiben.
+Replaces: gdm3, gbgclient
+Conflicts: gbgclient

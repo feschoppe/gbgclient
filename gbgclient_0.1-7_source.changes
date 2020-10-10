@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Tue, 23 Jun 2020 16:47:10 +0200
+Source: gbgclient
+Architecture: source
+Version: 0.1-7
+Distribution: focal
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changes:
+ gbgclient (0.1-7) focal; urgency=medium
+ .
+   * Initial release
+Checksums-Sha1:
+ 426bf71a7895589b5553ab423a2641feb7ff26ac 834 gbgclient_0.1-7.dsc
+ 922fc69e48faba25311330bce967cec13a1478af 240 gbgclient_0.1.orig.tar.xz
+ e199fb9f842ded0601762dd3fa2944837fd86770 16488 gbgclient_0.1-7.debian.tar.xz
+ 4c87861f361940cd4eae1eece36a223d1f7b24c8 5372 gbgclient_0.1-7_source.buildinfo
+Checksums-Sha256:
+ 041e769e0aa824fa95553815d2d1825473d241a91d81c772701a12cf36d63e55 834 gbgclient_0.1-7.dsc
+ e93e064e66a053d560dc118c68ed4168389bc7976964168c571d7a7cf5136571 240 gbgclient_0.1.orig.tar.xz
+ 260f6d4f02fc8f8139957a1975ef65c36db09fc6cb8290d6e3b1a0aa28046bd4 16488 gbgclient_0.1-7.debian.tar.xz
+ c13afb583fc88bde96622f2084879cccd8a5825d87dc690d30aecd3e61359684 5372 gbgclient_0.1-7_source.buildinfo
+Files:
+ 89e35c9a17d1aa84448cf0698e1d55ea 834 utils optional gbgclient_0.1-7.dsc
+ 11c6c12da5b80dfd70c2c5cce0ffc4bc 240 utils optional gbgclient_0.1.orig.tar.xz
+ 2044f6daf18d8e5697d02c2322a50b9f 16488 utils optional gbgclient_0.1-7.debian.tar.xz
+ aac2a11e70044901cbe158b6efbf4590 5372 utils optional gbgclient_0.1-7_source.buildinfo

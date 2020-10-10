@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 26 Aug 2020 19:43:58 +0200
+Source: gbglzclient
+Architecture: source
+Version: 0.1-3
+Distribution: focal
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changes:
+ gbglzclient (0.1-3) focal; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ e189d650bc991a646ede07580c58859056e4743b 1564 gbglzclient_0.1-3.dsc
+ 1ab0c5867b02f572ecc25d1ef506d235123a39bb 8388 gbglzclient_0.1.orig.tar.xz
+ 813549cc4f848f57110787d4f669d415d1b20d14 10076 gbglzclient_0.1-3.debian.tar.xz
+ fcc0fb405f4ecdc2886452b42cdade1226506b70 6130 gbglzclient_0.1-3_source.buildinfo
+Checksums-Sha256:
+ 85fac873fe091729f5c23444aef34479e5f4b04f92901f9cc4092b3bdbdc9792 1564 gbglzclient_0.1-3.dsc
+ dbd804d451ff3d0ca0acc49a21764e2fe28c3a09a71d7b0f6f660bbd5dd6b26b 8388 gbglzclient_0.1.orig.tar.xz
+ c9664b7739b2a35f7c4a2351d99a0f274133672a8aed70614abe04b060c26faf 10076 gbglzclient_0.1-3.debian.tar.xz
+ e9ec77183cfa8f548b77cb5dfd79914380f7b77e6fc3a9b5fffeb862e229522b 6130 gbglzclient_0.1-3_source.buildinfo
+Files:
+ 4bd70f35d9f90ae0520a514bd4a0c389 1564 utils optional gbglzclient_0.1-3.dsc
+ 7d10b440522d0343f0381191d358da2d 8388 utils optional gbglzclient_0.1.orig.tar.xz
+ 5ff8196488126cf6c56a5cd9dd7056a3 10076 utils optional gbglzclient_0.1-3.debian.tar.xz
+ 8c780dd6e672b69d4b990e9034c895cf 6130 utils optional gbglzclient_0.1-3_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAl9GsnwACgkQs7/Yjblg
+MBD6nAwAmpDCSxEsfENYBJisSSK7tNOJkgH4RLibVP2oDWthvxyc3ngDhDUf1xV8
+MeKkuMPy9K7vp2Bfo3u3KucgWfNyypI2H69VoBE3B4CEw6SuoU7xJ4wZkMq5k/Pc
+hmTO5bRsxgzrXVNv45NQNRArtfgTabN9caYvkq3xOl36VjDHcLprhyHxOqX2ZdAl
+z+JTrIFv9XPQieP9fu/5g1A+NaHVuWiVeYcJ1q5z5aqfA8/eav+qFtUMHmmzijzU
+tdaiYzLSM2EZxTcvkoYNlqYGCu/U8wlM/2bujRVcrbZwD7BbFEV9VCBE1ISNwZ2N
++3515ytHWFS9b5nQbvipkjYMJRFSXDaycRVH7tH7WAd45CFQwQnJKd/nNpxdyGX7
+0U14aqxV1sDdRi6+JagQLeTDl9Bo6LuAaYUibFPnFNBEw/2uu69QIMCLke3HpAT9
+Wf8ZCxWjM4267P39ggfGrxMDR/BkHZeIg7syLra8LzOalZjVucYFDSJcSC5tPkyH
+C+RdMvZF
+=yysq
+-----END PGP SIGNATURE-----

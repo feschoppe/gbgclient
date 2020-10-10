@@ -1,0 +1,43 @@
+'.source.nxc':
+  '#define':
+    'prefix': 'def'
+    'body': '#define ${1:NAME} ${2:value}'
+  'task main()':
+    'prefix': 'task'
+    'body': 'task main() {\n\t$1\n}'
+  'For Loop':
+    'prefix': 'for'
+    'body': 'for (${1:int} ${2:i} = 0; ${2:i} < ${3:count}; ${2:i}++) {\n\t${4:/* code */}\n}'
+  'While Loop':
+    'prefix': 'while'
+    'body': 'while (${1:/* condition */}) {\n\t${2:/* code */}\n}'
+  'NumOut':
+    'prefix': 'NumOut'
+    'body': 'NumOut(0,LCD_LINE${1:1},${2:number});'
+  'TextOut':
+    'prefix': 'TextOut'
+    'body': 'TextOut(0,LCD_LINE${1:1},${2:"string"});'
+  'If Condition':
+    'prefix': 'if'
+    'body': 'if (${1:/* condition */}) {\n\t${2:/* code */}\n}'
+  'If Else':
+    'prefix': 'ife'
+    'body': 'if (${1:/* condition */}) {\n\t${2:/* code */}\n} else {\n\t${3:/* code */}\n}'
+  'If ElseIf':
+    'prefix': 'iff'
+    'body': 'if (${1:/* condition */}) {\n\t${2:/* code */}\n} else if (${3:/* condition */}) {\n\t${4:/* code */}\n}'
+  'If ElseIf Else':
+    'prefix': 'iffe'
+    'body': 'if (${1:/* condition */}) {\n\t${2:/* code */}\n} else if (${3:/* condition */}) {\n\t${4:/* code */}\n} else {\n\t${5:/* code */}\n}'
+  'Switch Statement':
+    'prefix': 'switch'
+    'body': 'switch (${1:/* expression */}) {\n\tcase ${2:/* value */}:\n\t\t$3\n\t\tbreak;\n}'
+  'case':
+    'prefix': 'case'
+    'body': 'case ${1:/* value */}:\n\t$2\n\tbreak;'
+  'void':
+    'prefix': 'void'
+    'body': 'void ${1:name}(${2:/* arguments */}) {\n\t${3:/* code */}\n}'
+  'any function':
+    'prefix': 'func'
+    'body': '${1:int} ${2:name}(${3:/* arguments */}) {\n\t${5:/* code */}\n\treturn ${4:0};\n}'

@@ -1,0 +1,5 @@
+gbglehrerclient (0.1-28) focal; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Felix Schoppe <felix.schoppe@gbg-seelze.eu>  Sun, 06 Sep 2020 12:02:32 +0200

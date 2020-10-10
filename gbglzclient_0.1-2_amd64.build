@@ -1,0 +1,32 @@
+ dpkg-buildpackage -us -uc -ui
+dpkg-buildpackage: Information: Quellpaket gbglzclient
+dpkg-buildpackage: Information: Quellversion 0.1-2
+dpkg-buildpackage: Information: Quelldistribution focal
+dpkg-buildpackage: Information: Quelle geändert durch Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+ dpkg-source --before-build .
+dpkg-buildpackage: Information: Host-Architektur amd64
+ fakeroot debian/rules clean
+dh clean
+   dh_clean
+ dpkg-source -b .
+dpkg-source: Information: Quellformat »3.0 (quilt)« wird verwendet
+dpkg-source: Information: gbglzclient wird unter Benutzung des existierenden ./gbglzclient_0.1.orig.tar.xz gebaut
+dpkg-source: Information: Patchliste aus debian/patches/series wird verwendet
+dpkg-source: Information: gbglzclient wird in gbglzclient_0.1-2.debian.tar.xz gebaut
+dpkg-source: Information: gbglzclient wird in gbglzclient_0.1-2.dsc gebaut
+ debian/rules build
+dh build
+   dh_update_autotools_config
+   dh_autoreconf
+   create-stamp debian/debhelper-build-stamp
+ fakeroot debian/rules binary
+dh binary
+   dh_testroot
+   dh_prep
+   dh_install
+dh_install: warning: Cannot find (any matches for) "etc/skel/.xgoclient" (tried in ., debian/tmp)
+
+dh_install: warning: gbglzclient missing files: etc/skel/.xgoclient
+dh_install: error: missing files, aborting
+make: *** [debian/rules:18: binary] Fehler 25
+dpkg-buildpackage: Fehler: Unterprozess fakeroot debian/rules binary lieferte Exitstatus 2

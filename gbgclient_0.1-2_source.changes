@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Tue, 23 Jun 2020 16:47:10 +0200
+Source: gbgclient
+Architecture: source
+Version: 0.1-2
+Distribution: unstable
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changes:
+ gbgclient (0.1-2) unstable; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 7bd5771b79a8efb24f252d95924b308e1706dfc1 1542 gbgclient_0.1-2.dsc
+ 922fc69e48faba25311330bce967cec13a1478af 240 gbgclient_0.1.orig.tar.xz
+ 710959eef9ef323abf5d0918b1477597786ab44a 7924 gbgclient_0.1-2.debian.tar.xz
+ 59bcf5bc1b64aed516e0813ebde8c1457e2eaa42 6084 gbgclient_0.1-2_source.buildinfo
+Checksums-Sha256:
+ 25c6c98ad4a14aa059ee0e872105ad6539c67df14c5f7d5219f04e1f917a6bfc 1542 gbgclient_0.1-2.dsc
+ e93e064e66a053d560dc118c68ed4168389bc7976964168c571d7a7cf5136571 240 gbgclient_0.1.orig.tar.xz
+ ba97ab977466f5bff07e4cdd2f63d8ce30ebb90dd1b8f8ec869745c10c2e503e 7924 gbgclient_0.1-2.debian.tar.xz
+ e5c08b0228bb904b4d93f8061c8f9af91503c4e7db2105793965c7654d718b77 6084 gbgclient_0.1-2_source.buildinfo
+Files:
+ c6008aac55d70e89beef0097e49d0fab 1542 unknown optional gbgclient_0.1-2.dsc
+ 11c6c12da5b80dfd70c2c5cce0ffc4bc 240 unknown optional gbgclient_0.1.orig.tar.xz
+ 382d69559290ddaa226f4ee8c6cf1de6 7924 unknown optional gbgclient_0.1-2.debian.tar.xz
+ 6d9160d1c81fc246192f9d694e344fde 6084 unknown optional gbgclient_0.1-2_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAl73llcACgkQs7/Yjblg
+MBCx4wv/b2bdpiaP4KgT6A3Ncz2meDKoUxr5/fNXkPyfe/OQcnuWjibRzIal6qyk
+sXfRn29u4oFb8FBNYRlhl7tIchLnx+bUKHrukwDXITsvHsfq8JTHR1Px7VhFzjpm
+prXSNB0a5/5dG/mExDmzl4x0mw3pJZAmMIJvu/odQ3QCIgVPyGnietaP/4dwJPzf
+Y7AUdxhPdko8jhmxrSggUKV0jon3WxtAjF1qVi77cjP45GTn91cyTwI+aVrKckr4
+Mf7/S9TLHVsK7blRJkkHr9P70l7gbtTE2xbirla54zhMIEo4Di+9Z3U1dCKBGl/E
+jiXBq/oFLjY95zSw94OWem1lBGNvOWR39ZHjjR6eRKWsHABvSN/tb8VaMPvNwCtB
+YMIQ7fGOo1KW1Vz4SfLVwksxMz1yaG0HvVehrvRuxe+EOAeumYoLGbMMLgf6Shtv
+ibCgeQfP96+VJAy+uqZDxDTfdthcUru1hIH4madxfmTQ2HdNE57s++bdzTDrfZpY
+n+Rg03Br
+=kdSi
+-----END PGP SIGNATURE-----

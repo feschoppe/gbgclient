@@ -1,0 +1,17 @@
+Source: gbgclient
+Section: utils
+Priority: optional
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.4.1
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Browser: https://salsa.debian.org/debian/gbgclient
+#Vcs-Git: https://salsa.debian.org/debian/gbgclient.git
+
+Package: gbgclient
+Architecture: all
+Depends: musescore3
+Description: Standard-GBG-Client
+ Das ist der Standard-GBG-Client.
+Replaces: gdm3, gbgsusclient, gbglzclient, gbglehrerclient
+Conflicts: gbglehrerclient, gbgsusclient, gbglzclient

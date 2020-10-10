@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Wed, 26 Aug 2020 19:43:58 +0200
+Source: gbglzclient
+Binary: gbglzclient
+Architecture: source all
+Version: 0.1-3
+Distribution: focal
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Description:
+ gbglzclient - GBG-Client für Lehrerzimmer-PC
+Changes:
+ gbglzclient (0.1-3) focal; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ a02c690f008d9f4d965c019b8fcdc15c6802388c 855 gbglzclient_0.1-3.dsc
+ 1ab0c5867b02f572ecc25d1ef506d235123a39bb 8388 gbglzclient_0.1.orig.tar.xz
+ 813549cc4f848f57110787d4f669d415d1b20d14 10076 gbglzclient_0.1-3.debian.tar.xz
+ 6f8068ee7d830461c9767e37b69644cb468972d2 11384 gbglzclient_0.1-3_all.deb
+ 87e54818705361efa14bb12a2b5d90c5a0e33037 5660 gbglzclient_0.1-3_amd64.buildinfo
+Checksums-Sha256:
+ d5c4c41c81e69352f20a13b5be159b4e209dd8add06c779a12e0f02b372ba709 855 gbglzclient_0.1-3.dsc
+ dbd804d451ff3d0ca0acc49a21764e2fe28c3a09a71d7b0f6f660bbd5dd6b26b 8388 gbglzclient_0.1.orig.tar.xz
+ c9664b7739b2a35f7c4a2351d99a0f274133672a8aed70614abe04b060c26faf 10076 gbglzclient_0.1-3.debian.tar.xz
+ f91b795795f4b92bf5236b35864099ffd8d493c91cf1c990eee0e7162dc3bb20 11384 gbglzclient_0.1-3_all.deb
+ 36e86c42187d6e077730578c3de0fdb45f2db8bc1c15f2b45b21a41dc46db012 5660 gbglzclient_0.1-3_amd64.buildinfo
+Files:
+ f11cfd47356f0f038b2b6ca5ecbd9043 855 utils optional gbglzclient_0.1-3.dsc
+ 7d10b440522d0343f0381191d358da2d 8388 utils optional gbglzclient_0.1.orig.tar.xz
+ 5ff8196488126cf6c56a5cd9dd7056a3 10076 utils optional gbglzclient_0.1-3.debian.tar.xz
+ 16a87c0f48afa94027ffea3561289028 11384 utils optional gbglzclient_0.1-3_all.deb
+ fe6ef6f6a6f71b706d9e36b069e63ac4 5660 utils optional gbglzclient_0.1-3_amd64.buildinfo

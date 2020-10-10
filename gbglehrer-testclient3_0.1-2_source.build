@@ -1,0 +1,39 @@
+ dpkg-buildpackage -us -uc -ui -S -sa
+dpkg-buildpackage: Information: Quellpaket gbglehrer-testclient3
+dpkg-buildpackage: Information: Quellversion 0.1-2
+dpkg-buildpackage: Information: Quelldistribution focal
+dpkg-buildpackage: Information: Quelle geändert durch Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+ dpkg-source --before-build .
+ fakeroot debian/rules clean
+dh clean
+   dh_clean
+ dpkg-source -b .
+dpkg-source: Information: Quellformat »3.0 (quilt)« wird verwendet
+dpkg-source: Information: gbglehrer-testclient3 wird unter Benutzung des existierenden ./gbglehrer-testclient3_0.1.orig.tar.xz gebaut
+dpkg-source: Information: Patchliste aus debian/patches/series wird verwendet
+dpkg-source: Information: gbglehrer-testclient3 wird in gbglehrer-testclient3_0.1-2.debian.tar.xz gebaut
+dpkg-source: Information: gbglehrer-testclient3 wird in gbglehrer-testclient3_0.1-2.dsc gebaut
+ dpkg-genbuildinfo --build=source
+ dpkg-genchanges -sa --build=source >../gbglehrer-testclient3_0.1-2_source.changes
+dpkg-genchanges: Information: kompletter Quellcode beim Hochladen hinzufügen
+ dpkg-source --after-build .
+dpkg-buildpackage: Information: Alles hochzuladen (Originalquellen enthalten)
+Now running lintian gbglehrer-testclient3_0.1-2_source.changes ...
+E: gbglehrer-testclient3 source: debian-rules-is-dh_make-template
+E: gbglehrer-testclient3 source: readme-source-is-dh_make-template
+W: gbglehrer-testclient3 source: bad-homepage <insert the upstream URL, if relevant>
+W: gbglehrer-testclient3 source: debhelper-but-no-misc-depends gbglehrer-testclient3
+W: gbglehrer-testclient3 source: dh-make-template-in-source debian/gbglehrer-testclient3.cron.d.ex
+W: gbglehrer-testclient3 source: dh-make-template-in-source debian/gbglehrer-testclient3.doc-base.EX
+W: gbglehrer-testclient3 source: dh-make-template-in-source debian/manpage.1.ex
+W: gbglehrer-testclient3 source: dh-make-template-in-source debian/manpage.sgml.ex
+W: gbglehrer-testclient3 source: dh-make-template-in-source debian/manpage.xml.ex
+W: gbglehrer-testclient3 source: dh-make-template-in-source debian/postinst.ex
+W: gbglehrer-testclient3 source: dh-make-template-in-source debian/postrm.ex
+W: gbglehrer-testclient3 source: dh-make-template-in-source debian/preinst.ex
+W: gbglehrer-testclient3 source: dh-make-template-in-source debian/prerm.ex
+W: gbglehrer-testclient3 source: dh-make-template-in-source debian/salsa-ci.yml.ex
+W: gbglehrer-testclient3 source: dh-make-template-in-source debian/watch.ex
+W: gbglehrer-testclient3 source: space-in-std-shortname-in-dep5-copyright <special license> (paragraph at line 6)
+W: gbglehrer-testclient3 source: superfluous-clutter-in-homepage <insert the upstream URL, if relevant>
+Finished running lintian.

@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Tue, 23 Jun 2020 16:47:10 +0200
+Source: gbgclient
+Architecture: source
+Version: 0.1-5
+Distribution: focal
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changes:
+ gbgclient (0.1-5) focal; urgency=medium
+ .
+   * Initial release
+Checksums-Sha1:
+ 4f4c8e41dd0702ea3a1c7cba0e67305db7e3de55 1543 gbgclient_0.1-5.dsc
+ 922fc69e48faba25311330bce967cec13a1478af 240 gbgclient_0.1.orig.tar.xz
+ 361438251d5ba2de69cc7fe5640dd5a7715173cd 16224 gbgclient_0.1-5.debian.tar.xz
+ 8f4f9f90fce8b8b62980a54aee0cbaf33c3c15e7 6084 gbgclient_0.1-5_source.buildinfo
+Checksums-Sha256:
+ 62b0a554eb9a6c53407aa428c92d2840a0a2387992b976a187e552841c6b6851 1543 gbgclient_0.1-5.dsc
+ e93e064e66a053d560dc118c68ed4168389bc7976964168c571d7a7cf5136571 240 gbgclient_0.1.orig.tar.xz
+ 16686aec8cbfada799b768e4d067c83193dd1a5334d53c6e7487aa27c2f5517f 16224 gbgclient_0.1-5.debian.tar.xz
+ bdca27fd1eec7241ddf36e8dbeca0de1a08803f1d93a865def4fbc80f73619a3 6084 gbgclient_0.1-5_source.buildinfo
+Files:
+ af28a3c80a72654f2308eb2ad13260b3 1543 utils optional gbgclient_0.1-5.dsc
+ 11c6c12da5b80dfd70c2c5cce0ffc4bc 240 utils optional gbgclient_0.1.orig.tar.xz
+ 8c80f7fa3352cc09a05eeaf496d26969 16224 utils optional gbgclient_0.1-5.debian.tar.xz
+ 18fe0f5c284f2c1cd3d3fd374f4d0dd8 6084 utils optional gbgclient_0.1-5_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAl74YzEACgkQs7/Yjblg
+MBA7kwv9He6/n7fjSCa9mPG1M1nRWTuyGEDzaaIn5/ipULWu4Dxl35bop1cByME1
+7/hst96yunXl8kSbU0djXtt47fp8L4DRl0lDhClYjZVZBkCWhgmMbIAcqFqEmsvA
+qrsnmtpmiaY1HgFwjSA4m0E4iHKoYgx0WOdZ/OxF6zpYrdwuxvTCk57CztpRySid
+CDel4waU8I+JoZJwF4Z41JF1x8hRCM9APXOKJcAnm3j6uhCq+mv1ficsoFx16mdh
+5AHOffyIrkCSn19qEWcr3xUqkSws6h8QqkI7rGsO5GYKBXA+oCQ8K5HdD8csGlhQ
+kMoe1vDEy70EaBWKstuZmHt7399R9AbDC0QlKzYsxhqIH5NXBE6dV76eKi7Vabae
+TrvHER54BeSuZmslrmxJAiCoSW/FrAjYl16olNKd0TiyKRzbBn7XNgnY92H/pgY9
+8Zuoj8L7K/D/95hxyHwVebI18qYhJejsyaagE3vBEHq9KWq2UeNapeSeQGxOtqZN
+Zv9Nhrje
+=8yQp
+-----END PGP SIGNATURE-----

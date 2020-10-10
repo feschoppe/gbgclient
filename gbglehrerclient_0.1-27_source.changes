@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sun, 06 Sep 2020 12:02:32 +0200
+Source: gbglehrerclient
+Architecture: source
+Version: 0.1-27
+Distribution: focal
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changes:
+ gbglehrerclient (0.1-27) focal; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ c57ae7554394f1ceaa897a31473623e0cea84ce0 1610 gbglehrerclient_0.1-27.dsc
+ 3608f740d70ec59ac184e6a15ef578004e0f12a2 8984 gbglehrerclient_0.1.orig.tar.xz
+ 55c115391731ec6e77ca806b22b37402b10883a6 6052192 gbglehrerclient_0.1-27.debian.tar.xz
+ 3dd491ac84de2e4fbac3e2e17be35eb803157e57 6237 gbglehrerclient_0.1-27_source.buildinfo
+Checksums-Sha256:
+ 12633a35121e266e93332cf65a4ff8a26be7e8bf3d9bfadde6f6e6bb1c9fafb9 1610 gbglehrerclient_0.1-27.dsc
+ d2146ea0e93128ea57812986768dcf7abd52b264fb3048de9d5b33c64f2574b6 8984 gbglehrerclient_0.1.orig.tar.xz
+ e7a030675e4cf336ee4040face8753e8df1beffefade369d7d5025ad61fb964e 6052192 gbglehrerclient_0.1-27.debian.tar.xz
+ bcfd8eefb452a20c1f86e39c045acf171ca3c315d3e460da4c263d51f4aa7b72 6237 gbglehrerclient_0.1-27_source.buildinfo
+Files:
+ c2030787af0ff8527dd009ec5acffd5a 1610 utils optional gbglehrerclient_0.1-27.dsc
+ 8d5d8d797c96e5028a9af9a505dfbd9f 8984 utils optional gbglehrerclient_0.1.orig.tar.xz
+ 4ca3a6857788604c6f56100f1f485879 6052192 utils optional gbglehrerclient_0.1-27.debian.tar.xz
+ 135505da51232415da3ce23e5624a130 6237 utils optional gbglehrerclient_0.1-27_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAl+B2gIACgkQs7/Yjblg
+MBABMQwAgxmzUnb+is7CsTOHqJ18UM7sBNE4aNcuPujfoz0KQLy18T1t6QyWtc8z
+la3ZNWrHabQS2bSdJ7TtpLfk9QIz9AwHQxf4PnR6JLJXK5ctGl+dKCW1duqL6dlv
+69Rq7N+gf0aFG9rWXTuMx7rnMmxtCVOR8+VaLE2JWCcHbtTNiivF30gYifS6rtmY
+OF3J+CBi1pekGSeSMuO+BbfTMzEB5KjZxVmdYLHyj5HWGvwM7L+QLHPplULisXnf
+fMiBcJeKwbuNGHbudGRbsi8qZXPMS+fd7tyLwZHXu3JMlNlZd/tKIg7u8ttRuEU1
+/9XK2vBDf8SgRZDX44s2GLzc6cs/oukO18499tyW5S5OzhAno5sAArn/vSxYZXEI
+O+cTqr4M2WR9JUDTc16Dwe5aXMuPV7ur0mgH5RgpshcDYZ0FEolPu4gCskEPnwZO
+Jm0+7vTuVL1yFzrjBsejZyiUN10iwARxM9sXTL4mUlgnkQuYJY+NE1lWl8jOa+Bn
+kLdUcJAs
+=AKld
+-----END PGP SIGNATURE-----

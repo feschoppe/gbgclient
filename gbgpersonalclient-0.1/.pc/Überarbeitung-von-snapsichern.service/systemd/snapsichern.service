@@ -1,0 +1,10 @@
+[Unit]
+Description=Kopiert den Snap-Ordner in die Dateiablage
+
+[Service]
+Type=oneshot
+RemainAfterExit=true
+ExecStop=cp -r /tmp/gbg/snap/ /tmp/gbg/Dateiablage/
+
+[Install]
+WantedBy=multi-user.target

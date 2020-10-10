@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Sun, 13 Sep 2020 20:49:02 +0200
+Source: gbglehrer-testclient3
+Architecture: source
+Version: 0.1-3
+Distribution: focal
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changes:
+ gbglehrer-testclient3 (0.1-3) focal; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 6c2182866b3bf39ba7d2226e8fb2e2e9a006b1ea 942 gbglehrer-testclient3_0.1-3.dsc
+ 2c5a11f0e472a63651d7e53763e58b0a377c8a7e 9940 gbglehrer-testclient3_0.1.orig.tar.xz
+ 3f963b09c7a3bf2765b13e7c2e9c9f21251cdb6d 9120 gbglehrer-testclient3_0.1-3.debian.tar.xz
+ 9c675873603f6ff39d1925ce2cf4721229531ba4 5476 gbglehrer-testclient3_0.1-3_source.buildinfo
+Checksums-Sha256:
+ 420291ac3185036256ec3fea279980c90ea695291d64dc5c3d7e745795a25062 942 gbglehrer-testclient3_0.1-3.dsc
+ 9fdebde83b93d855f22bf62ae8120e7df6715d4c2b05a79cac8498262680b6ae 9940 gbglehrer-testclient3_0.1.orig.tar.xz
+ 6c1a367325ab07dc37037ba15d66236b45ef8e404342434734d00e40e818abac 9120 gbglehrer-testclient3_0.1-3.debian.tar.xz
+ 84f4b647632f4555cfbdff5afb0925cceefb2d33c4be51fd2550feca07dad2b2 5476 gbglehrer-testclient3_0.1-3_source.buildinfo
+Files:
+ 3a9570eea06773fb583f35c062ef1897 942 utils optional gbglehrer-testclient3_0.1-3.dsc
+ 80be2c3d2df32b471f4537ae96f0d2d4 9940 utils optional gbglehrer-testclient3_0.1.orig.tar.xz
+ 42ef9174cd90b6178573a29cb1639c22 9120 utils optional gbglehrer-testclient3_0.1-3.debian.tar.xz
+ 1791861cbba4531b295d83bd875cc242 5476 utils optional gbglehrer-testclient3_0.1-3_source.buildinfo

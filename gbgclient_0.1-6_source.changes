@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Tue, 23 Jun 2020 16:47:10 +0200
+Source: gbgclient
+Architecture: source
+Version: 0.1-6
+Distribution: focal
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changes:
+ gbgclient (0.1-6) focal; urgency=medium
+ .
+   * Initial release
+Checksums-Sha1:
+ fad0aa37084aec77daee5ba14c30327f0da97c90 1543 gbgclient_0.1-6.dsc
+ 922fc69e48faba25311330bce967cec13a1478af 240 gbgclient_0.1.orig.tar.xz
+ c601c1b2088bfa8a3da05b9355e868a669686bfa 16328 gbgclient_0.1-6.debian.tar.xz
+ 7aba7e2f59dd69da251386b9faadd123637f42ba 6084 gbgclient_0.1-6_source.buildinfo
+Checksums-Sha256:
+ ab075796cd67b7e12842c1957be84d091454f18cb1a9cb0b354282787b75d1d3 1543 gbgclient_0.1-6.dsc
+ e93e064e66a053d560dc118c68ed4168389bc7976964168c571d7a7cf5136571 240 gbgclient_0.1.orig.tar.xz
+ 4eebdd3e94ed5e7b96da6b20a0882c5238aab4f934de2096bc15fe3badd543b5 16328 gbgclient_0.1-6.debian.tar.xz
+ a41f2a3f889ca332f037fb591fb0729f79d65a5be63ede43938cbe5fb8d6b802 6084 gbgclient_0.1-6_source.buildinfo
+Files:
+ 203e29ecf9f8169b5b1beb720aeb455a 1543 utils optional gbgclient_0.1-6.dsc
+ 11c6c12da5b80dfd70c2c5cce0ffc4bc 240 utils optional gbgclient_0.1.orig.tar.xz
+ 1b08e8596d5b8915283007fea60104ba 16328 utils optional gbgclient_0.1-6.debian.tar.xz
+ 5d6ccf8c2cc41e8055450fd8a5edff7e 6084 utils optional gbgclient_0.1-6_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAl74bHEACgkQs7/Yjblg
+MBC8zQv9HOmQBF8QGbWHMh8g6VUiw4KB3a7fd/yStV9Od8xTrw28IkiL0NVapQ/q
+6ODG7hri1ovGlu7G5wnmB5SRYTn3G1WCAscU+7RXWtRO1EJlYcPpOoVNmP735YE8
+BSMnw08BCDD0XyKEXlQLYv2mfbYLyX/c7DnDFgiykrz+KDfhtzN4bA+wQgDr/45Q
+RW7Nnxr0gtW164JQzbEjW4CskdDLoXPfwAL8HBRlNpMhlLKmS+fNbPOu9AH8oJF5
+Hii73hLb+14gPRFhOc2XDw2F2bdtUVubtvUiC8z6GkH+4WSWTHO8/MXKOdL4VImZ
+1A/952WDYsfIxQVN2hBjzSDgiVRpH9xJK7GBCzmq4vwEtnZp7qeeS1ll2nhHlVhQ
+ABDZacjm/AW/6sruR+2flvWayqBipPLlfLxmIW2+0Nil6Cnt2m748x/AnXvUE/PB
+RUuwih/m4p/CWcs6zF9F56w8a+GoJgRXH2dv17TDbmirjyPGEw1tAdfLDxzvwPHq
+3vGSC495
+=TY0M
+-----END PGP SIGNATURE-----
