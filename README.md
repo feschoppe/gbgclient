@@ -1,4 +1,4 @@
-#Der gbgclient
+# Der gbgclient
 
 Der gbgclient ist eine Sammlung von Debian-Packages, die ein standardmäßiges Ubuntu 20.04 LTS so konfigurieren, dass mehrere Anwendungsfälle unterschieden werden können. Dieses sind insbesondere die Benutzung eines Computers durch Schülerinnen und Schüler als geteiltes Gerät (zum Beispiel Leihgeräte in Laptopwagen), die Benutzung durch Schülerinnen und Schüler als persönliches Leihgerät in der Langzeitausleihe und die Benutzung eines Geräts durch Lehrerinnen und Lehrer als persönliches Dienstgerät.
 
@@ -8,7 +8,7 @@ Jedes Konfigurationsprofil enthält einen Updater, der es den Nutzerinnen und Nu
 
 Allen Konfigurationsprofilen ist gemeinsam, dass sie auch das Aussehen des Systems (z.B. Bildschirmhintergrund, Dock, ...) konfigurieren. Zusätzlich enthalten die Profile auch die Konfiguration von Firefox (mit der Standardsuchmaschine DuckDuckGo und anderen Einstellungen).
 
-#Voraussetzungen für die Installation des gbgclients
+# Voraussetzungen für die Installation des gbgclients
 
 Um den gbgclient installieren zu können, müssen folgende Voraussetzungen erfüllt sein:
 
@@ -17,6 +17,7 @@ Um den gbgclient installieren zu können, müssen folgende Voraussetzungen erfü
 * Der Benutzer "gbg" muss die Bash als Shell gesetzt bekommen.
 
 Mit den folgenden Befehlen werden diese Voraussetzungen (alle Befehle müssen mit root-Rechten ausgeführt werden):
+
 
 ```
 useradd -d /tmp/gbg gbg
@@ -31,9 +32,10 @@ adduser gbg dialout
 #bash als Default-Shell setzen
 chsh -s /bin/bash gbg 
 ```
+
 Langfristig soll das Herstellen dieser Ausgangskonfiguration auch noch in den gbgclient aufgenommen werden, sodass diese bei Installation des gbgclient automatisch hergestellt wird. Noch muss man das allerdings manuell machen.
 
-#Anwendungsfall 1: Das geteilte Gerät - gbgclient
+# Anwendungsfall 1: Das geteilte Gerät - gbgclient
 
 Im Anwendungsfall des geteilten Geräts stellt der gbgclient Folgendes sicher:
 
@@ -42,7 +44,7 @@ Im Anwendungsfall des geteilten Geräts stellt der gbgclient Folgendes sicher:
 * Es wird mit einem temporären Dateisystem gearbeitet.
 * Es werden keine Dateien dauerhaft gespeichert.
 
-#Anwendungsfall 2: Langfristleihe durch Schülerinnen und Schüler - gbgsusclient
+# Anwendungsfall 2: Langfristleihe durch Schülerinnen und Schüler - gbgsusclient
 
 Im Anwendungsfall der Langfristleihe durch Schülerinnen und Schüler stellt der gbgsusclient Folgendes sicher:
 
@@ -53,7 +55,7 @@ Im Anwendungsfall der Langfristleihe durch Schülerinnen und Schüler stellt der
 * Das Passwort des LUKS-Containers wird bei Übergabe des Geräts von der Schülerin/dem Schüler selber festgelegt.
 * W-Lan-Passwörter werden gespeichert.
 
-#Anwendungsfall 3: Das Dienstgerät
+# Anwendungsfall 3: Das Dienstgerät
 
 Im Anwendungsfall des Dienstgeräts stellt der gbglehrerclient Folgendes sicher:
 
@@ -67,7 +69,7 @@ Im Anwendungsfall des Dienstgeräts stellt der gbglehrerclient Folgendes sicher:
 * Es gibt eine Möglichkeit zum automatischen Backup des Inhalts des verschlüsselten Containers auf IServ (in Entwicklung).
 * W-Lan-Passwörter werden gespeichert.
 
-#Masseninstallation von Geräten
+# Masseninstallation von Geräten
 
 Zur Masseninstallation von Geräten empfehle ich die Verwendung des Programms Cubic. Mit Cubic kann man ein Ubuntu-ISO bearbeiten und so beispielsweise den gbgclient und andere erforderliche Programme installieren. Anschließend erzeugt man sich mit Cubic ein "custom iso", was dann den gbgclient und ggf. weitere Programme enthält. Dieses iso kann man dann auf USB-Sticks kopieren oder per PXE-Boot über das Netzwerk installieren.
 
