@@ -1,5 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Dateiablage automatisch mounten
-Exec=sudo /usr/bin/dateiablage.sh
-X-GNOME-Autostart-enabled=true

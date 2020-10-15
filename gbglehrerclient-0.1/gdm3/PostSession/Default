@@ -4,8 +4,8 @@
 guestuser="gbg" ## Next clear the guest user session files/folders
 if [[ "$USER" = "$guestuser" ]]; then
    rm -rf /tmp/"$guestuser"
-   #Zurücksetzen der dconf/gsettings-Einstellungen deaktivieren
-   #dconf reset -f /
+   Zurücksetzen der dconf/gsettings-Einstellungen deaktivieren
+   dconf reset -f /
    rm /etc/NetworkManager/system-connections/*
    rm /var/lib/NetworkManager/seen-bssids
    rm /var/lib/NetworkManager/timestamps

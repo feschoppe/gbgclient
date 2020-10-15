@@ -11,12 +11,12 @@ dh clean
 dpkg-source: Information: Quellformat »3.0 (quilt)« wird verwendet
 dpkg-source: Information: gbglehrerclient wird unter Benutzung des existierenden ./gbglehrerclient_0.1.orig.tar.xz gebaut
 dpkg-source: Information: Patchliste aus debian/patches/series wird verwendet
-dpkg-source: Warnung: ausführbarer Modus 0755 von »beamer/beamer.png« wird im Diff nicht dargestellt werden
+dpkg-source: Warnung: ausführbarer Modus 0775 von »beamer/beamer.png« wird im Diff nicht dargestellt werden
 dpkg-source: Warnung: neu angelegte leere Datei »etc/skel/.mozilla/firefox/ksxezk70.default/.parentlock« wird im Diff nicht dargestellt werden
 dpkg-source: Warnung: neu angelegte leere Datei »etc/skel/.mozilla/firefox/ksxezk70.default/AlternateServices.txt« wird im Diff nicht dargestellt werden
 dpkg-source: Warnung: neu angelegte leere Datei »etc/skel/.mozilla/firefox/ksxezk70.default/SecurityPreloadState.txt« wird im Diff nicht dargestellt werden
 dpkg-source: Warnung: neu angelegte leere Datei »etc/skel/.mozilla/firefox/ksxezk70.default/TRRBlacklist.txt« wird im Diff nicht dargestellt werden
-dpkg-source: Warnung: ausführbarer Modus 0755 von »misc/GBG_Custom_Background.png« wird im Diff nicht dargestellt werden
+dpkg-source: Warnung: ausführbarer Modus 0775 von »misc/GBG_Custom_Background.png« wird im Diff nicht dargestellt werden
 dpkg-source: Information: gbglehrerclient wird in gbglehrerclient_0.1-29.debian.tar.xz gebaut
 dpkg-source: Information: gbglehrerclient wird in gbglehrerclient_0.1-29.dsc gebaut
  dpkg-genbuildinfo --build=source

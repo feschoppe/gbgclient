@@ -1,0 +1,14 @@
+#!/bin/sh
+#/etc/gdm3/PostSession/Default
+
+guestuser="gbg" ## Next clear the guest user session files/folders
+if [[ "$USER" = "$guestuser" ]]; then
+   rm -rf /tmp/"$guestuser"
+   #Zurücksetzen der dconf/gsettings-Einstellungen deaktivieren
+   #dconf reset -f /
+   rm /etc/NetworkManager/system-connections/*
+   rm /var/lib/NetworkManager/seen-bssids
+   rm /var/lib/NetworkManager/timestamps
+   nmcli con reload
+fi
+exit 0

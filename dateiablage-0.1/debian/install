@@ -1,3 +1,0 @@
-scripts/dateiablage.sh usr/bin
-misc/dateiablage.desktop etc/xdg/autostart
-sudoers.d/dateiablage etc/sudoers.d/

@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Updates installieren
-GenericName=Updates installieren
-Exec=sudo /usr/bin/updater.sh
-Icon=/usr/share/icons/updater.svg
-Terminal=true
-Categories=System;
