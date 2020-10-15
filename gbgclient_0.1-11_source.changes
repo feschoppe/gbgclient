@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Tue, 23 Jun 2020 16:47:10 +0200
+Source: gbgclient
+Architecture: source
+Version: 0.1-11
+Distribution: focal
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changes:
+ gbgclient (0.1-11) focal; urgency=medium
+ .
+   * Initial release
+Checksums-Sha1:
+ a3ddf3e58fe4f351774a746164d9b391424e58ee 1553 gbgclient_0.1-11.dsc
+ 922fc69e48faba25311330bce967cec13a1478af 240 gbgclient_0.1.orig.tar.xz
+ 2fa0fee5d2af8a24ed9bed8fa9f34b3fc682a327 2782476 gbgclient_0.1-11.debian.tar.xz
+ d55098a27cf7156e1dd277b820f02f7baa70545b 5718 gbgclient_0.1-11_source.buildinfo
+Checksums-Sha256:
+ 646da0898126bec837d33bfd05386217f638dd903fb57ddbad8f16cdcf0547aa 1553 gbgclient_0.1-11.dsc
+ e93e064e66a053d560dc118c68ed4168389bc7976964168c571d7a7cf5136571 240 gbgclient_0.1.orig.tar.xz
+ 3e8b03909df2e61c4b2fd1250cc95efa3945d9d1eec1f5e00a963d48b6403dc8 2782476 gbgclient_0.1-11.debian.tar.xz
+ 520a9b458df4701942131eeb97e84320138f3589b8daffffb085ff54a3815719 5718 gbgclient_0.1-11_source.buildinfo
+Files:
+ 613fc8de8977675ef1953432c8c10d52 1553 utils optional gbgclient_0.1-11.dsc
+ 11c6c12da5b80dfd70c2c5cce0ffc4bc 240 utils optional gbgclient_0.1.orig.tar.xz
+ f8c616dce6e348883df77f4e13ca9a36 2782476 utils optional gbgclient_0.1-11.debian.tar.xz
+ 9d778127dbb6a4087f649746e8c483f2 5718 utils optional gbgclient_0.1-11_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAl+Ic2QACgkQs7/Yjblg
+MBD0Xgv/Rq/W3QDAAeuFpjjUukIHvZMOlMPlr1zAwF/xxhLIJNaZKDdNEhr9dJfw
+9q+YNrnVoSrbKoMSio3/QBbS0WJ3QZwlqNRxIf0p12UX806oWakIK1lARHKEbA6Y
+RXZpvY/3AQ+eX/eTl3oJWP1ighN8binLAZm/h5cHlpJ/wnsJZVBV6EPRpgvYer7F
+stzdeGKMBdDK93ICMg1sr7tHqzXZub2VrGeweuFt3RLLJ+YNYVoKFy6xOwrrA0vk
+Rog3Ogfqxcido4didDD8kPnDAfwYS9PosKLLaT15sdaEbwVD71Q9spYKH89Etnjm
+m8YLUL7gQlg6ftiIYRMYzh6BkjGWXObQoOUobdL13Yl9cJa1c/iun1kbapaH2QWs
+OO7y1vXFY5qL4lTRkU3533Zk/C7WB3J5sclKtcSz+El3reYlR+ZxxzSfaOJn3yVv
+TRJ9wC4khLMmMXQkzmSB9sRlr61HSKZHGJHbnbejsCfrmz2sQfLH8BepvP8lBDUn
+GIHgdF8G
+=KViz
+-----END PGP SIGNATURE-----

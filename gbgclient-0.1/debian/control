@@ -14,4 +14,4 @@ Depends: musescore3, openssh-server, cryptsetup
 Description: Standard-GBG-Client
  Das ist der Standard-GBG-Client.
 Replaces: gdm3, gbgsusclient, gbglzclient, gbglehrerclient
-Conflicts: gbglehrerclient, gbgsusclient, gbglzclient
+Conflicts: gbglehrerclient, gbgsusclient, gbglzclient, gnome-initial-setup

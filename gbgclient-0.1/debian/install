@@ -2,6 +2,7 @@ scripts/gbgclient.sh usr/bin
 scripts/delete_connections.sh usr/bin
 scripts/nutzerdatenerfassung.sh usr/bin
 scripts/delete_connections.py usr/bin
+scripts/change_home.sh usr/bin
 gdm3/PostLogin/Default etc/gdm3/PostLogin
 gdm3/PostSession/Default etc/gdm3/PostSession
 gdm3/PreSession/Default etc/gdm3/PreSession
