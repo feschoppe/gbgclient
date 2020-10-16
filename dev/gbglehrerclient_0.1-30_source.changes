@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sun, 06 Sep 2020 12:02:32 +0200
+Source: gbglehrerclient
+Architecture: source
+Version: 0.1-30
+Distribution: focal
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changes:
+ gbglehrerclient (0.1-30) focal; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ caebce83ec6af7b86b70843cda8bc5f6695e91e7 1610 gbglehrerclient_0.1-30.dsc
+ 3608f740d70ec59ac184e6a15ef578004e0f12a2 8984 gbglehrerclient_0.1.orig.tar.xz
+ 41a073b44eb93eca8ea58d3c600cca26fa2bee30 6053124 gbglehrerclient_0.1-30.debian.tar.xz
+ 803ebfdce8bc11b473c6ddb9145b61aeab5d38e8 5748 gbglehrerclient_0.1-30_source.buildinfo
+Checksums-Sha256:
+ 6f27cbdbdb89fc54ffa67609cc6f1f78d331e7beb039d96c5876738b42e3229f 1610 gbglehrerclient_0.1-30.dsc
+ d2146ea0e93128ea57812986768dcf7abd52b264fb3048de9d5b33c64f2574b6 8984 gbglehrerclient_0.1.orig.tar.xz
+ 277f22f549c7b3de8146eb1f87f75d148c7444cdacf17c1e59b087670ef352b0 6053124 gbglehrerclient_0.1-30.debian.tar.xz
+ a22de57072cb0bbac14563879b6db9d09131bd98fa36016b6fff74ff654d4569 5748 gbglehrerclient_0.1-30_source.buildinfo
+Files:
+ e0909ef2505b3e6045832d134569a1c3 1610 utils optional gbglehrerclient_0.1-30.dsc
+ 8d5d8d797c96e5028a9af9a505dfbd9f 8984 utils optional gbglehrerclient_0.1.orig.tar.xz
+ d1c2aba55df0373e8695e24599ba2eee 6053124 utils optional gbglehrerclient_0.1-30.debian.tar.xz
+ fa2c9ea32572b60809c295c42b17bd7e 5748 utils optional gbglehrerclient_0.1-30_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAl+JyYgACgkQs7/Yjblg
+MBDVzQv/YSHVl0XYGgVc3sTzYYG2iiO3BY3SRTqyCIqaiVYW4ZjQMQEZgdhnm+Gq
+o9AP2HfcX/IN4iV7Q8GYV8J1J/D5FqlNG1wXlwmbm2F3tBXyQ2xmHgGVwlWMeS9c
+Uvxq2t6fOtCdaJEj4sEdLxojpxZl+9uQsXWtTJSB4tlatpjgBv5M1icr37GdKs0F
+w2t47SipV0L0my+EHg1tSXV3eL6u7sOtwaBFnzPoKiyhBP5zY64JDeOumYLg/9Jy
+OI1VMB2QyGjmTBRUTfwOkMaiciaNjAWZk4hwmuGwqzTR5PSdcnZn062gk0oLkK8N
+9bs5b99S82QJlqdfpxnFYZnQln/fi7eU+e8L9mBUMVn3YC/jFlmLLWKj1LhTim0Z
+X6eyGNBABkRXTskXaWzwFs9bzjEHiuWx0G3dekuss75X/YsW63fu77To5+TFhUj8
+vbXe6BmOscRRzlTQxQ8pkiOHzKphVnYYYWzhs0HVvurIZ6ckgmvz3INQeX35SyGD
+A0DAD2A6
+=lytg
+-----END PGP SIGNATURE-----
