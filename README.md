@@ -1,10 +1,10 @@
 # Der gbgclient
 
-Der gbgclient ist eine Sammlung von Debian-Packages, die ein standardmäßiges Ubuntu 20.04 LTS so konfigurieren, dass mehrere Anwendungsfälle unterschieden werden können. Dieses sind insbesondere die Benutzung eines Computers durch Schülerinnen und Schüler als geteiltes Gerät (zum Beispiel Leihgeräte in Laptopwagen), die Benutzung durch Schülerinnen und Schüler als persönliches Leihgerät in der Langzeitausleihe und die Benutzung eines Geräts durch Lehrerinnen und Lehrer als persönliches Dienstgerät.
+Der gbgclient ist eine Sammlung von Debian-Packages, die ein standardmäßiges Ubuntu 20.04 LTS so konfigurieren, dass mehrere Anwendungsfälle unterschieden werden können. Dieses sind insbesondere die Benutzung eines Computers durch Schülerinnen und Schüler als **geteiltes Gerät** (zum Beispiel Leihgeräte in Laptopwagen), die Benutzung durch Schülerinnen und Schüler als **persönliches Leihgerät** in der Langzeitausleihe und die Benutzung eines Geräts durch Lehrerinnen und Lehrer als **persönliches Dienstgerät**.
 
 Die für die drei Anwendungsfälle jeweils erforderliche Gerätekonfiguration wird durch die Installation eines Debian-Packages hergestellt. Diese Debian-Packages entsprechen somit Konfigurationsprofilen.
 
-Jedes Konfigurationsprofil enthält einen Updater, der es den Nutzerinnen und Nutzern ermöglicht, das Gerät ohne Kenntnis und Eingabe eines root-Passworts zu aktualisieren. Im Zuge dieser Aktualisierung wird jedes Mal geprüft, ob es eine neuere Version des gbgclients gibt. Liegt eine aktuellere Version vor, so wird diese automatisch installiert.
+Jedes Konfigurationsprofil enthält einen Updater, der es den Nutzerinnen und Nutzern ermöglicht, das Gerät ohne Kenntnis und Eingabe eines root-Passworts zu aktualisieren. Im Zuge dieser Aktualisierung wird jedes Mal geprüft, ob es eine neuere Version des gbgclients gibt. Liegt eine aktuellere Version vor, so wird diese automatisch installiert. Damit ist es möglich auch nachträglich die Konfiguration eines Systems zu ändern.
 
 Allen Konfigurationsprofilen ist gemeinsam, dass sie auch das Aussehen des Systems (z.B. Bildschirmhintergrund, Dock, ...) konfigurieren. Zusätzlich enthalten die Profile auch die Konfiguration von Firefox (mit der Standardsuchmaschine DuckDuckGo und anderen Einstellungen).
 
@@ -71,5 +71,11 @@ Im Anwendungsfall des Dienstgeräts stellt der gbglehrerclient Folgendes sicher:
 
 # Masseninstallation von Geräten
 
-Zur Masseninstallation von Geräten empfehle ich die Verwendung des Programms Cubic. Mit Cubic kann man ein Ubuntu-ISO bearbeiten und so beispielsweise den gbgclient und andere erforderliche Programme installieren. Anschließend erzeugt man sich mit Cubic ein "custom iso", was dann den gbgclient und ggf. weitere Programme enthält. Dieses iso kann man dann auf USB-Sticks kopieren oder per PXE-Boot über das Netzwerk installieren.
+Zur Masseninstallation von Geräten empfehle ich die Verwendung des Programms [Cubic](https://launchpad.net/cubic). Mit Cubic kann man ein Ubuntu-ISO bearbeiten und so beispielsweise den gbgclient und andere erforderliche Programme installieren. Anschließend erzeugt man sich mit Cubic ein "custom iso", was dann den gbgclient und ggf. weitere Programme enthält. Dieses iso kann man dann auf USB-Sticks kopieren oder per PXE-Boot über das Netzwerk installieren.
+
+# Installation des gbgclient
+
+Der gbgclient steht in einem Launchpad-PPA zur Installation bereit:
+
+[https://launchpad.net/~feschoppe/+archive/ubuntu/gbgclient](https://launchpad.net/~feschoppe/+archive/ubuntu/gbgclient)
 
