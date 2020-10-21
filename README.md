@@ -16,7 +16,7 @@ Um den gbgclient installieren zu können, müssen folgende Voraussetzungen erfü
 * Der Benutzer "gbg" muss Mitglied in den entsprechenden Linux-Systemgruppen sein, die den Zugriff auf externe Speichermedien usw. regeln, damit man das System dann auch uneingeschränkt nutzen kann.
 * Der Benutzer "gbg" muss die Bash als Shell gesetzt bekommen.
 
-Mit den folgenden Befehlen werden diese Voraussetzungen (alle Befehle müssen mit root-Rechten ausgeführt werden):
+Mit den folgenden Befehlen werden diese Voraussetzungen (alle Befehle müssen mit root-Rechten ausgeführt werden) hergestellt:
 
 
 ```
@@ -34,6 +34,8 @@ chsh -s /bin/bash gbg
 ```
 
 Langfristig soll das Herstellen dieser Ausgangskonfiguration auch noch in den gbgclient aufgenommen werden, sodass diese bei Installation des gbgclient automatisch hergestellt wird. Noch muss man das allerdings manuell machen.
+
+Außerdem soll bei der Installation des gbgclient auch der Name des Nutzeraccounts festgelegt werden können, unter dem gearbeitet wird. Derzeit ist er 'hard coded' im gbgclient.
 
 # Anwendungsfall 1: Das geteilte Gerät - gbgclient
 
@@ -78,4 +80,3 @@ Zur Masseninstallation von Geräten empfehle ich die Verwendung des Programms [C
 Der gbgclient steht in einem Launchpad-PPA zur Installation bereit:
 
 [https://launchpad.net/~feschoppe/+archive/ubuntu/gbgclient](https://launchpad.net/~feschoppe/+archive/ubuntu/gbgclient)
-
