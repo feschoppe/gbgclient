@@ -84,3 +84,8 @@ Zur Masseninstallation von Geräten empfehle ich die Verwendung des Programms [C
 Der gbgclient steht in einem Launchpad-PPA zur Installation bereit:
 
 [https://launchpad.net/~feschoppe/+archive/ubuntu/gbgclient](https://launchpad.net/~feschoppe/+archive/ubuntu/gbgclient)
+
+# Achtung: gbgclient in aktiver Entwicklung!
+
+Der gbgclient ist gegenwärtig in aktiver Entwicklung und die Debian-Packages enthalten noch Template-Inhalte, die angepasst werden müssen. Zudem ist es möglich, dass der gbgclient noch Bugs und/oder Sicherheitslücken enthält. Sollten Sicherheitslücken oder Bugs entdeckt werden, freue ich mich über einen Beitrag zum Projekt, um diese zu schließen.
+
