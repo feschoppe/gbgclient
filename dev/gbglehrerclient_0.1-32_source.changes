@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sun, 06 Sep 2020 12:02:32 +0200
+Source: gbglehrerclient
+Architecture: source
+Version: 0.1-32
+Distribution: focal
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changes:
+ gbglehrerclient (0.1-32) focal; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 46473e142a2bdfdd74ed1419f192b5e51e0ba3d2 1610 gbglehrerclient_0.1-32.dsc
+ 3608f740d70ec59ac184e6a15ef578004e0f12a2 8984 gbglehrerclient_0.1.orig.tar.xz
+ d28032979a28fc455422d738d7c3c51132ff9007 6053632 gbglehrerclient_0.1-32.debian.tar.xz
+ b6ac0b3d042d8cc327dbdd207b96530f6d616a88 5797 gbglehrerclient_0.1-32_source.buildinfo
+Checksums-Sha256:
+ 219bec5d921aae577e26503415fa7a9d72cfd6a929e3557c5c5e61f1818de93d 1610 gbglehrerclient_0.1-32.dsc
+ d2146ea0e93128ea57812986768dcf7abd52b264fb3048de9d5b33c64f2574b6 8984 gbglehrerclient_0.1.orig.tar.xz
+ 177c0570af07586e474a36dd51c268f0f77a9d4a195283b4c045003347205c73 6053632 gbglehrerclient_0.1-32.debian.tar.xz
+ b6df336474285d961619b67f32d34113da352cb3e876b8a53d39fe908035b783 5797 gbglehrerclient_0.1-32_source.buildinfo
+Files:
+ 9974bf56626ba5de6fc328953e9df848 1610 utils optional gbglehrerclient_0.1-32.dsc
+ 8d5d8d797c96e5028a9af9a505dfbd9f 8984 utils optional gbglehrerclient_0.1.orig.tar.xz
+ df2c67280012b28929d85979fa9b9b2d 6053632 utils optional gbglehrerclient_0.1-32.debian.tar.xz
+ ed544f2ede3da40881c548cc0a3e2a62 5797 utils optional gbglehrerclient_0.1-32_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAl+QRe8ACgkQs7/Yjblg
+MBDmeAv/cjDMWvgyi2aiUTnjE1IZ1RgoyCTI9g7Hai2vgY4muVZ5wOFEC1TzKFia
+whWRYiTCx9ZmNt45KczBtjObRkNP/jJX07JGXEJ62b7SnjFGTmc+Z69KOHTZIcsX
+vMmiJweOMpcnzcCFzw5ceGXUUFfBuFKUFeNGivNNBiZySIC3zfhe1lwxk1gSKcDY
+LUmXCfTrflFcCpvdWVIW0Lh5MmN32tQ2P4LMTdBwATRoGN4WepMNe3RIkU0aa9+6
+FAA427odLpY9fyU6MQRWMQWWVt6RlUOwwDZf/7sEtpE3qPcIC2Q1x/ZFCzw65Fxw
+MX0xm+jbkMtmvC616yH4j/rzELv1APGfkJUJ4LgQpwtSEBr5BFv7jvn9/T0kmIRV
+NjynkwzAKpN9yET+jHk8wKlt2WakC8MjQouNHBl13P7gLYlLM1qZtAm6bcspZx6n
+/eb0hoc7SQnLVl5Qda+gQ7n2HGYRmaxn88dPGJfa3qNwXRHDQxiMjMePa95teGDa
+grV7zGII
+=19jR
+-----END PGP SIGNATURE-----
