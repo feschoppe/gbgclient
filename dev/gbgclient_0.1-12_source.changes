@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Tue, 23 Jun 2020 16:47:10 +0200
+Source: gbgclient
+Architecture: source
+Version: 0.1-12
+Distribution: focal
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changes:
+ gbgclient (0.1-12) focal; urgency=medium
+ .
+   * Initial release
+Checksums-Sha1:
+ a21b788984b82739921a8db46e03ce0c12377bcf 1553 gbgclient_0.1-12.dsc
+ 922fc69e48faba25311330bce967cec13a1478af 240 gbgclient_0.1.orig.tar.xz
+ a62dfd08aaa3754b7caeb6ccd4574e15e8a7dea8 2782596 gbgclient_0.1-12.debian.tar.xz
+ 1c7eae054fe53c017cc84c7c24458a57425bfeae 5767 gbgclient_0.1-12_source.buildinfo
+Checksums-Sha256:
+ c576576a1f3d47ec46cfcaed026046522d86edbc2704e70f7a2d130846f019c4 1553 gbgclient_0.1-12.dsc
+ e93e064e66a053d560dc118c68ed4168389bc7976964168c571d7a7cf5136571 240 gbgclient_0.1.orig.tar.xz
+ 3843dd4eba4bd3f79d1f7cee52381b8d3380607622e5b7b6547d3b46d2dd555a 2782596 gbgclient_0.1-12.debian.tar.xz
+ 6416e79a0508ed0c43998bd1e714de2595dfd7b52a8efd0aa7bd0237b4fa2f53 5767 gbgclient_0.1-12_source.buildinfo
+Files:
+ 14ef35073f6ac06d5587d66d45120657 1553 utils optional gbgclient_0.1-12.dsc
+ 11c6c12da5b80dfd70c2c5cce0ffc4bc 240 utils optional gbgclient_0.1.orig.tar.xz
+ c3a85f48698329a9a1bc8e11c6513bb6 2782596 utils optional gbgclient_0.1-12.debian.tar.xz
+ 6841cf480adb54d6ac6828acd359eff8 5767 utils optional gbgclient_0.1-12_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAl+QT5gACgkQs7/Yjblg
+MBDKBAv9FiDeBZmbSh7sop08Z1aAOt4G7c7kacjyQtcBliK+BYO/ulCd9/a3WUfc
+Ulkku5PRRl2nIM+FDon8wb19tMzLiT8AojX4NxXr2nW9r8MmR88ip+rJf0t7HQuf
+IKZa618VbRfkzPrl6mXYnZVCNqivmMJFSaV5PF79D0tU81xMIZacd9Ovv0ytVL8q
+ukNAVUw/W3e7UhAu81+D9Jutd93fQ0oaHetxbJ4A8QdIxWcW1pScW9puJmipLV+X
++5NoEJ9XvSoSAK3xT8b9Cj6MAWcr9WkCuuY3BK2k7P3glhxgNUxyH8GGDrd4HkyI
+OVii4lynTqtVjaLKpucoel4TCpOUzXNmuD9pV3ZuXK8pmrOXIShPJ7kBPI4Q+ZSF
+c3VBlSUbg+0S9lOkcoVQvd8sn3Nj1irVe4/89VFCmvnkFWNo6kXhIkztDJkuq5EE
+B1dOt/sWAqzwU88kdMwwJCWXyI3Op3QiWwiFDxWAK2kkkBOddMNNsUfI1mwn86k3
+hL5gdWPZ
+=pTY9
+-----END PGP SIGNATURE-----

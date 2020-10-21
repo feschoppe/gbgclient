@@ -1,4 +1,4 @@
 #GBG-Linux-Updater ohne Passwort mit sudo ausführen
 gbg ALL = NOPASSWD: /usr/bin/updater.sh
-#nutzerdatenerfassung.sh für gbg
-gbg ALL = NOPASSWD: /usr/bin/nutzerdatenerfassung.sh
+#root_init_gbgclient.sh für gbg mit sudo ohne Passwort ausführbar machen
+gbg ALL = NOPASSWD: /usr/bin/root_init_gbgclient.sh
