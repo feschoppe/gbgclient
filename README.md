@@ -37,7 +37,9 @@ Langfristig soll das Herstellen dieser Ausgangskonfiguration auch noch in den gb
 
 Außerdem soll bei der Installation des gbgclient auch der Name des Nutzeraccounts festgelegt werden können, unter dem gearbeitet wird. Derzeit ist er 'hard coded' im gbgclient.
 
-# Anwendungsfall 1: Das geteilte Gerät - gbgclient
+# Anwendungsfälle
+
+## Anwendungsfall 1: Das geteilte Gerät - gbgclient
 
 Im Anwendungsfall des geteilten Geräts stellt der gbgclient Folgendes sicher:
 
@@ -46,7 +48,7 @@ Im Anwendungsfall des geteilten Geräts stellt der gbgclient Folgendes sicher:
 * Es wird mit einem temporären Dateisystem gearbeitet.
 * Es werden keine Dateien dauerhaft gespeichert.
 
-# Anwendungsfall 2: Langfristleihe durch Schülerinnen und Schüler - gbgsusclient
+## Anwendungsfall 2: Langfristleihe durch Schülerinnen und Schüler - gbgsusclient
 
 Im Anwendungsfall der Langfristleihe durch Schülerinnen und Schüler stellt der gbgsusclient Folgendes sicher:
 
@@ -57,7 +59,7 @@ Im Anwendungsfall der Langfristleihe durch Schülerinnen und Schüler stellt der
 * Das Passwort des LUKS-Containers wird bei Übergabe des Geräts von der Schülerin/dem Schüler selber festgelegt.
 * W-Lan-Passwörter werden gespeichert.
 
-# Anwendungsfall 3: Das Dienstgerät
+## Anwendungsfall 3: Das Dienstgerät
 
 Im Anwendungsfall des Dienstgeräts stellt der gbglehrerclient Folgendes sicher:
 
@@ -71,11 +73,13 @@ Im Anwendungsfall des Dienstgeräts stellt der gbglehrerclient Folgendes sicher:
 * Es gibt eine Möglichkeit zum automatischen Backup des Inhalts des verschlüsselten Containers auf IServ (in Entwicklung).
 * W-Lan-Passwörter werden gespeichert.
 
-# Masseninstallation von Geräten
+# Installation
+
+## Masseninstallation von Geräten
 
 Zur Masseninstallation von Geräten empfehle ich die Verwendung des Programms [Cubic](https://launchpad.net/cubic). Mit Cubic kann man ein Ubuntu-ISO bearbeiten und so beispielsweise den gbgclient und andere erforderliche Programme installieren. Anschließend erzeugt man sich mit Cubic ein "custom iso", was dann den gbgclient und ggf. weitere Programme enthält. Dieses iso kann man dann auf USB-Sticks kopieren oder per PXE-Boot über das Netzwerk installieren.
 
-# Installation des gbgclient
+## Installation des gbgclient
 
 Der gbgclient steht in einem Launchpad-PPA zur Installation bereit:
 
