@@ -85,7 +85,22 @@ Der gbgclient steht in einem Launchpad-PPA zur Installation bereit:
 
 [https://launchpad.net/~feschoppe/+archive/ubuntu/gbgclient](https://launchpad.net/~feschoppe/+archive/ubuntu/gbgclient)
 
-# Achtung: gbgclient in aktiver Entwicklung!
+## Achtung: gbgclient in aktiver Entwicklung!
 
 Der gbgclient ist gegenwärtig in aktiver Entwicklung und die Debian-Packages enthalten noch Template-Inhalte, die angepasst werden müssen. Zudem ist es möglich, dass der gbgclient noch Bugs und/oder Sicherheitslücken enthält. Sollten Sicherheitslücken oder Bugs entdeckt werden, freue ich mich über einen Beitrag zum Projekt, um diese zu schließen.
 
+# Weiterführende Dokumentation
+
+## Anlegen von temporären Benutzeraccounts
+
+Das dem Anlegen von temporären Benutzeraccounts zugrunde liegende Prinzip habe ich hier beschrieben:
+
+[https://linux-in-der-schule.de/2018/04/01/modifiziertes-ubuntu-im-laptop-einsatz/](https://linux-in-der-schule.de/2018/04/01/modifiziertes-ubuntu-im-laptop-einsatz/)
+
+## Erstellen von Lesezeichen für webdav-Laufwerk
+
+Hier habe ich beschrieben, wie man im temporären Account Lesezeichen ein Webdav-Laufwerk anlegen kann:
+
+[https://linux-in-der-schule.de/2018/04/03/modifiziertes-ubuntu-im-laptop-einsatz-lesezeichen-fuer-iserv-webdav-laufwerk-bei-anmeldung-erstellen/](https://linux-in-der-schule.de/2018/04/03/modifiziertes-ubuntu-im-laptop-einsatz-lesezeichen-fuer-iserv-webdav-laufwerk-bei-anmeldung-erstellen/)
+
+An dieser Stelle wird weitere Dokumentation folgen!
