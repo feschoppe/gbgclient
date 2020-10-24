@@ -103,4 +103,10 @@ Hier habe ich beschrieben, wie man im temporären Account Lesezeichen ein Webdav
 
 [https://linux-in-der-schule.de/2018/04/03/modifiziertes-ubuntu-im-laptop-einsatz-lesezeichen-fuer-iserv-webdav-laufwerk-bei-anmeldung-erstellen/](https://linux-in-der-schule.de/2018/04/03/modifiziertes-ubuntu-im-laptop-einsatz-lesezeichen-fuer-iserv-webdav-laufwerk-bei-anmeldung-erstellen/)
 
+## Update-Skript und Verpacken in ein deb-Package
+
+Hier habe ich beschrieben, wie das Update-Skript funktioniert, damit die Schülerinnen und Schüler Updates installieren können, ohne dafür ein root-Passwort eingeben zu müssen. Ferner habe ich auch erklärt, wie man die Skripte in ein deb-Package verpackt:
+
+[https://linux-in-der-schule.de/2020/06/29/fernwartung-von-laptops-bei-schuelerinnen-und-schuelern-zuhause-verteilung-von-shell-skripten-und-konfigurationsdateien-mit-einem-deb-paket-ueber-ein-launchpad-ppa/](https://linux-in-der-schule.de/2020/06/29/fernwartung-von-laptops-bei-schuelerinnen-und-schuelern-zuhause-verteilung-von-shell-skripten-und-konfigurationsdateien-mit-einem-deb-paket-ueber-ein-launchpad-ppa/)
+
 An dieser Stelle wird weitere Dokumentation folgen!
