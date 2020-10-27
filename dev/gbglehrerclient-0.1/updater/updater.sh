@@ -59,8 +59,26 @@ else
    dpkg -i /opt/wpasupplicant_2.9-1ubuntu4.1-PATCHED_amd64.deb
 fi
 
-#SNAPS
+#Prüfen, ob xournalpp vorhanden ist, falls ja,
+#entfernen und neu installieren
 
+REQUIRED_PKG="xournalpp"
+
+PKG_OK=$(dpkg-query -W --showformat='${Status}\n' $REQUIRED_PKG|grep "install ok installed")
+echo Checking for $REQUIRED_PKG: $PKG_OK
+if [ "" = "$PKG_OK" ]; then
+  echo "No $REQUIRED_PKG. Setting up $REQUIRED_PKG."
+  apt install xournalpp -y
+else
+  #Vorhandene xournalpp-Installation entfernen
+  apt remove xournalpp -y
+  #Vorhandene Installation von xournal entfernen
+  apt remove xournal -y
+  #xournalpp neu installieren
+  apt install xournalpp -y
+fi
+
+#SNAPS
 #snaps aktualisieren
 #snap refresh
 #fractal installieren

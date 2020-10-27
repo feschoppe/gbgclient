@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
 Format: 1.8
 Date: Sun, 06 Sep 2020 12:02:32 +0200
 Source: gbglehrerclient
@@ -12,17 +15,32 @@ Changes:
  .
    * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 Checksums-Sha1:
- 129d2a37509595a42e8ad1bee5d1c7849892c599 901 gbglehrerclient_0.1-29.dsc
+ bd059e9ef220525844ff857803343e10776076f9 1610 gbglehrerclient_0.1-29.dsc
  3608f740d70ec59ac184e6a15ef578004e0f12a2 8984 gbglehrerclient_0.1.orig.tar.xz
  529db373f9ef40ac598eeb9f28eeff78d4d4ef5a 6052036 gbglehrerclient_0.1-29.debian.tar.xz
- c455ffb64c36dd2e4296dee74d81ae0bddf82568 5036 gbglehrerclient_0.1-29_source.buildinfo
+ fd7b314950c907380fb321f296ca593d21a84de9 5748 gbglehrerclient_0.1-29_source.buildinfo
 Checksums-Sha256:
- 2bdd49102446c9187922cf0bc4b4aa0fc40d12acff8fd711d806a5507854aa02 901 gbglehrerclient_0.1-29.dsc
+ 45f2cf1786caedc78532702d9904c1afc22f4ac05a0d16b47bf918dbfd6c50b7 1610 gbglehrerclient_0.1-29.dsc
  d2146ea0e93128ea57812986768dcf7abd52b264fb3048de9d5b33c64f2574b6 8984 gbglehrerclient_0.1.orig.tar.xz
  e0dab9eab91d167f586d015c65cc0a5b9062e585b46e95a65fa5fec4e6352955 6052036 gbglehrerclient_0.1-29.debian.tar.xz
- 3682f5a5e104c6ea2a60898c3939354d2bc43b182ec24b6fe9ec9c15201f63d2 5036 gbglehrerclient_0.1-29_source.buildinfo
+ 19efddba59d2f98df1ae8d8907a8c479bf9e991dd3935872ce0c8dc34560d51b 5748 gbglehrerclient_0.1-29_source.buildinfo
 Files:
- a87edd4619fdce12a10affb7b4b2c742 901 utils optional gbglehrerclient_0.1-29.dsc
+ 80c0318eb2c93b4ac40428f0b807fa18 1610 utils optional gbglehrerclient_0.1-29.dsc
  8d5d8d797c96e5028a9af9a505dfbd9f 8984 utils optional gbglehrerclient_0.1.orig.tar.xz
  304e3621f8847fd66a0f17c53aa3c8e6 6052036 utils optional gbglehrerclient_0.1-29.debian.tar.xz
- 1f65629f0307dd7a9c6ba35abf4b46fb 5036 utils optional gbglehrerclient_0.1-29_source.buildinfo
+ 95b1383220b71f2118d7ffd08f7235b6 5748 utils optional gbglehrerclient_0.1-29_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAl+YevEACgkQs7/Yjblg
+MBBSbwwAi1uHR8ZL99uiRGMpmr5hx8OE0ZXNlvRNUcvnq4+TLVCbpHiFYJ/K+TeU
+PHLpd0tEtwarxcqn58szKww1eS4bqmgZJvhXmXLOATs+bF5OZzk3XWvEQGjDuZPv
+H8KynpYgvzj2l09QvSYhoJvscR9535/HRtyTJ8cR6ZmfXqIy2mS5oDShoLWTaKQd
+qL9rs8fAwu21BZQP+9QzEjGZ3c87293E1/v4sARasekROPtfub/ZiX9Gw6SlGAAh
++4YtTrD1alKHGPDYRc3avYzGrT4+AiXssxhfGaNanBpdqeXcQBmplokNek8h1+oG
+UJYa9Hi6uWBUJDiqoGFcQckA8UyE3PmQh+dpme7cxmTsA4k2lXwFoo9/0hCSglh1
+0WKG+429K8YeCZTDXcXnIg6KuxXlVEP95CfLj/zqdXWXnrUcEZOac7SWjfWzhXXB
+qOqGBvZ/sYnxxPLUjiz5C88Lq7JbQfYMnlsNol+sF311uKa0y44lDgh0BvtJOQ43
+QcVDfKe1
+=Hyl6
+-----END PGP SIGNATURE-----

@@ -1,14 +1,17 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
 Format: 1.0
 Source: gbglehrerclient
 Binary: gbglehrerclient
 Architecture: source
 Version: 0.1-29
 Checksums-Md5:
- a87edd4619fdce12a10affb7b4b2c742 901 gbglehrerclient_0.1-29.dsc
+ 80c0318eb2c93b4ac40428f0b807fa18 1610 gbglehrerclient_0.1-29.dsc
 Checksums-Sha1:
- 129d2a37509595a42e8ad1bee5d1c7849892c599 901 gbglehrerclient_0.1-29.dsc
+ bd059e9ef220525844ff857803343e10776076f9 1610 gbglehrerclient_0.1-29.dsc
 Checksums-Sha256:
- 2bdd49102446c9187922cf0bc4b4aa0fc40d12acff8fd711d806a5507854aa02 901 gbglehrerclient_0.1-29.dsc
+ 45f2cf1786caedc78532702d9904c1afc22f4ac05a0d16b47bf918dbfd6c50b7 1610 gbglehrerclient_0.1-29.dsc
 Build-Origin: Ubuntu
 Build-Architecture: amd64
 Build-Date: Sun, 11 Oct 2020 15:09:54 +0200
@@ -161,3 +164,18 @@ Environment:
  DEB_BUILD_OPTIONS="parallel=2"
  LANG="de_DE.UTF-8"
  SOURCE_DATE_EPOCH="1599386552"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAl+YevEACgkQs7/Yjblg
+MBDDXwv/cVdb6xY7/xUZRimB2bUH1e8kvJhvt+fPnf28hf9TiS12z5pDwncs3BTj
+1Iio4MHx63mcm3cOTnPkZLL1QZE0vU6sABMNZ3UwT1yFLwKOJs5C5gpgaqWYr9ks
+KVyEsIcyaE8JHAlbx481wG++xtsALtBwFwD7HBOPxchelFvfY06j0KsbQxapUD8w
+70LmcyTKtP9fXeU/okJmaqbZXITxfDcXURQpsYu53BD5cDco/dUKl3PUaZNWDrlc
+Y//r+KwX8Vixvu+5+MY/6iYvBTFoAp2PWxNYbAyC7FoVuksPSY+ZPUQbfObYH2sF
+fAPUa03wkSg+opYEZiGWcVa5hhVSj7JNTlJPd4XjAKKFHYr2GY9rPfn7er+sBNah
+3Vp7EQIrg+4bvvcvYtn4bcpnCLvs9/hBMacS122IouqkT4rU1PGeO9/BtdOxwU4m
+ZRuuthebul1ab6N4nvDbuSVFbUKEgTToYPRIAxdGZ+IGRa4mIcZ9o7EWCYv/QZeM
+qC2NQZPc
+=3pzU
+-----END PGP SIGNATURE-----
