@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sat, 31 Oct 2020 21:55:29 +0100
+Source: tabletclient-lehrer
+Architecture: source
+Version: 0.1-2
+Distribution: focal
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changes:
+ tabletclient-lehrer (0.1-2) focal; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 5964a680fef701553a0d230b06fcbf696c332a0e 1642 tabletclient-lehrer_0.1-2.dsc
+ 5855c9de570f0c12f63f0fe2746240339e5a189f 5084848 tabletclient-lehrer_0.1.orig.tar.xz
+ f32ce9f4ef2993c5c0910622166c4567af886d08 9688 tabletclient-lehrer_0.1-2.debian.tar.xz
+ 69db46df0ee5e3cda4f392c643fcf7931e033294 6265 tabletclient-lehrer_0.1-2_source.buildinfo
+Checksums-Sha256:
+ 64c57fff6f066d40f6a1adb69c06105013b53e10022a2a6d0e26ce904c7e564e 1642 tabletclient-lehrer_0.1-2.dsc
+ 23f89a270d69fc8c3dd998e182ed5de56a7bd0cdbfd58d944e23a9a60022206d 5084848 tabletclient-lehrer_0.1.orig.tar.xz
+ 102044fd0f983784048d9c50fe3cdba1908d8a2c4ad41993404c8f1ff4dbc739 9688 tabletclient-lehrer_0.1-2.debian.tar.xz
+ 0beefaf82376030e78c36d26177048a6ebf23fa482529be7b7daa6352f21fd9c 6265 tabletclient-lehrer_0.1-2_source.buildinfo
+Files:
+ 773541b31c3fab7795b56968ca959962 1642 utils optional tabletclient-lehrer_0.1-2.dsc
+ 18f5ef583f833934fffd33461976c683 5084848 utils optional tabletclient-lehrer_0.1.orig.tar.xz
+ 35f27aa2044113c972c5775a7dea197c 9688 utils optional tabletclient-lehrer_0.1-2.debian.tar.xz
+ 5daad06042ed0dc191da18d7a01c164b 6265 utils optional tabletclient-lehrer_0.1-2_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAl+d1h4ACgkQs7/Yjblg
+MBB+UAwAgdY6SqEGk3RhpCctzMIGIA0SZtTWpbImreaoOiDVWKq+r02QhfYg7xIa
+It250feUWiYAtUZGhSp2x9z1UiBT6Q3cHdvhvv0rtMNbC8+yLGqvTDb0Ta1B/sC7
+PX0n8VBcpNNwUqi1rm+A18fBuaJmzE9AYnrF48PeGKUA5fu7fE9lzIEuJFRuFkl6
++LIlRNpzxK3MHzxVe815zqpM4NShlTpIK3OPz7v8fl0a5IAJxfGEd6Ta3K0uxLWR
+X9hRKGkZWR2PHcEeqBgyZK1TYwnv6I+dLOY8AYpE3q/b52LQ68KmCHZv4+geXt5p
+G883dY5NiGCRn5SuoBHzRa/JvURo08Yleo1y/SGqhxtcncobYhagfZ3PbXPeDolK
+HXYKBDGNJuqJi0KASeq7d2iBVKdylZNJ10vq6q1bM0qY8EMjQSfsYkMY6dX8SBKU
+sUTOPPDARnrzoPHUheIXiyCakuf5/ssxxikzVQI+V5//KeltQIeXI7mc/jHpSWK1
+sf7Hd+Jp
+=I0K1
+-----END PGP SIGNATURE-----

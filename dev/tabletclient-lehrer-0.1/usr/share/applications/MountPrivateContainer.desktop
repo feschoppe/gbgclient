@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=sudo /usr/bin/MountPrivateContainer.sh
+Icon=/usr/share/icons/Adwaita/scalable/actions/folder-new-symbolic.svg
+Name=Privates Laufwerk einbinden
+StartupNotify=true
+Terminal=true
+Type=Application

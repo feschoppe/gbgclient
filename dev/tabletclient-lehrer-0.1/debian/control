@@ -1,0 +1,17 @@
+Source: tabletclient-lehrer
+Section: utils
+Priority: optional
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.4.1
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Browser: https://salsa.debian.org/debian/tabletclient-lehrer
+#Vcs-Git: https://salsa.debian.org/debian/tabletclient-lehrer.git
+
+Package: tabletclient-lehrer
+Architecture: all
+Description: GBG-Client für Lehrer-Tablets
+ Dieses Paket konfiguriert ein GBG-Diensttablet.
+Replaces: gdm3, gbgclient, gbgsusclient, gbglzclient, systemd, gbglehrerclient
+Conflicts: gbgclient, gbgsusclient, gbglzclient, gnome-initial-setup, gbglehrerclient
+Depends: thunderbird, thunderbird-locale-de, thunderbird-gnome-support, musescore3, flatpak, tesseract-ocr-deu, gimagereader, openssh-server, cryptsetup, florence
