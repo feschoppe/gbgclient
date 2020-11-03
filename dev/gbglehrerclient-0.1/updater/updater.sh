@@ -32,8 +32,8 @@ else
 	flatpak install --from https://dl.flathub.org/repo/appstream/org.gnome.NetworkDisplays.flatpakref --noninteractive --assumeyes
 fi
 
-#Klett-Sprachen-App installieren!
-if [ -f /opt/sprachenapp.zip ]; then
+#Klett-Sprachen-App Version 2.2 installieren!
+if [ -f /opt/sprachenapp_v2.zip ]; then
    echo "Die Klett-Sprachen-App ist vorhanden!"
 else
    echo "--------------"
@@ -41,9 +41,9 @@ else
    echo "--------------"
    echo "Die Klett-Sprachen-App wird heruntergeladen und installiert!"
    echo "--------------"
-   wget https://www.klett-sprachen.de/downloads/21582/Linux/zip -O /opt/sprachenapp.zip
+   wget https://www.klett-sprachen.de/downloads/21582/Linux/zip -O /opt/sprachenapp_v2.zip
    unzip /opt/sprachenapp.zip -d /opt/
-   dpkg -i /opt/klett-sprachen_1.12.0_amd64.deb   
+   dpkg -i /opt/klett-sprachen_2.2.0_amd64.deb
 fi
 
 #http://schoppemail.de/deb/wpasupplicant_2.9-1ubuntu4.1-PATCHED_amd64.deb
@@ -70,12 +70,13 @@ if [ "" = "$PKG_OK" ]; then
   echo "No $REQUIRED_PKG. Setting up $REQUIRED_PKG."
   apt install xournalpp -y
 else
+  echo "xournalpp ist vorhanden!"
   #Vorhandene xournalpp-Installation entfernen
-  apt remove xournalpp -y
+  #apt remove xournalpp -y
   #Vorhandene Installation von xournal entfernen
-  apt remove xournal -y
+  #apt remove xournal -y
   #xournalpp neu installieren
-  apt install xournalpp -y
+  #apt install xournalpp -y
 fi
 
 #SNAPS

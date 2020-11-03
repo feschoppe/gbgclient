@@ -14,4 +14,4 @@ Description: GBG-Client für Lehrer-Tablets
  Dieses Paket konfiguriert ein GBG-Diensttablet.
 Replaces: gdm3, gbgclient, gbgsusclient, gbglzclient, systemd, gbglehrerclient
 Conflicts: gbgclient, gbgsusclient, gbglzclient, gnome-initial-setup, gbglehrerclient
-Depends: thunderbird, thunderbird-locale-de, thunderbird-gnome-support, musescore3, flatpak, tesseract-ocr-deu, gimagereader, openssh-server, cryptsetup, florence
+Depends: thunderbird, thunderbird-locale-de, thunderbird-gnome-support, musescore3, flatpak, tesseract-ocr-deu, gimagereader, openssh-server, cryptsetup, florence, apt-transport-https
