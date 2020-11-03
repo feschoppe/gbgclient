@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sun, 06 Sep 2020 12:02:32 +0200
+Source: gbglehrerclient
+Architecture: source
+Version: 0.1-35
+Distribution: focal
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changes:
+ gbglehrerclient (0.1-35) focal; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 5a3c598f090bc496a59f01f072357a8c1f228a5c 1610 gbglehrerclient_0.1-35.dsc
+ 3608f740d70ec59ac184e6a15ef578004e0f12a2 8984 gbglehrerclient_0.1.orig.tar.xz
+ c83e8f6812fa57b9a2ff764a364e72c12bb0bed0 6054980 gbglehrerclient_0.1-35.debian.tar.xz
+ f4e06d8b7abc2406d7a52fb19d1904a768c59c16 6249 gbglehrerclient_0.1-35_source.buildinfo
+Checksums-Sha256:
+ e2be970488e159b0975fb56b2d7b6e27d96e1c47b4fd4f22d95b2cbcc89a7107 1610 gbglehrerclient_0.1-35.dsc
+ d2146ea0e93128ea57812986768dcf7abd52b264fb3048de9d5b33c64f2574b6 8984 gbglehrerclient_0.1.orig.tar.xz
+ c491c3b6f7fa4ce9d8e91aea0c77cd3e6336ea070ef453c904fa0f15f5da9980 6054980 gbglehrerclient_0.1-35.debian.tar.xz
+ 38339f37c753b2e598257dddd4b6691274b50d220ead45302e8115887e17e882 6249 gbglehrerclient_0.1-35_source.buildinfo
+Files:
+ 88c9f50f8ec4fb36dc154dec21e1e07a 1610 utils optional gbglehrerclient_0.1-35.dsc
+ 8d5d8d797c96e5028a9af9a505dfbd9f 8984 utils optional gbglehrerclient_0.1.orig.tar.xz
+ 37addf9e9603393beb596b103eb08c14 6054980 utils optional gbglehrerclient_0.1-35.debian.tar.xz
+ d5c0b754d8ead01de768de83ff061b2a 6249 utils optional gbglehrerclient_0.1-35_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAl+hwWEACgkQs7/Yjblg
+MBBiCgv+N9COH9hUiNJJY8V5Hl/E4/ZZgvgbp3hIFhmoPCOrLqt1TWbUpI8TkFdh
+mXx4ruBTCvQv8elTfYcRTR0VQW845VqvZ4MIk91Yq3+PRZzJhKP13b/6TXpzn5Vg
+lbIVf783nq/VxkB4nzoF953XmOeJCRQotMpO+2fidVxwDsx8l0WdPddcdXwopEDf
+MrGN/vm0OUTHQcatz3DNhYC7k+VmX/e7wBGyJZR0lrz8jIqeMJir2kBmse51Je/e
+GXEutdGDzVIj1nfROcRN9vNPlSFGuOkP6hqbhn985pSlJH8bUidmr8Ht9rl0p7Nn
+pCiXLN0Rr8i0LW7CZQzQEDtZfAkrtdVUxoUHQ2En1ue5NN/P+yrmHTFK676tX6Cs
+uiRyExhVoXfsgnatI/rmzu5X+KwoH0WnL6xM8peIjSsCGj6wilpSNktoT6j4XW6P
+uWdBvUn/ZwqQBtTaxsnJVN4H5ENidwrjD3DmH0dDGZxQyBs2nu3o+4V/xNXeNkYC
+bkS590FH
+=Ai15
+-----END PGP SIGNATURE-----

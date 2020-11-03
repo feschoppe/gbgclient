@@ -42,7 +42,7 @@ else
    echo "Die Klett-Sprachen-App wird heruntergeladen und installiert!"
    echo "--------------"
    wget https://www.klett-sprachen.de/downloads/21582/Linux/zip -O /opt/sprachenapp_v2.zip
-   unzip /opt/sprachenapp.zip -d /opt/
+   unzip /opt/sprachenapp_v2.zip -d /opt/
    dpkg -i /opt/klett-sprachen_2.2.0_amd64.deb
 fi
 
