@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=BiBox 2
+Exec="/opt/BiBox 2.0/bibox2" %U
+Terminal=false
+Type=Application
+Icon=usr/share/icons/hicolor/0x0/apps/bibox2.png
+StartupWMClass=BiBox 2.0
+Categories=Education;
+Comment=Desktop-App der BiBox2
+MimeType=x-scheme-handler/bibox;

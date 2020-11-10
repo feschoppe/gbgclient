@@ -79,6 +79,21 @@ else
   #apt install xournalpp -y
 fi
 
+#BiBox installieren!
+if [ -f /opt/BiBox20201110.deb ]; then
+   echo "Die BiBox ist vorhanden."
+else
+   echo "--------------"
+   echo "Die BiBox ist NICHT vorhanden!"
+   echo "--------------"
+   echo "Die BiBox wird heruntergeladen und installiert!"
+   echo "--------------"
+   wget https://static.bibox2.westermann.de/apps/linux -O /opt/BiBox20201110.deb
+   dpkg -i /opt/BiBox20201110.deb
+   wget http://schoppemail.de/deb/bibox2.desktop -O /usr/share/applications/bibox2.desktop
+   #chmod 755 /usr/share/applications/bibox2.desktop
+fi
+
 #SNAPS
 #snaps aktualisieren
 #snap refresh
