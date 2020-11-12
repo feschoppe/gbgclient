@@ -5,6 +5,10 @@ scripts/CreatePrivateContainer.sh usr/bin
 scripts/EncryptPrivateContainer.sh usr/bin
 scripts/MountPrivateContainer.sh usr/bin
 scripts/UMountPrivateContainer.sh usr/bin
+scripts/activate-5-GHz.sh usr/bin
+scripts/activate-2-4-GHz.sh usr/bin
+misc/activate-5-Ghz.txt opt
+misc/activate-2-4-Ghz.txt opt
 gdm3/PostLogin/Default etc/gdm3/PostLogin
 gdm3/PostSession/Default etc/gdm3/PostSession
 gdm3/PreSession/Default etc/gdm3/PreSession

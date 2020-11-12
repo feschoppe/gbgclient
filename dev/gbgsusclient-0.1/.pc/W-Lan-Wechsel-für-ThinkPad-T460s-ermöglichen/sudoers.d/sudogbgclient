@@ -7,6 +7,3 @@ gbg ALL = NOPASSWD: /usr/bin/CreatePrivateContainer.sh
 gbg ALL = NOPASSWD: /usr/bin/EncryptPrivateContainer.sh
 gbg ALL = NOPASSWD: /usr/bin/MountPrivateContainer.sh
 gbg ALL = NOPASSWD: /usr/bin/UMountPrivateContainer.sh
-#W-Lan-Wechsel
-gbg ALL = NOPASSWD: /usr/bin/activate-5-GHz.sh
-gbg ALL = NOPASSWD: /usr/bin/activate-2-4-GHz.sh
