@@ -39,6 +39,22 @@ else
 	echo "Thunderbird-Profil existiert nicht!"
 fi
 
+#Firefox-Profilordner verlinken
+MOZILLA=/home/gbg/PrivateContainer/.mozilla
+
+if [ -d $MOZILLA ]; then
+	echo "Firefox-Profil existiert und wird verlinkt."
+	#Prüfen, ob bereits Profil vorhanden ist, das gelöscht werden muss.
+	if [ -d  /home/gbg/.mozilla ]; then
+		rm -r /home/gbg/.mozilla
+		ln -s $MOZILLA /home/gbg/
+	else
+		ln -s $MOZILLA /home/gbg/
+	fi
+else
+	echo "Firefox-Profil existiert nicht!"
+fi
+
 #Default-Config-Ordner löschen und durch benutzerdefinierten ersetzen
 CONFIG=/home/gbg/PrivateContainer/.config
 

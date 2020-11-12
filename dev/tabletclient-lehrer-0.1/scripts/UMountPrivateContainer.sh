@@ -26,6 +26,21 @@ else
   echo "=> Es existiert kein Thunderbird-Profil."
 fi
 
+#Falls vorhanden, Firefox-Profil sichern
+MOZILLA=/home/gbg/.mozilla
+
+if [ -e "$MOZILLA" ]; then
+    if [ ! -L "$MOZILLA" ]
+    then
+        echo "Firefox-Profil sichern."
+        mv $MOZILLA $MNT
+    else
+        echo "Das Firefox-Profil muss nicht gesichert werden."
+    fi
+else
+  echo "=> Es existiert kein Firefox-Profil."
+fi
+
 #Config-Ordner sichern
 CONFIG=/home/gbg/.config
 if [ -e "$CONFIG" ]; then
