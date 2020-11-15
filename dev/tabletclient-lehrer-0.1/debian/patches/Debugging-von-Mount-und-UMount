@@ -1,0 +1,246 @@
+Description: <short summary of the patch>
+ TODO: Put a short summary on the line above and replace this paragraph
+ with a longer explanation of this change. Complete the meta-information
+ with other relevant fields (see below for details). To make it easier, the
+ information below has been extracted from the changelog. Adjust it or drop
+ it.
+ .
+ tabletclient-lehrer (0.1-8) focal; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Author: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+
+---
+The information above should follow the Patch Tagging Guidelines, please
+checkout http://dep.debian.net/deps/dep3/ to learn about the format. Here
+are templates for supplementary fields that you might want to add:
+
+Origin: <vendor|upstream|other>, <url of original patch>
+Bug: <url in upstream bugtracker>
+Bug-Debian: https://bugs.debian.org/<bugnumber>
+Bug-Ubuntu: https://launchpad.net/bugs/<bugnumber>
+Forwarded: <no|not-needed|url proving that it has been forwarded>
+Reviewed-By: <name and email of someone who approved the patch>
+Last-Update: 2020-11-15
+
+--- tabletclient-lehrer-0.1.orig/scripts/MountPrivateContainer.sh
++++ tabletclient-lehrer-0.1/scripts/MountPrivateContainer.sh
+@@ -2,7 +2,7 @@
+ 
+ SAFE=/opt/PrivateContainer
+ CRYPTNAME=PrivateContainer
+-MNT=/home/gbg/PrivateContainer
++MNT=/tmp/gbg/PrivateContainer
+ FS=ext4
+ LOOPDEV=`losetup -f`
+ 
+@@ -24,86 +24,85 @@ fi
+ chown -R gbg:gbg $MNT
+ 
+ #Thunderbird-Profilordner verlinken
+-MAIL=/home/gbg/PrivateContainer/.thunderbird
++MAIL=/tmp/gbg/PrivateContainer/.thunderbird
+ 
+ if [ -d $MAIL ]; then
+ 	echo "Thunderbird-Profil existiert und wird verlinkt."
+ 	#Prüfen, ob bereits Profil vorhanden ist, das gelöscht werden muss.
+-	if [ -d  /home/gbg/.thunderbird ]; then
+-		rm -r /home/gbg/.thunderbird
+-		ln -s $MAIL /home/gbg/
++	if [ -d  /tmp/gbg/.thunderbird ]; then
++		rm -r /tmp/gbg/.thunderbird
++		ln -s $MAIL /tmp/gbg/
+ 	else
+-		ln -s $MAIL /home/gbg/
++		ln -s $MAIL /tmp/gbg/
+ 	fi
+ else
+ 	echo "Thunderbird-Profil existiert nicht!"
+ fi
+ 
+ #Firefox-Profilordner verlinken
+-MOZILLA=/home/gbg/PrivateContainer/.mozilla
++MOZILLA=/tmp/gbg/PrivateContainer/.mozilla
+ 
+ if [ -d $MOZILLA ]; then
+ 	echo "Firefox-Profil existiert und wird verlinkt."
+ 	#Prüfen, ob bereits Profil vorhanden ist, das gelöscht werden muss.
+-	if [ -d  /home/gbg/.mozilla ]; then
+-		rm -r /home/gbg/.mozilla
+-		ln -s $MOZILLA /home/gbg/
++	if [ -d  /tmp/gbg/.mozilla ]; then
++		rm -r /tmp/gbg/.mozilla
++		ln -s $MOZILLA /tmp/gbg/
+ 	else
+-		ln -s $MOZILLA /home/gbg/
++		ln -s $MOZILLA /tmp/gbg/
+ 	fi
+ else
+ 	echo "Firefox-Profil existiert nicht!"
+ fi
+ 
+ #Default-Config-Ordner löschen und durch benutzerdefinierten ersetzen
+-CONFIG=/home/gbg/PrivateContainer/.config
++CONFIG=/tmp/gbg/PrivateContainer/.config
+ 
+ if [ -d $CONFIG ]; then
+ 	echo "Config existiert und wird verlinkt."
+ 	#Statische Default-Config löschen
+-	rm -r /home/gbg/.config
++	rm -r /tmp/gbg/.config
+ 	#Mit benutzerdefinierter Config verlinken
+-	ln -s $CONFIG /home/gbg/
++	ln -s $CONFIG /tmp/gbg/
+ else
+ 	echo "Config existiert nicht!"
+ fi
+ 
+ #PKI-Ordner löschen und durch benutzerdefinierten ersetzen
+-PKI=/home/gbg/PrivateContainer/.pki
++PKI=/tmp/gbg/PrivateContainer/.pki
+ 
+ if [ -d $PKI ]; then
+ 	echo "PKI existiert und wird verlinkt."
+ 	#Statische pki-Config löschen
+-	#rm -r /home/gbg/.pki
++	#rm -r /tmp/gbg/.pki
+ 	#Mit benutzerdefinierter pki verlinken
+-	ln -s $PKI /home/gbg/
++	ln -s $PKI /tmp/gbg/
+ else
+ 	echo "PKI existiert nicht!"
+ fi
+ 
+ #Local-Ordner löschen und durch benutzerdefinierten ersetzen
+-LOCAL=/home/gbg/PrivateContainer/.local
++LOCAL=/tmp/gbg/PrivateContainer/.local
+ 
+ if [ -d $LOCAL ]; then
+ 	echo "LOCAL existiert und wird verlinkt."
+ 	#Statischen LOCAL-Ordner löschen
+-	rm -r /home/gbg/.local
++	rm -r /tmp/gbg/.local
+ 	#Mit benutzerdefiniertem LOCAL-Ordner verlinken
+-	ln -s $LOCAL /home/gbg/
++	ln -s $LOCAL /tmp/gbg/
+ else
+ 	echo "LOCAL existiert nicht!"
+ fi
+ 
+ #Cache-Ordner löschen und durch benutzerdefinierten ersetzen
+-CACHE=/home/gbg/PrivateContainer/.cache
++CACHE=/tmp/gbg/PrivateContainer/.cache
+ 
+ if [ -d $CACHE ]; then
+ 	echo "CACHE existiert und wird verlinkt."
+ 	#Statischen Cache löschen
+-	rm -r /home/gbg/.cache
++	rm -r /tmp/gbg/.cache
+ 	#Mit benutzerdefiniertem cache verlinken
+-	ln -s $CACHE /home/gbg/
++	ln -s $CACHE /tmp/gbg/
+ else
+ 	echo "CACHE existiert nicht!"
+ fi
+-
+--- tabletclient-lehrer-0.1.orig/scripts/UMountPrivateContainer.sh
++++ tabletclient-lehrer-0.1/scripts/UMountPrivateContainer.sh
+@@ -2,7 +2,7 @@
+ 
+ SAFE=/opt/PrivateContainer
+ CRYPTNAME=PrivateContainer
+-MNT=/home/gbg/PrivateContainer
++MNT=/tmp/gbg/PrivateContainer
+ FS=ext4
+ LOOPDEV=`losetup -a | grep "$SAFE" | sed "s/: .*//"`
+ 
+@@ -13,7 +13,7 @@ if [ "`losetup -a | grep -c "$SAFE"`" !=
+ fi
+ 
+ #Falls vorhanden, Thunderbird-Profil sichern
+-MAIL=/home/gbg/.thunderbird
++MAIL=/tmp/gbg/.thunderbird
+ if [ -e "$MAIL" ]; then
+     if [ ! -L "$MAIL" ]
+     then
+@@ -27,7 +27,7 @@ else
+ fi
+ 
+ #Falls vorhanden, Firefox-Profil sichern
+-MOZILLA=/home/gbg/.mozilla
++MOZILLA=/tmp/gbg/.mozilla
+ 
+ if [ -e "$MOZILLA" ]; then
+     if [ ! -L "$MOZILLA" ]
+@@ -42,7 +42,7 @@ else
+ fi
+ 
+ #Config-Ordner sichern
+-CONFIG=/home/gbg/.config
++CONFIG=/tmp/gbg/.config
+ if [ -e "$CONFIG" ]; then
+     if [ ! -L "$CONFIG" ]
+     then
+@@ -56,7 +56,7 @@ else
+ fi
+ 
+ #PKI-Ordner sichern
+-PKI=/home/gbg/.pki
++PKI=/tmp/gbg/.pki
+ if [ -e "$PKI" ]; then
+     if [ ! -L "$PKI" ]
+     then
+@@ -70,7 +70,7 @@ else
+ fi
+ 
+ #Local-Ordner sichern
+-LOCAL=/home/gbg/.local
++LOCAL=/tmp/gbg/.local
+ if [ -e "$LOCAL" ]; then
+     if [ ! -L "$LOCAL" ]
+     then
+@@ -84,7 +84,7 @@ else
+ fi
+ 
+ #Cache-Ordner sichern
+-CACHE=/home/gbg/.cache
++CACHE=/tmp/gbg/.cache
+ if [ -e "$CACHE" ]; then
+     if [ ! -L "$CACHE" ]
+     then
+@@ -97,6 +97,35 @@ else
+   echo "=> Es existiert kein CACHE-Ordner."
+ fi
+ 
++rm -r /tmp/gbg/.pki
++#mkdir /tmp/gbg/.pki
++#chown -R gbg:gbg /tmp/gbg/.pki
++
++rm -r /tmp/gbg/.local
++mkdir /tmp/gbg/.local
++chown -R gbg:gbg /tmp/gbg/.local
++
++rm -r /tmp/gbg/.cache
++mkdir /tmp/gbg/.cache
++chown -R gbg:gbg /tmp/gbg/.cache
++
++rm -r /tmp/gbg/.mozilla
++cp -r /etc/skel/.mozilla /tmp/gbg/
++chown -R gbg:gbg /tmp/gbg/.mozilla
++chmod 755 -R /tmp/gbg/.mozilla
++
++#Standardanwendungen korrekt einstellen
++rm -r /tmp/gbg/.config
++mkdir /tmp/gbg/.config
++chown -R gbg:gbg /tmp/gbg/.config
++cp /etc/skel/.config/mimeapps.list /tmp/gbg/.config/
++chown gbg:gbg /tmp/gbg/.config/mimeapps.list
++chmod 755 /tmp/gbg/.config/mimeapps.list
++
++mkdir /tmp/gbg/.config/gtk-3.0/
++chown -R gbg:gbg /tmp/gbg/.config/gtk-3.0/
++sed "s/\__NUTZERNAME/$NAME/g" /etc/skel/.templates/bookmarks_TEMPLATE > /tmp/gbg/.config/gtk-3.0/bookmarks
++
+ #Verschlüsseltes Dateisystem aushängen
+ #-l force umount
+ /bin/umount -l $MNT

@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sun, 06 Sep 2020 12:02:32 +0200
+Source: gbglehrerclient
+Architecture: source
+Version: 0.1-40
+Distribution: focal
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changes:
+ gbglehrerclient (0.1-40) focal; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ efbdb4eb1eca8b8cb583efac37b4903d1a4caaa1 1610 gbglehrerclient_0.1-40.dsc
+ 3608f740d70ec59ac184e6a15ef578004e0f12a2 8984 gbglehrerclient_0.1.orig.tar.xz
+ c7e536cf99babeb913546cbd6089caa36e0e8f43 6056112 gbglehrerclient_0.1-40.debian.tar.xz
+ 06b23ff7fde9dfb56ec99dfb6d70b84114bc5d9a 6251 gbglehrerclient_0.1-40_source.buildinfo
+Checksums-Sha256:
+ bb256a3f3e404061a4e27f89108a193c0f58fe2e99933664b1b9d83ee75a5a93 1610 gbglehrerclient_0.1-40.dsc
+ d2146ea0e93128ea57812986768dcf7abd52b264fb3048de9d5b33c64f2574b6 8984 gbglehrerclient_0.1.orig.tar.xz
+ bcb70f9361012c5f88fcbc5fb668f84a2b1788533f02adbae2fed9c87f5c3e3a 6056112 gbglehrerclient_0.1-40.debian.tar.xz
+ 631b04b4741c396ef5b2ec66cc7b26594db14318e5225dc89c2ff3b9c9080bd6 6251 gbglehrerclient_0.1-40_source.buildinfo
+Files:
+ 23dc481cb8d2fb7fedd5fca7f55e5872 1610 utils optional gbglehrerclient_0.1-40.dsc
+ 8d5d8d797c96e5028a9af9a505dfbd9f 8984 utils optional gbglehrerclient_0.1.orig.tar.xz
+ 518319bb223ecd03d652c7d3e51bb998 6056112 utils optional gbglehrerclient_0.1-40.debian.tar.xz
+ d3fa903fd5437989783bf15a57bac75e 6251 utils optional gbglehrerclient_0.1-40_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAl+xGH8ACgkQs7/Yjblg
+MBDuKAv/YQAxvGXMgiLu+7mCg9XQrZUWITNk8Q0NbXni3z4HpcZua8KaP7COFMd9
+u1ghZ1mMnWgmT8vsjXNMhQLXkqEiomPwhTcc2DRcTFuoBcLA4kS3usIWS64qhpTd
+wbr3eMCOB3hkwHWifadIj6TMviKRfFB+Iu5+X5MeEJ5ZKra9CGD7Y32Ph5ZFmIny
++rKYswKVtLXRpgcjCJ57vnyV5l+oUSjPr7JVCmbqE4LNtFkqds7jTJ4GyQKgbCqR
+o4GWgyAquXsDl33wDH2uMxRd7Qqr8kqhw7kuYKWKNvO2F2eshpNbZYrc3ouHpm2S
+eaYVFahsZRXtFhuSORqHVf8zG+hDnEf7aFD4D7nkIy9S8nSQLQ6Dq+aKbHMaXYH6
+RHoDd/4B6lWZKnC/4fO3OTZCrmN6Dc8bmy7YyKz3rFFzFXeBsHzvQDS8mGILp7Rh
+FU2ukPamOPqVnZHNumS3D/pCQHo/DnDMbKkmr8W1atR0FlSfub1ZyLo+aaClzy6a
+8l3MD3f5
+=F/pq
+-----END PGP SIGNATURE-----

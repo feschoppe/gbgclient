@@ -1,0 +1,134 @@
+Description: <short summary of the patch>
+ TODO: Put a short summary on the line above and replace this paragraph
+ with a longer explanation of this change. Complete the meta-information
+ with other relevant fields (see below for details). To make it easier, the
+ information below has been extracted from the changelog. Adjust it or drop
+ it.
+ .
+ gbglehrerclient (0.1-37) focal; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Author: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+
+---
+The information above should follow the Patch Tagging Guidelines, please
+checkout http://dep.debian.net/deps/dep3/ to learn about the format. Here
+are templates for supplementary fields that you might want to add:
+
+Origin: <vendor|upstream|other>, <url of original patch>
+Bug: <url in upstream bugtracker>
+Bug-Debian: https://bugs.debian.org/<bugnumber>
+Bug-Ubuntu: https://launchpad.net/bugs/<bugnumber>
+Forwarded: <no|not-needed|url proving that it has been forwarded>
+Reviewed-By: <name and email of someone who approved the patch>
+Last-Update: 2020-11-13
+
+--- gbglehrerclient-0.1.orig/scripts/MountPrivateContainer.sh
++++ gbglehrerclient-0.1/scripts/MountPrivateContainer.sh
+@@ -14,7 +14,7 @@ fi
+ if [ -d $MNT ]; then
+ 	echo "Ordner existiert!"
+ else
+-	echo "Ordner existiert nicht!"
++	echo "Mount-Ordner erstellen..."
+ 	mkdir $MNT
+ fi
+ 
+@@ -67,3 +67,43 @@ if [ -d $CONFIG ]; then
+ else
+ 	echo "Config existiert nicht!"
+ fi
++
++#PKI-Ordner löschen und durch benutzerdefinierten ersetzen
++PKI=/home/gbg/PrivateContainer/.pki
++
++if [ -d $PKI ]; then
++	echo "PKI existiert und wird verlinkt."
++	#Statische pki-Config löschen
++	#rm -r /home/gbg/.pki
++	#Mit benutzerdefinierter pki verlinken
++	ln -s $PKI /home/gbg/
++else
++	echo "PKI existiert nicht!"
++fi
++
++#Local-Ordner löschen und durch benutzerdefinierten ersetzen
++LOCAL=/home/gbg/PrivateContainer/.local
++
++if [ -d $LOCAL ]; then
++	echo "LOCAL existiert und wird verlinkt."
++	#Statischen LOCAL-Ordner löschen
++	rm -r /home/gbg/.local
++	#Mit benutzerdefiniertem LOCAL-Ordner verlinken
++	ln -s $LOCAL /home/gbg/
++else
++	echo "LOCAL existiert nicht!"
++fi
++
++#Cache-Ordner löschen und durch benutzerdefinierten ersetzen
++CACHE=/home/gbg/PrivateContainer/.cache
++
++if [ -d $CACHE ]; then
++	echo "CACHE existiert und wird verlinkt."
++	#Statischen Cache löschen
++	rm -r /home/gbg/.cache
++	#Mit benutzerdefiniertem cache verlinken
++	ln -s $CACHE /home/gbg/
++else
++	echo "CACHE existiert nicht!"
++fi
++
+--- gbglehrerclient-0.1.orig/scripts/UMountPrivateContainer.sh
++++ gbglehrerclient-0.1/scripts/UMountPrivateContainer.sh
+@@ -55,7 +55,50 @@ else
+   echo "=> Es existiert kein Config-Ordner."
+ fi
+ 
++#PKI-Ordner sichern
++PKI=/home/gbg/.pki
++if [ -e "$PKI" ]; then
++    if [ ! -L "$PKI" ]
++    then
++        echo "pki sichern."
++        cp -r $PKI $MNT
++    else
++        echo "Die PKI muss nicht gesichert werden."
++    fi
++else
++  echo "=> Es existiert kein pki-Ordner."
++fi
++
++#Local-Ordner sichern
++LOCAL=/home/gbg/.local
++if [ -e "$LOCAL" ]; then
++    if [ ! -L "$LOCAL" ]
++    then
++        echo "LOCAL sichern."
++        cp -r $LOCAL $MNT
++    else
++        echo "Die LOCAL muss nicht gesichert werden."
++    fi
++else
++  echo "=> Es existiert kein LOCAL-Ordner."
++fi
++
++#Cache-Ordner sichern
++CACHE=/home/gbg/.cache
++if [ -e "$CACHE" ]; then
++    if [ ! -L "$CACHE" ]
++    then
++        echo "CACHE sichern."
++        cp -r $CACHE $MNT
++    else
++        echo "Die CACHE muss nicht gesichert werden."
++    fi
++else
++  echo "=> Es existiert kein CACHE-Ordner."
++fi
++
+ #Verschlüsseltes Dateisystem aushängen
+-/bin/umount $MNT
++#-l force umount
++/bin/umount -l $MNT
+ /sbin/cryptsetup luksClose $CRYPTNAME
+ /sbin/losetup -d $LOOPDEV
