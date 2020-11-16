@@ -12,7 +12,6 @@ gsettings set org.gnome.shell.extensions.dash-to-dock show-apps-at-top true
 gsettings set org.gnome.shell.extensions.dash-to-dock dock-position BOTTOM
 gsettings set org.gnome.shell.extensions.dash-to-dock dash-max-icon-size 20
 gsettings set org.gnome.settings-daemon.plugins.power power-button-action 'suspend'
-gsettings set org.gnome.desktop.a11y.applications screen-keyboard-enabled false
 
 #Warnung ausgeben
 notify-send "Auf diesem Gerät werden keine Daten lokal gespeichert!"
