@@ -1,0 +1,17 @@
+Source: convertibleclient-lehrer
+Section: utils
+Priority: optional
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.4.1
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Browser: https://salsa.debian.org/debian/convertibleclient-lehrer
+#Vcs-Git: https://salsa.debian.org/debian/convertibleclient-lehrer.git
+
+Package: convertibleclient-lehrer
+Architecture: all
+Depends: geary, thunderbird-locale-de, thunderbird-gnome-support, musescore3, flatpak, tesseract-ocr-deu, gimagereader, openssh-server, cryptsetup, apt-transport-https, wine32, winetricks, florence
+Description: GBG-Client für Lehrer-Geräte (convertibles)
+ Dieses Paket konfiguriert einen GBG-Lehrer-PC.
+Conflicts: gbgclient, gbgsusclient, gbglzclient, gnome-initial-setup, gbglehrerclient
+Replaces: gdm3, gbgclient, gbgsusclient, gbglzclient, systemd, gbglehrerclient

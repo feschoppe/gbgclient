@@ -1,0 +1,17 @@
+ dpkg-buildpackage -us -uc -ui -S -sa
+dpkg-buildpackage: Information: Quellpaket convertibleclient-lehrer
+dpkg-buildpackage: Information: Quellversion 0.1-1
+dpkg-buildpackage: Information: Quelldistribution focal
+dpkg-buildpackage: Information: Quelle geändert durch Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+ dpkg-source --before-build .
+ fakeroot debian/rules clean
+dh clean
+   dh_clean
+ dpkg-source -b .
+dpkg-source: Information: Quellformat »3.0 (quilt)« wird verwendet
+dpkg-source: Information: convertibleclient-lehrer wird unter Benutzung des existierenden ./convertibleclient-lehrer_0.1.orig.tar.xz gebaut
+dpkg-source: Information: lokale Änderungen erkannt, die veränderten Dateien sind:
+ convertibleclient-lehrer-0.1/scripts/init_gbgclient.sh
+dpkg-source: Fehler: Abbruch aufgrund unerwarteter Änderungen in den Originalquellen, siehe /tmp/convertibleclient-lehrer_0.1-1.diff.VWZJ6Z
+dpkg-source: Information: Sie können die lokalen Änderungen mit dpkg-source --commit integrieren
+dpkg-buildpackage: Fehler: Unterprozess dpkg-source -b . lieferte Exitstatus 2

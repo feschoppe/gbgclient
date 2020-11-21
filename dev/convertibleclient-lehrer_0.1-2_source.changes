@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sat, 21 Nov 2020 09:42:15 +0100
+Source: convertibleclient-lehrer
+Architecture: source
+Version: 0.1-2
+Distribution: focal
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changes:
+ convertibleclient-lehrer (0.1-2) focal; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ c68790dcd6f3210dd57fe9252e3c5e72ee1eb0d2 1687 convertibleclient-lehrer_0.1-2.dsc
+ f69d2d4fa1cb020c37850b8e92e60bb56855bfed 5085028 convertibleclient-lehrer_0.1.orig.tar.xz
+ 562b239d0cebc20a7eb028669b39ae80c3fb28c7 9344 convertibleclient-lehrer_0.1-2.debian.tar.xz
+ 05e817d6744648a3bc6564b5c4025925377db506 6292 convertibleclient-lehrer_0.1-2_source.buildinfo
+Checksums-Sha256:
+ 75ef340a075d98a2699d19c8041cdb1442038001cd316daa7f851e9e92f97026 1687 convertibleclient-lehrer_0.1-2.dsc
+ ce4d8478d31997e0d4f7fbc03903e798b605f445b3bd314948a22084189d444a 5085028 convertibleclient-lehrer_0.1.orig.tar.xz
+ 0c52ac0492a797ae97e3466221b247acb986b100ef3f3890fe7cc25ac44dbba0 9344 convertibleclient-lehrer_0.1-2.debian.tar.xz
+ f42be5cfec225c06b4b30b7d9684375664e57fcc171ba824304e0b18cd99af4a 6292 convertibleclient-lehrer_0.1-2_source.buildinfo
+Files:
+ f69530c67a60ce6fe89637053e4ce534 1687 utils optional convertibleclient-lehrer_0.1-2.dsc
+ 86ee922c4acf46c670f8d1bc7f757011 5085028 utils optional convertibleclient-lehrer_0.1.orig.tar.xz
+ bb58ce3971e3c4a0a27480aa1070cb1f 9344 utils optional convertibleclient-lehrer_0.1-2.debian.tar.xz
+ e777548d2ebb476e4f2cdd7fe9c06f95 6292 utils optional convertibleclient-lehrer_0.1-2_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAl+41ZsACgkQs7/Yjblg
+MBBfvQv/QYyPnCzjjKD5JKBR12MsrV6nb9MJG4VFrg8KyMfE8vENd8M4zGZe87lk
+Ydd5gMxASkKieN8WVl9s9njuPd5TQfU7IDuWMkoWgtOwcnfR1nEOY3pas2o9BA9n
+x1r9jbZIQZsdn3DfCNtJ5a/hFgfq1vxKlVXtG+CHDFx2q9eWePPDEanWCfiFT+Sz
+/L4GoHDiW7Uwgo3PTSjCCbwLWyq3iQhvvLbE+S+REQ63Lx5DfabAPVPkzTz9t+mB
++ECd55TJ7wjWyCVvAteSUwCFjJNKLK1z8jb26uiULFVtDvrltwzQH8Lic0H9wFdx
+uoCa0YHqQiy9uS9wztU5j+AMIP2BAy4Yde3ZJwItGrhJnlQOVKbokPh3hgb88I/N
+23IBL3WwFX+IzrrzRI5mvJ5KILj/k1e6JnGv9FLjwhaK7wxhEk521FbKT8AritkU
+FNzgGJ2wCmM2TmWMTbxbu7OvkxMuvdrkI1PGdgRLtWa/Ba+LchMuy1bJbOygGgAD
+QX9K5Yic
+=APPx
+-----END PGP SIGNATURE-----
