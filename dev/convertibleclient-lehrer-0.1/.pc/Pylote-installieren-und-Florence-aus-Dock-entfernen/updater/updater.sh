@@ -90,22 +90,7 @@ else
    echo "--------------"
    wget https://static.bibox2.westermann.de/apps/linux -O /opt/BiBox20201110.deb
    dpkg -i /opt/BiBox20201110.deb
-   #wget http://schoppemail.de/deb/bibox2.desktop -O /usr/share/applications/bibox2.desktop
-   #chmod 755 /usr/share/applications/bibox2.desktop
-fi
-
-#Pylote installieren
-if [ -f /opt/pylote.tar.gz ]; then
-   echo "Pylote ist vorhanden."
-else
-   echo "--------------"
-   echo "Pylote ist NICHT vorhanden!"
-   echo "--------------"
-   echo "Pylote wird heruntergeladen und installiert!"
-   echo "--------------"
-   wget http://pascal.peter.free.fr/wikiuploads/pylote.tar.gz -O /opt/pylote.tar.gz
-   tar -xvf /opt/pylote.tar.gz -C /usr/local/bin/
-   wget http://schoppemail.de/deb/Pylote.desktop -O /usr/share/applications/Pylote.desktop
+   wget http://schoppemail.de/deb/bibox2.desktop -O /usr/share/applications/bibox2.desktop
    #chmod 755 /usr/share/applications/bibox2.desktop
 fi
 
