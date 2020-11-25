@@ -1,0 +1,61 @@
+Description: <short summary of the patch>
+ TODO: Put a short summary on the line above and replace this paragraph
+ with a longer explanation of this change. Complete the meta-information
+ with other relevant fields (see below for details). To make it easier, the
+ information below has been extracted from the changelog. Adjust it or drop
+ it.
+ .
+ convertibleclient-lehrer (0.1-4) focal; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Author: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+
+---
+The information above should follow the Patch Tagging Guidelines, please
+checkout http://dep.debian.net/deps/dep3/ to learn about the format. Here
+are templates for supplementary fields that you might want to add:
+
+Origin: <vendor|upstream|other>, <url of original patch>
+Bug: <url in upstream bugtracker>
+Bug-Debian: https://bugs.debian.org/<bugnumber>
+Bug-Ubuntu: https://launchpad.net/bugs/<bugnumber>
+Forwarded: <no|not-needed|url proving that it has been forwarded>
+Reviewed-By: <name and email of someone who approved the patch>
+Last-Update: 2020-11-25
+
+--- convertibleclient-lehrer-0.1.orig/scripts/init_gbgclient.sh
++++ convertibleclient-lehrer-0.1/scripts/init_gbgclient.sh
+@@ -7,7 +7,7 @@ setxkbmap de
+ gsettings set org.gnome.desktop.background picture-uri file:///usr/share/backgrounds/GBG_Custom_Background.png
+ 
+ #Aussehen des Docks einstellen
+-gsettings set org.gnome.shell favorite-apps "['org.gnome.Nautilus.desktop','MountPrivateContainer.desktop','UMountPrivateContainer.desktop','firefox.desktop','geary.desktop','updater.desktop','libreoffice-writer.desktop','libreoffice-calc.desktop','libreoffice-impress.desktop','google-chrome.desktop','bibox2.desktop','cheese.desktop','com.github.xournalpp.xournalpp.desktop','beamer.desktop']"
++gsettings set org.gnome.shell favorite-apps "['org.gnome.Nautilus.desktop','MountPrivateContainer.desktop','UMountPrivateContainer.desktop','firefox.desktop','geary.desktop','updater.desktop','libreoffice-writer.desktop','libreoffice-calc.desktop','libreoffice-impress.desktop','Joplin.desktop','bibox2.desktop','cheese.desktop','com.github.xournalpp.xournalpp.desktop']"
+ gsettings set org.gnome.shell.extensions.dash-to-dock show-apps-at-top true
+ gsettings set org.gnome.shell.extensions.dash-to-dock dock-position BOTTOM
+ gsettings set org.gnome.shell.extensions.dash-to-dock dash-max-icon-size 30
+--- convertibleclient-lehrer-0.1.orig/updater/updater.sh
++++ convertibleclient-lehrer-0.1/updater/updater.sh
+@@ -109,6 +109,22 @@ else
+    #chmod 755 /usr/share/applications/bibox2.desktop
+ fi
+ 
++#Jolplin installieren
++if [ -f /usr/local/bin/Joplin-1.4.12.AppImage ]; then
++   echo "Joplin ist vorhanden."
++else
++   echo "--------------"
++   echo "Joplin ist NICHT vorhanden!"
++   echo "--------------"
++   echo "Jolin wird heruntergeladen und installiert!"
++   echo "--------------"
++   wget https://github.com/laurent22/joplin/releases/download/v1.4.12/Joplin-1.4.12.AppImage -O /usr/local/bin/Joplin-1.4.12.AppImage
++   chmod +x /usr/local/bin/Joplin-1.4.12.AppImage
++   wget http://schoppemail.de/deb/Joplin.desktop -O /usr/share/applications/Joplin.desktop
++   wget https://github.com/laurent22/joplin/blob/dev/Assets/LinuxIcons/256x256.png -O /usr/share/icons/Joplin.png
++   #chmod 755 /usr/share/applications/bibox2.desktop
++fi
++
+ #SNAPS
+ #snaps aktualisieren
+ #snap refresh

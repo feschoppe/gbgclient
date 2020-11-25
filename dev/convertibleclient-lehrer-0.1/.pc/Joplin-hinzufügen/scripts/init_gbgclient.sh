@@ -7,7 +7,7 @@ setxkbmap de
 gsettings set org.gnome.desktop.background picture-uri file:///usr/share/backgrounds/GBG_Custom_Background.png
 
 #Aussehen des Docks einstellen
-gsettings set org.gnome.shell favorite-apps "['org.gnome.Nautilus.desktop','MountPrivateContainer.desktop','UMountPrivateContainer.desktop','firefox.desktop','geary.desktop','updater.desktop','libreoffice-writer.desktop','libreoffice-calc.desktop','libreoffice-impress.desktop','Joplin.desktop','bibox2.desktop','cheese.desktop','com.github.xournalpp.xournalpp.desktop']"
+gsettings set org.gnome.shell favorite-apps "['org.gnome.Nautilus.desktop','MountPrivateContainer.desktop','UMountPrivateContainer.desktop','firefox.desktop','geary.desktop','updater.desktop','libreoffice-writer.desktop','libreoffice-calc.desktop','libreoffice-impress.desktop','google-chrome.desktop','bibox2.desktop','cheese.desktop','com.github.xournalpp.xournalpp.desktop','beamer.desktop']"
 gsettings set org.gnome.shell.extensions.dash-to-dock show-apps-at-top true
 gsettings set org.gnome.shell.extensions.dash-to-dock dock-position BOTTOM
 gsettings set org.gnome.shell.extensions.dash-to-dock dash-max-icon-size 30

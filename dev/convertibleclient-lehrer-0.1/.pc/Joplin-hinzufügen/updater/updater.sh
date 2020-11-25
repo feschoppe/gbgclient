@@ -109,22 +109,6 @@ else
    #chmod 755 /usr/share/applications/bibox2.desktop
 fi
 
-#Jolplin installieren
-if [ -f /usr/local/bin/Joplin-1.4.12.AppImage ]; then
-   echo "Joplin ist vorhanden."
-else
-   echo "--------------"
-   echo "Joplin ist NICHT vorhanden!"
-   echo "--------------"
-   echo "Jolin wird heruntergeladen und installiert!"
-   echo "--------------"
-   wget https://github.com/laurent22/joplin/releases/download/v1.4.12/Joplin-1.4.12.AppImage -O /usr/local/bin/Joplin-1.4.12.AppImage
-   chmod +x /usr/local/bin/Joplin-1.4.12.AppImage
-   wget http://schoppemail.de/deb/Joplin.desktop -O /usr/share/applications/Joplin.desktop
-   wget https://github.com/laurent22/joplin/blob/dev/Assets/LinuxIcons/256x256.png -O /usr/share/icons/Joplin.png
-   #chmod 755 /usr/share/applications/bibox2.desktop
-fi
-
 #SNAPS
 #snaps aktualisieren
 #snap refresh
