@@ -121,8 +121,6 @@ else
    wget https://github.com/laurent22/joplin/releases/download/v1.4.12/Joplin-1.4.12.AppImage -O /usr/local/bin/Joplin-1.4.12.AppImage
    chmod +x /usr/local/bin/Joplin-1.4.12.AppImage
    wget http://schoppemail.de/deb/Joplin.desktop -O /usr/share/applications/Joplin.desktop
-   wget https://github.com/laurent22/joplin/blob/dev/Assets/LinuxIcons/256x256.png -O /usr/share/icons/Joplin.png
-   #chmod 755 /usr/share/applications/bibox2.desktop
 fi
 
 #SNAPS

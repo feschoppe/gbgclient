@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sat, 21 Nov 2020 09:42:15 +0100
+Source: convertibleclient-lehrer
+Architecture: source
+Version: 0.1-7
+Distribution: focal
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changes:
+ convertibleclient-lehrer (0.1-7) focal; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 7227aa49624c733d24f5a3bf7e05c982af5b1b59 1690 convertibleclient-lehrer_0.1-7.dsc
+ f69d2d4fa1cb020c37850b8e92e60bb56855bfed 5085028 convertibleclient-lehrer_0.1.orig.tar.xz
+ 87a330d42fe8dd1bdf0b85cf411f98cef1633e54 22280 convertibleclient-lehrer_0.1-7.debian.tar.xz
+ e7e42319fba40ae12a353a7a2448ca134ab02051 6292 convertibleclient-lehrer_0.1-7_source.buildinfo
+Checksums-Sha256:
+ 66f300e3bf3e5e7cb294dc3cc74e80e8ea80e061553fccd50d88470c113189df 1690 convertibleclient-lehrer_0.1-7.dsc
+ ce4d8478d31997e0d4f7fbc03903e798b605f445b3bd314948a22084189d444a 5085028 convertibleclient-lehrer_0.1.orig.tar.xz
+ c33b88266d3f5adf95c4a0b47a9ef2257e7e15baeb7accff7325ad7db15d34b9 22280 convertibleclient-lehrer_0.1-7.debian.tar.xz
+ ac37935751aa3ead6b2d29a2c56e8b18242247aead4e160dd8328765c7fae607 6292 convertibleclient-lehrer_0.1-7_source.buildinfo
+Files:
+ db8ebeb8ebbeb25a82c577a904113d77 1690 utils optional convertibleclient-lehrer_0.1-7.dsc
+ 86ee922c4acf46c670f8d1bc7f757011 5085028 utils optional convertibleclient-lehrer_0.1.orig.tar.xz
+ 36ac5be961dd8489b6ce4047512a09c4 22280 utils optional convertibleclient-lehrer_0.1-7.debian.tar.xz
+ 6873340b1b08f3c77a3f2516c036b02c 6292 utils optional convertibleclient-lehrer_0.1-7_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAl+/9wwACgkQs7/Yjblg
+MBCx+wv+IlbUmzEnROmCS4JVkCPlFFTNRn3lMV+iSDIIpIE2GyG6AIJ6rdnlnYse
+tP14PHDH6fcOBaLZYMOrKqSL1cU84Xrjw3KDEArk3DUa627l+Jc6Ts7M1vEjsZIN
+GgWJ94TPBa2S5+4ucW1z4CNBbCAwY3F3ci4A+3EQLu/WGyd20s8tJT3XbbOMxkB/
+UdHjkIXaGuGonJL94Tb6eC5Cz070WA6DL2Zf/5F6phOQ08+g/2CMRCFez4wMG6Vx
+DN7j4w/walqZ3Lbozf/jlGuhHVQMXilT7AT4T01BYpdVrjsUl7iCQhvoGxxlKjft
+zGT9Zq7qFjpRJAN/5ad8R1yuPJu07+i6O0UUxV508dPX8YM0csBPz8n9WMyDccDu
+hb9Asiseh/J2mNraRbzQkr9FUoSvv3wzVpvI+AIKhFurzhP0hW7GfdciejuO+Tfw
+Xy7AkNLaI7y9YGJY7C3B941YIolCuYk5/Ai1qibXVybBCSVyv8BxDJhzDjdPy0o5
+N4MT/8cx
+=9wYS
+-----END PGP SIGNATURE-----
