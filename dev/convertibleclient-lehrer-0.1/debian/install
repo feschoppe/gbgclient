@@ -24,4 +24,5 @@ etc/skel/.templates etc/skel
 etc/systemd/logind.conf etc/systemd
 beamer/beamer.sh usr/bin
 beamer/beamer.png usr/share/icons
+usr/share/icons/Joplin.png usr/share/icons
 beamer/beamer.desktop usr/share/applications
