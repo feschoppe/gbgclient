@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sun, 06 Sep 2020 12:02:32 +0200
+Source: gbglehrerclient
+Architecture: source
+Version: 0.1-45
+Distribution: focal
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changes:
+ gbglehrerclient (0.1-45) focal; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 02e2f93b36cdcf0f84a7ec02cbaf813118c3e0e1 1610 gbglehrerclient_0.1-45.dsc
+ 3608f740d70ec59ac184e6a15ef578004e0f12a2 8984 gbglehrerclient_0.1.orig.tar.xz
+ 2e912add4cd58f2926dec3c1a025cbc3611c0aaf 6068124 gbglehrerclient_0.1-45.debian.tar.xz
+ 0cff0b9c2772cdb5642af3d293ce583c41df2c15 5811 gbglehrerclient_0.1-45_source.buildinfo
+Checksums-Sha256:
+ e630d6febf715d82be3cbe79b1a799ebcef2d30cb65c2aef0b73f6b2880ce5c7 1610 gbglehrerclient_0.1-45.dsc
+ d2146ea0e93128ea57812986768dcf7abd52b264fb3048de9d5b33c64f2574b6 8984 gbglehrerclient_0.1.orig.tar.xz
+ 745839cf1c131eaf7ae8e79f4fc36f8e0acc2fa88e550189464d228451cfc485 6068124 gbglehrerclient_0.1-45.debian.tar.xz
+ 616a2c6203a2fd6dccc3e5bfdf4f3c139ad40c7a32548c76a63cf0374bd05209 5811 gbglehrerclient_0.1-45_source.buildinfo
+Files:
+ adff2da578b2c6f4a2e2528960440cb7 1610 utils optional gbglehrerclient_0.1-45.dsc
+ 8d5d8d797c96e5028a9af9a505dfbd9f 8984 utils optional gbglehrerclient_0.1.orig.tar.xz
+ 95d6ff9230f50b0c019a6d2c12f3a5f5 6068124 utils optional gbglehrerclient_0.1-45.debian.tar.xz
+ 2364ff7cf8bc2c498f78dc789572602b 5811 utils optional gbglehrerclient_0.1-45_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAl/HZ4AACgkQs7/Yjblg
+MBCFxwv/Tg9V8/eVWzmPd95mBTV4vA9ixHCYhVj2Cw6NBr8gcQhvzzO7tIV6HBYq
+a2mvVR2rZyrkHOfx6H9B2l0rO2emZH2vnHjHJI3CHGLjmPFDDVbavOnuFPhL6LqD
+K7SNdrbuq+A3ZGvPxOAWvZYyvcWBP3FYaWA1t2fo/FeAuYndNdGxAyrKsUxpKzSh
+JAtCQ7Ygvfz3x3U1x2VFjD5CKKxF9/P8LPvkIMAJ9PNZhThC9qnrZSpl+36jpSYA
+HcqPx5XJHAxUzn1Tx5w1P129zx+uuGZ6XwN6h4UtphpEHAHsRV8r70RDuyud5gw/
+AFGPp/3Dx1XW/5iYO9By1+YpoJfbFOMWsrVntDoCVD5kwJhGxHbB2bXFf63z35M+
+pLwxln0w/2fwxYcJul7nmVwKnbHV0+go0p5/acwMyp2HOV8qZIw/dSqG0eXIJMYZ
+EveJjw6k6nw6KhNR6Seq2VK2eVsILqMkp8hvv3TldznI1dcJ9FnisPd+THJqNfYF
+X/qz72zO
+=H103
+-----END PGP SIGNATURE-----
