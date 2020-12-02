@@ -90,7 +90,7 @@ else
    echo "--------------"
    wget https://static.bibox2.westermann.de/apps/linux -O /opt/BiBox20201110.deb
    dpkg -i /opt/BiBox20201110.deb
-   wget http://schoppemail.de/deb/bibox2.desktop -O /usr/share/applications/bibox2.desktop
+   #wget http://schoppemail.de/deb/bibox2.desktop -O /usr/share/applications/bibox2.desktop
    #chmod 755 /usr/share/applications/bibox2.desktop
 fi
 
@@ -106,6 +106,19 @@ else
    wget https://github.com/laurent22/joplin/releases/download/v1.4.12/Joplin-1.4.12.AppImage -O /usr/local/bin/Joplin-1.4.12.AppImage
    chmod +x /usr/local/bin/Joplin-1.4.12.AppImage
    wget http://schoppemail.de/deb/Joplin.desktop -O /usr/share/applications/Joplin.desktop
+fi
+
+#Skype installieren
+if [ -f /opt/skypeforlinux-64.deb ]; then
+   echo "Skype ist vorhanden."
+else
+   echo "--------------"
+   echo "Skype ist NICHT vorhanden!"
+   echo "--------------"
+   echo "Skype wird heruntergeladen und installiert!"
+   echo "--------------"
+   wget https://go.skype.com/skypeforlinux-64.deb -O /opt/skypeforlinux-64.deb
+   dpkg -i /opt/skypeforlinux-64.deb
 fi
 
 #SNAPS

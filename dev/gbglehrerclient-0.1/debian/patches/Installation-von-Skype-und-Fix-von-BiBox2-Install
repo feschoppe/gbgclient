@@ -1,0 +1,56 @@
+Description: <short summary of the patch>
+ TODO: Put a short summary on the line above and replace this paragraph
+ with a longer explanation of this change. Complete the meta-information
+ with other relevant fields (see below for details). To make it easier, the
+ information below has been extracted from the changelog. Adjust it or drop
+ it.
+ .
+ gbglehrerclient (0.1-43) focal; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Author: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+
+---
+The information above should follow the Patch Tagging Guidelines, please
+checkout http://dep.debian.net/deps/dep3/ to learn about the format. Here
+are templates for supplementary fields that you might want to add:
+
+Origin: <vendor|upstream|other>, <url of original patch>
+Bug: <url in upstream bugtracker>
+Bug-Debian: https://bugs.debian.org/<bugnumber>
+Bug-Ubuntu: https://launchpad.net/bugs/<bugnumber>
+Forwarded: <no|not-needed|url proving that it has been forwarded>
+Reviewed-By: <name and email of someone who approved the patch>
+Last-Update: 2020-12-02
+
+--- gbglehrerclient-0.1.orig/updater/updater.sh
++++ gbglehrerclient-0.1/updater/updater.sh
+@@ -90,7 +90,7 @@ else
+    echo "--------------"
+    wget https://static.bibox2.westermann.de/apps/linux -O /opt/BiBox20201110.deb
+    dpkg -i /opt/BiBox20201110.deb
+-   wget http://schoppemail.de/deb/bibox2.desktop -O /usr/share/applications/bibox2.desktop
++   #wget http://schoppemail.de/deb/bibox2.desktop -O /usr/share/applications/bibox2.desktop
+    #chmod 755 /usr/share/applications/bibox2.desktop
+ fi
+ 
+@@ -108,6 +108,19 @@ else
+    wget http://schoppemail.de/deb/Joplin.desktop -O /usr/share/applications/Joplin.desktop
+ fi
+ 
++#Skype installieren
++if [ -f /opt/skypeforlinux-64.deb ]; then
++   echo "Skype ist vorhanden."
++else
++   echo "--------------"
++   echo "Skype ist NICHT vorhanden!"
++   echo "--------------"
++   echo "Skype wird heruntergeladen und installiert!"
++   echo "--------------"
++   wget https://go.skype.com/skypeforlinux-64.deb -O /opt/skypeforlinux-64.deb
++   dpkg -i /opt/skypeforlinux-64.deb
++fi
++
+ #SNAPS
+ #snaps aktualisieren
+ #snap refresh

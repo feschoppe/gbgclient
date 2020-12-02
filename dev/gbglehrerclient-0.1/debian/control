@@ -14,4 +14,4 @@ Description: GBG-Client für Lehrer-Geräte
  Dieses Paket konfiguriert einen GBG-Lehrer-PC.
 Replaces: gdm3, gbgclient, gbgsusclient, gbglzclient, systemd
 Conflicts: gbgclient, gbgsusclient, gbglzclient, gnome-initial-setup
-Depends: thunderbird, thunderbird-locale-de, thunderbird-gnome-support, musescore3, flatpak, tesseract-ocr-deu, gimagereader, openssh-server, cryptsetup, apt-transport-https, wine32, winetricks
+Depends: thunderbird, thunderbird-locale-de, thunderbird-gnome-support, musescore3, flatpak, tesseract-ocr-deu, gimagereader, openssh-server, cryptsetup, apt-transport-https, wine32, winetricks, flashplugin-installer

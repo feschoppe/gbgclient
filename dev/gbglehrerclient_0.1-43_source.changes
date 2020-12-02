@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sun, 06 Sep 2020 12:02:32 +0200
+Source: gbglehrerclient
+Architecture: source
+Version: 0.1-43
+Distribution: focal
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changes:
+ gbglehrerclient (0.1-43) focal; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 2840df6d4e0a6875abd95c1773b3fa32b1618e74 1610 gbglehrerclient_0.1-43.dsc
+ 3608f740d70ec59ac184e6a15ef578004e0f12a2 8984 gbglehrerclient_0.1.orig.tar.xz
+ 52d1b45c826002a54155ad3f8b182d65e8d17cf8 6069056 gbglehrerclient_0.1-43.debian.tar.xz
+ c93cc31009579b5e287c060da453ba5e9b487437 5811 gbglehrerclient_0.1-43_source.buildinfo
+Checksums-Sha256:
+ 22aabb9fa343205eb005a7f471ace4ae107b8eb91d2294cbd2c94668e4f7b1f1 1610 gbglehrerclient_0.1-43.dsc
+ d2146ea0e93128ea57812986768dcf7abd52b264fb3048de9d5b33c64f2574b6 8984 gbglehrerclient_0.1.orig.tar.xz
+ 9441516231b6864ed18891170f4c55e785854a9107f2504d902680a5dd79dff5 6069056 gbglehrerclient_0.1-43.debian.tar.xz
+ 083e0b81f5e534c8b2c2dae6e97563859aa09ef4f3b28c7798f4ab694af5f187 5811 gbglehrerclient_0.1-43_source.buildinfo
+Files:
+ 707241f5436923a88ee87ece52f04644 1610 utils optional gbglehrerclient_0.1-43.dsc
+ 8d5d8d797c96e5028a9af9a505dfbd9f 8984 utils optional gbglehrerclient_0.1.orig.tar.xz
+ 926d09536aa3df9f8698f1007d045793 6069056 utils optional gbglehrerclient_0.1-43.debian.tar.xz
+ d6dfb2c4e7728cfe5e2e0c86eb97138b 5811 utils optional gbglehrerclient_0.1-43_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAl/HZCoACgkQs7/Yjblg
+MBCPNwv+Mf6IoPeKZxD15fUu9OnDdAhYvNCsLOBNHPYcKZ0OW5XwXFVBsmaQMQcM
+N7qJSvwT59vzow65jhL7FAoIolZXcMQfcrgyCxyM3VUdlRbMKtckov+4WnuZ50ot
+lMoR7LYyZIa3oItDib6IacXP/KwzvdlFW5QdVaYjQeQM8dTEgHHmUGDQw3OQQ8Ra
+qeEqU4w83lbEiV2gKuBjwuVrqPAVNKTvHyDOg26xL7PSn/Vmr5J9+iNk181Db8X7
+frBcHXQWDs2E9p4il8PJyeOCMtdrmtzFIGwzUX8jP9JOxlotoHc65GrLqreoeRfO
+LBJjg8pDfUZjSdcJfxb3f7TodFLw1y/0k30K4JWVpO7PC97tOOE44BtZaR7K5S10
+r/hWVFYKddBhCn9Yp8dcI5b1GKX6aMZLj3hiG+z1kkNwN1v5b/AKVT2cVF2wgJZO
+IcJ7JNSoib4Zoosyf5NEBhAoOAZkCjOiNiWzVxR8YW8Y73qwYeZvz/aYf05sppTR
+zdthPZ4N
+=Fa2Z
+-----END PGP SIGNATURE-----
