@@ -122,6 +122,33 @@ else
    dpkg -i /opt/skypeforlinux-64.deb
 fi
 
+#Signal installieren
+
+#Prüfen, ob problematsicher Key vorhanden ist
+#der ggf. entfernt werden muss
+#/etc/apt/sources.list.d/home:Vogtinator:firebird-emu.list
+#/etc/apt/trusted.gpg.d/home\:Vogtinator\:firebird-emu.gpg
+
+if [ -f /etc/apt/sources.list.d/home:Vogtinator:firebird-emu.list ]; then
+   echo "firebird-emu.list entfernen"
+   rm /etc/apt/sources.list.d/home:Vogtinator:firebird-emu.list
+   rm /etc/apt/trusted.gpg.d/home\:Vogtinator\:firebird-emu.gpg
+fi
+#Signal installieren
+if [ -f /etc/apt/sources.list.d/signal-xenial.list ]; then
+   echo "Signal ist vorhanden!"
+else
+   echo "--------------"
+   echo "Signal ist NICHT vorhanden!"
+   echo "--------------"
+   echo "Signal wird heruntergeladen und installiert!"
+   echo "--------------"
+   wget -O- https://updates.signal.org/desktop/apt/keys.asc | sudo apt-key add -
+   echo "deb [arch=amd64] https://updates.signal.org/desktop/apt xenial main" | sudo tee -a /etc/apt/sources.list.d/signal-xenial.list
+   sudo DEBIAN_FRONTEND=noninteractive apt-get -y update
+   sudo DEBIAN_FRONTEND=noninteractive apt-get -y install signal-desktop
+fi
+
 #SNAPS
 #snaps aktualisieren
 #snap refresh

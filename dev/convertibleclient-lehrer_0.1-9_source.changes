@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sat, 21 Nov 2020 09:42:15 +0100
+Source: convertibleclient-lehrer
+Architecture: source
+Version: 0.1-9
+Distribution: focal
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changes:
+ convertibleclient-lehrer (0.1-9) focal; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 920282af1c3ab48879e1929b99a47f2f014056bb 1690 convertibleclient-lehrer_0.1-9.dsc
+ f69d2d4fa1cb020c37850b8e92e60bb56855bfed 5085028 convertibleclient-lehrer_0.1.orig.tar.xz
+ ae5cea197d7aed4550ad9b8dae11a8b3a3187e83 22724 convertibleclient-lehrer_0.1-9.debian.tar.xz
+ 4cf9121ccef661923cc42d3e8ecef6d3e7729de0 5852 convertibleclient-lehrer_0.1-9_source.buildinfo
+Checksums-Sha256:
+ 3ffbac7773dde7824e642be0184c0b580dcf55278487e887019c15c38ce69b9c 1690 convertibleclient-lehrer_0.1-9.dsc
+ ce4d8478d31997e0d4f7fbc03903e798b605f445b3bd314948a22084189d444a 5085028 convertibleclient-lehrer_0.1.orig.tar.xz
+ cce4cdd8c20e463ffac65e12a3c59be7f2c87a987d32aea4ae96c773516da9cd 22724 convertibleclient-lehrer_0.1-9.debian.tar.xz
+ f9deb49bb605a429ebd2ff85c7f0b04a19150ee3a652eb001dc94ac6f2be769d 5852 convertibleclient-lehrer_0.1-9_source.buildinfo
+Files:
+ 53df118d62127a5ed67b07c21f3e1cac 1690 utils optional convertibleclient-lehrer_0.1-9.dsc
+ 86ee922c4acf46c670f8d1bc7f757011 5085028 utils optional convertibleclient-lehrer_0.1.orig.tar.xz
+ 4e2931ca03a845e6a53f6f19ffe55661 22724 utils optional convertibleclient-lehrer_0.1-9.debian.tar.xz
+ 8ec6d5f16be908e05e6002edca158c1e 5852 utils optional convertibleclient-lehrer_0.1-9_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAl/8uE4ACgkQs7/Yjblg
+MBCtVAv+JKf03vAWhOrT1tLK5WdusMg0NXnqY2LYfL5LblYT0rWB/ta/ro2Rdz4e
+pMU/Te9o5SwD76oMqlAcO3zu407qgTaoAOhl64X+fdRV0UJB0UIGb4dB7gX0xrim
+QEjPf1YFpUQc8IMFQd4LXmq0LVAwTvrgUEkf2+gB6ETUr8DD5Sq7ELu0cMJgR98Q
+yRX0uuLRR8C3ps53qRCFGk8JhxA79wRQ0HaKpaJ06eazgcIi8cMnhPV67qY6IgYA
+/hqLIAvfTRLQuhba8yht07ylVyo3QoA75kgENMjgiJsn2NjOJ3MV5eN2eyWR/dFw
+StwUNMsY8NArcXbWYpPdwoVvbL4OVaU6QEzXn6diktQIvwoRT3gGQOdLkFgvuUSR
+wNA1nQkf4DRXkIzE1UzE4BkJfIRY6mWaPjJhSYXWCKTcrqE7JMm+ZFF9noEGWuAz
+GQG6yYpdvuQsMo+sIaJdgYYgAaUz+8BF4J0aEk84St8eXxH3hUqOXIXTg58fSlZH
+1fmhFamR
+=IpSy
+-----END PGP SIGNATURE-----

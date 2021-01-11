@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sun, 06 Sep 2020 12:02:32 +0200
+Source: gbglehrerclient
+Architecture: source
+Version: 0.1-47
+Distribution: focal
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changes:
+ gbglehrerclient (0.1-47) focal; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 1f686bdf68b0fa4db3a62ac3d29364b4d2500847 1610 gbglehrerclient_0.1-47.dsc
+ 3608f740d70ec59ac184e6a15ef578004e0f12a2 8984 gbglehrerclient_0.1.orig.tar.xz
+ 71e8c98da899bf44aded22970c86b85813b7e834 6070232 gbglehrerclient_0.1-47.debian.tar.xz
+ 3d55aead49cd5a0a43ff499cafe19cf2f25e8cad 5811 gbglehrerclient_0.1-47_source.buildinfo
+Checksums-Sha256:
+ 5b0a7b1d5269f18d04d3790a1b1c278ce9e8785ad0c83789609e00050be4097e 1610 gbglehrerclient_0.1-47.dsc
+ d2146ea0e93128ea57812986768dcf7abd52b264fb3048de9d5b33c64f2574b6 8984 gbglehrerclient_0.1.orig.tar.xz
+ 32542f56c9746b1cab989636128825130465b81c4b24751620c2f06f1cef9719 6070232 gbglehrerclient_0.1-47.debian.tar.xz
+ 4e6e722a832a3703b9b4ed4fca8606713a3a3ab4fd9f8ddda29e017042df7b93 5811 gbglehrerclient_0.1-47_source.buildinfo
+Files:
+ d8249f566798139506dafc8b28df428f 1610 utils optional gbglehrerclient_0.1-47.dsc
+ 8d5d8d797c96e5028a9af9a505dfbd9f 8984 utils optional gbglehrerclient_0.1.orig.tar.xz
+ 67325d85b3c75204d6d1861b9855f33c 6070232 utils optional gbglehrerclient_0.1-47.debian.tar.xz
+ 122b3e7dc29a12df1c452e6bfbb10627 5811 utils optional gbglehrerclient_0.1-47_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAl/8tzsACgkQs7/Yjblg
+MBCGOgv/dVB0NjR6Y0mB+gpNApfeFvbndHAoNxkFBgHV1lHyvH6CIuDZXn9vvku3
+qkieCcq7JklWGB41ZTatnRuPF+azQUKXHq8X3C5LL6sQ2TEdTQkzrIdm+VLDZTFF
+yypibMAiiZ21y0xiadW8DccmSWZ5kMO6THlFdNjKUc0xf1Ev2i7yXtRLPtg6fJQk
+WX1GJ2RKKuEUajvXXpKFDt2wmc/NVVgFDOw/q7BLjnqzF0OnOse2FStxK/GmaK1K
+2cYhDwJXEPbnh7H3Q94AcR3p3FQUpA1ZP1RiPv8Ta7Y56YFaA+UUkECpWE8gxX/p
+eeMe+kvPfPUM4//OZYLLvqyuEatMVFbLGqahL3/kvpl7cuMt4/EOFrgmc/sgh5qh
+mcywHiJErgK5T+OzkG15wMBUR6GjLHrSGB3iY4eG3NJ6mSD/XM2ApH4nAlVujjjH
+sR1eVIE5F46ctZgPxuh9Gw+iE0ITTuqBvmIO4/RLh3Cxw0zhcpmmt9PhnT+oLFEy
+N4AHvv1v
+=IvbS
+-----END PGP SIGNATURE-----
