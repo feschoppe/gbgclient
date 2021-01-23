@@ -1,6 +1,3 @@
------BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA512
-
 Format: 3.0 (quilt)
 Source: convertibleclient-lehrer
 Binary: convertibleclient-lehrer
@@ -21,18 +18,3 @@ Checksums-Sha256:
 Files:
  86ee922c4acf46c670f8d1bc7f757011 5085028 convertibleclient-lehrer_0.1.orig.tar.xz
  4e2931ca03a845e6a53f6f19ffe55661 22724 convertibleclient-lehrer_0.1-9.debian.tar.xz
-
------BEGIN PGP SIGNATURE-----
-
-iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAl/8uE0ACgkQs7/Yjblg
-MBApyAv/aQD2s16qzXjFmDrqeijK+9LuRYqRirB+l3VNLwPcrhAtco/DNzzqxP21
-mzAglgk2PDdVcrFE4yXFKAAUJXEjCxyV575g7Upi1CbHsfFHlpEnjXb+Kh7X7CC3
-/7rb6Wn6vly0+mbjG63/XVKBKmETkdZO0gEYJjxfNLh9vEGZHasSAoOnNYQ4il/6
-cB5UcSHV/Q/OpmQjzu4UOtLewt1Sw4kwR1KjdDRJlN3XjNe+NDbbvH7LF0P8gdeU
-k/WmZwz5VlSuVi+f7RHY8po6HNnavoXCRLIhSs7LEumJ1AnofJMinrohJ+FsAHmi
-x91fdBghpZU3LfmfmYayptG6AnNoXllN0qWUtNLZFFPc1cYBR2IJqcXxfMx6E48k
-KkXFzyK+LdMcrLHYARvE/KBw3jI5JpUFIrwZXUgwrejgw2JTb/Vr3BcrlCnTKoty
-DFkU6EuoASSmt6gUYkPnaF3m3hwYEsJQXelf1IB9PDbtjEe02Pbg8KDjiaFAY97+
-xi2gHjKh
-=6aI2
------END PGP SIGNATURE-----

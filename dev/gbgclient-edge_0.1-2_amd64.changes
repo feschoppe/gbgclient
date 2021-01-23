@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Sat, 23 Jan 2021 17:00:33 +0100
+Source: gbgclient-edge
+Binary: gbgclient-edge
+Architecture: source all
+Version: 0.1-2
+Distribution: bionic
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Description:
+ gbgclient-edge - Standard-GBG-Client
+Changes:
+ gbgclient-edge (0.1-2) bionic; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 46b5cc94a8365735becdaa9d7701e2c61be32ab5 888 gbgclient-edge_0.1-2.dsc
+ 9dbf30fd4ec56365647506224064f843ad3b73f6 5043792 gbgclient-edge_0.1.orig.tar.xz
+ 2af3a2c2f78c91c0c7f2be615c5e6d90a2d49dc6 8172 gbgclient-edge_0.1-2.debian.tar.xz
+ e242596309a4c59739202ef956a168f04ea93025 5074960 gbgclient-edge_0.1-2_all.deb
+ 42c54539105157c45c6378a20198196c44e4fc56 5364 gbgclient-edge_0.1-2_amd64.buildinfo
+Checksums-Sha256:
+ 432800022b1977983d9eb8f57ea802cfcf5a7f3c0266ba0961e520fddbd15ba7 888 gbgclient-edge_0.1-2.dsc
+ f92f73e3efa5a722a43f46f81393d0ebd13e4090e95ca549531a1672403453b6 5043792 gbgclient-edge_0.1.orig.tar.xz
+ b76217aad0b37367c9a3c16f78cefde6208ad17f1925d050f6262708e7e6dbcd 8172 gbgclient-edge_0.1-2.debian.tar.xz
+ 507a97334dd3beaffcd3521ae340842df9ba7b3823f06190888fd274bea3f17d 5074960 gbgclient-edge_0.1-2_all.deb
+ 3a6f5af0cdfbc6a111c5d3f15df802b240c0bbfb34126b08fe407d6d4bb1b4d8 5364 gbgclient-edge_0.1-2_amd64.buildinfo
+Files:
+ 7804549db903df57724cfee63114a904 888 utils optional gbgclient-edge_0.1-2.dsc
+ c0b0584852210a428df66dd818908fa0 5043792 utils optional gbgclient-edge_0.1.orig.tar.xz
+ 7515f82aa1e8239fa721fd81fb53702a 8172 utils optional gbgclient-edge_0.1-2.debian.tar.xz
+ c56fc4dc434743925e42a7ff6da43537 5074960 utils optional gbgclient-edge_0.1-2_all.deb
+ 89dfb861337a3051e845c20e188d818c 5364 utils optional gbgclient-edge_0.1-2_amd64.buildinfo

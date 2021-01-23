@@ -1,6 +1,3 @@
------BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA512
-
 Format: 1.8
 Date: Sat, 21 Nov 2020 09:42:15 +0100
 Source: convertibleclient-lehrer
@@ -29,18 +26,3 @@ Files:
  86ee922c4acf46c670f8d1bc7f757011 5085028 utils optional convertibleclient-lehrer_0.1.orig.tar.xz
  4e2931ca03a845e6a53f6f19ffe55661 22724 utils optional convertibleclient-lehrer_0.1-9.debian.tar.xz
  8ec6d5f16be908e05e6002edca158c1e 5852 utils optional convertibleclient-lehrer_0.1-9_source.buildinfo
-
------BEGIN PGP SIGNATURE-----
-
-iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAl/8uE4ACgkQs7/Yjblg
-MBCtVAv+JKf03vAWhOrT1tLK5WdusMg0NXnqY2LYfL5LblYT0rWB/ta/ro2Rdz4e
-pMU/Te9o5SwD76oMqlAcO3zu407qgTaoAOhl64X+fdRV0UJB0UIGb4dB7gX0xrim
-QEjPf1YFpUQc8IMFQd4LXmq0LVAwTvrgUEkf2+gB6ETUr8DD5Sq7ELu0cMJgR98Q
-yRX0uuLRR8C3ps53qRCFGk8JhxA79wRQ0HaKpaJ06eazgcIi8cMnhPV67qY6IgYA
-/hqLIAvfTRLQuhba8yht07ylVyo3QoA75kgENMjgiJsn2NjOJ3MV5eN2eyWR/dFw
-StwUNMsY8NArcXbWYpPdwoVvbL4OVaU6QEzXn6diktQIvwoRT3gGQOdLkFgvuUSR
-wNA1nQkf4DRXkIzE1UzE4BkJfIRY6mWaPjJhSYXWCKTcrqE7JMm+ZFF9noEGWuAz
-GQG6yYpdvuQsMo+sIaJdgYYgAaUz+8BF4J0aEk84St8eXxH3hUqOXIXTg58fSlZH
-1fmhFamR
-=IpSy
------END PGP SIGNATURE-----

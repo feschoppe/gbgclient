@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sat, 23 Jan 2021 17:00:33 +0100
+Source: gbgclient-edge
+Architecture: source
+Version: 0.1-2
+Distribution: focal
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changes:
+ gbgclient-edge (0.1-2) focal; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 7e344c204c61ef05af0caee6bc592276c2a62bfa 1597 gbgclient-edge_0.1-2.dsc
+ 9dbf30fd4ec56365647506224064f843ad3b73f6 5043792 gbgclient-edge_0.1.orig.tar.xz
+ bcbd0b6984c342992a25100d4829a75e593ece46 8164 gbgclient-edge_0.1-2.debian.tar.xz
+ 580c689d7a4fd6bfca2fc3169456938afe094460 5819 gbgclient-edge_0.1-2_source.buildinfo
+Checksums-Sha256:
+ d286d995e1f1accd80f37fee8f85dffb1f3c2758924299cf3c1ef24dc174230f 1597 gbgclient-edge_0.1-2.dsc
+ f92f73e3efa5a722a43f46f81393d0ebd13e4090e95ca549531a1672403453b6 5043792 gbgclient-edge_0.1.orig.tar.xz
+ 7cada14139bbf4bd23ac95b1fdc0fc8ba7a2eac02ad84cc1da1768e6f2f11184 8164 gbgclient-edge_0.1-2.debian.tar.xz
+ b68f7e24a5b6cf388f378b13d630846b171b1574b66b5c93d45628a81be78686 5819 gbgclient-edge_0.1-2_source.buildinfo
+Files:
+ a9d4bdc4d460b39aed9e39ab4f26b102 1597 utils optional gbgclient-edge_0.1-2.dsc
+ c0b0584852210a428df66dd818908fa0 5043792 utils optional gbgclient-edge_0.1.orig.tar.xz
+ 0623aa2c6a1ffed2c95549a558391f56 8164 utils optional gbgclient-edge_0.1-2.debian.tar.xz
+ c3a0aaae276149c306dc4a88bffeab1b 5819 utils optional gbgclient-edge_0.1-2_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAmAMf08ACgkQs7/Yjblg
+MBAtLQwAj6PMeH4H9PXoOfCLx84Z7I9AfaZ5EbTvCUr72oOf4F1pLy4kXoz0YRpc
+sK6SYOD3HuiqKXW37UKdpXpw29/ZcAoXgj4ZqJCoR3X+JID4Qe/y35IIPgJjsSdV
+N1EyG92838/Vywe6Pxh7wE2m/z3xBkiVYHddIuKesiJ5g6yIZWj2CainWomKjSm+
+hKZG844oXjE5nJC2/OiRR7beBzFCrWqKVmF4bU7QN1b2bhGLI3RGOHXCs+9jESl5
+iwEIN0WM+8EraHpHgkYOA6hBxillOU4Lf4mFFD2qwoB13ljyJ9f/PLw2fE0Mm3eL
+Y5tBOfRqt7CPC5fLhcYv2mA/ileNV512ZHXkS6iA76X202oX8OMfeOU8esl4QVWZ
+DJN5d/G77jH18FicOQBxSzC6s4yxjSr0wdLa6dBlbVsVghq4XK7U+nUEgqBfiiWg
+7T6vUtbm/NLZxzjn7sPVzHbNZbN9BbGo4Vf92BPwgf1DMKerjvh4Gbmt8vXZ3wz2
+MqIM8GU2
+=iTyd
+-----END PGP SIGNATURE-----

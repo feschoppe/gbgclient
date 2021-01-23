@@ -1,0 +1,16 @@
+scripts/init_gbgclient.sh usr/bin
+scripts/root_init_gbgclient.sh usr/bin
+scripts/delete_connections.py usr/bin
+scripts/change_home.sh usr/bin
+gdm3/PostLogin/Default etc/gdm3/PostLogin
+gdm3/PostSession/Default etc/gdm3/PostSession
+gdm3/PreSession/Default etc/gdm3/PreSession
+updater/updater.sh usr/bin
+updater/updater.desktop usr/share/applications
+updater/updater.svg usr/share/icons
+misc/init_gbgclient.desktop etc/xdg/autostart
+misc/GBG_Custom_Background.png usr/share/backgrounds
+sudoers.d/sudogbgclient etc/sudoers.d/
+etc/skel/.mozilla etc/skel
+etc/skel/.config etc/skel
+etc/skel/.templates etc/skel

@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sat, 23 Jan 2021 17:00:33 +0100
+Source: gbgclient-edge
+Architecture: source
+Version: 0.1-3
+Distribution: focal
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changes:
+ gbgclient-edge (0.1-3) focal; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 6a89f5d103e948d22d972dbb728e5eceac2a68f1 1597 gbgclient-edge_0.1-3.dsc
+ 9dbf30fd4ec56365647506224064f843ad3b73f6 5043792 gbgclient-edge_0.1.orig.tar.xz
+ e593f56aba822db381e152b8b5b79afe0e035e35 8164 gbgclient-edge_0.1-3.debian.tar.xz
+ 820c9e8b2bdd05004eb62cbd8c9b64516ef18a43 5819 gbgclient-edge_0.1-3_source.buildinfo
+Checksums-Sha256:
+ fa6c7bd3222124ebe41bc8af7431dbf519213dff7edeb57541535aa023b1e15a 1597 gbgclient-edge_0.1-3.dsc
+ f92f73e3efa5a722a43f46f81393d0ebd13e4090e95ca549531a1672403453b6 5043792 gbgclient-edge_0.1.orig.tar.xz
+ c9167ccf8377151ca5eeeae6e61329cc8ea6f284850e62006cf2b233bdf54f99 8164 gbgclient-edge_0.1-3.debian.tar.xz
+ 97f11ea153f4c47093eebd8325d57d71d12fcf2ef5fbcf10cdd430170c49c262 5819 gbgclient-edge_0.1-3_source.buildinfo
+Files:
+ ef50643b48607d9cd44421e095c11267 1597 utils optional gbgclient-edge_0.1-3.dsc
+ c0b0584852210a428df66dd818908fa0 5043792 utils optional gbgclient-edge_0.1.orig.tar.xz
+ 3d734535a81b281de83eef6faacac421 8164 utils optional gbgclient-edge_0.1-3.debian.tar.xz
+ c6fa3bf2987cd1a3b90637c59f462d68 5819 utils optional gbgclient-edge_0.1-3_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAmAMf4gACgkQs7/Yjblg
+MBCr5wv+OT3Za3ZUuV8aW/MIIaB1bHq4mU3Q/8KwlPxRDNw22ZOSaFvpfRLDqfXM
+jP0ylPDBxDikpE6MwKWPITolLYe8frRVuj3rhrQxSt4+rXWyLnztBFyazV44JLo1
+UCU8tAy49SjZAOc7AvT90F++FITVsuZPprFRGgsW1yuMpXe9A0HchQZij+ugbsNN
+Dw8tC66WTSd0a5hYluE01oq8wqxXtI8lbT/oEOcok61CduqcRJVvqhfsUHulOPca
+we65zTj2GbbRVDQFwSROMtfDZV0Q7ue+lWsZf2e41LwN2ETtsEFIq20Btbk7Gi0C
++b6ElDyqUCjTm3k6TrLH3LtcsN/kOFNAQes7z131coZNxUBLM8si+HqnO6gS6cUp
+iC+cZwZVWJnYAlqMQeBY/PORqeOvuSrPfVtQ82SRnMhyhNmU6hv9BotTd9b+6p5v
+YD/jRgBbei2DCeYADD2Ymr//pxgqPx+PKqd/LB/MbHBOrPbHCgdekFYf+FPL0C1n
+AL2niidN
+=SfR/
+-----END PGP SIGNATURE-----

@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sat, 23 Jan 2021 17:00:33 +0100
+Source: gbgclient-edge
+Architecture: source
+Version: 0.1-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changes:
+ gbgclient-edge (0.1-1) unstable; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ a55e173786f4acfb4b439abde6a8f5a7480e841f 1597 gbgclient-edge_0.1-1.dsc
+ 9dbf30fd4ec56365647506224064f843ad3b73f6 5043792 gbgclient-edge_0.1.orig.tar.xz
+ bc555a6f53a934facf106e42c16adcc3b6bf008c 8180 gbgclient-edge_0.1-1.debian.tar.xz
+ 6922de55644198d93c71ab3e0994328470304d19 5802 gbgclient-edge_0.1-1_source.buildinfo
+Checksums-Sha256:
+ 9ac7d08f43078e968558bb8c80f528b680ed02bb4768998b98d2220a100c92f0 1597 gbgclient-edge_0.1-1.dsc
+ f92f73e3efa5a722a43f46f81393d0ebd13e4090e95ca549531a1672403453b6 5043792 gbgclient-edge_0.1.orig.tar.xz
+ cff1ae91724772e7781350c865944a24a6cecf2c8392e46fa114d8bce27fe63d 8180 gbgclient-edge_0.1-1.debian.tar.xz
+ 85159f948c3d79ac9e0beb95e049f136808f359ec399f73ad35b33f632b6720c 5802 gbgclient-edge_0.1-1_source.buildinfo
+Files:
+ d726b48fdb69aa49e5a4283f923d1dd4 1597 utils optional gbgclient-edge_0.1-1.dsc
+ c0b0584852210a428df66dd818908fa0 5043792 utils optional gbgclient-edge_0.1.orig.tar.xz
+ 6ef821516cf23e3117100ab5d1edc5be 8180 utils optional gbgclient-edge_0.1-1.debian.tar.xz
+ 55e8e394243fa04e7199159d9be85186 5802 utils optional gbgclient-edge_0.1-1_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAmAMWowACgkQs7/Yjblg
+MBAyQQv8DMS6O8eEV6iYNa3VTtE4pXwyhqp/bJ+jC9na4/GSYWBNDNY33SqxKVFi
+KkNLnbUeS9ov1V0flYIA7q/cna+o+rhP6jRsahxqQKB9oYwx2hZ5FPDbRFUVyToG
+PHJefjcIt5IrzWo70vUY6010cCTY9jxP/8HlpcoFgrgSr4y5+n6IpuMoF0o8Ds5t
+QKayLWQRlKYq+5hKNieNZiVhupvJhUhOy0c5fZglThGr+/2YCBIF9R7hqPAAFhSl
+urjwAq1EB1HBsYGbxcXG83nCuU2y/Fo7N8uNkj6vI5l1pIeyCwIZxOG8SEqK9Tgt
+Eh1tyclodE9Yk2HpmPVBTWhVqat6W/cCCMtpG0YpkR6J9ko4mlVv4Yha5uQRRYIg
+KNPos+IW+/RTrtA6bZfh9eKnrl9MJTTDWBmroAx7xDUQVXNQlUBOTlM3y0KF0Y/d
+QpQasILuzDEEBVVjRmXVMZuaIvRTZy7rnpf2wV9NfbdtbVYnx49jNe4VQYCrCHDQ
+L4Xv9HLn
+=30tE
+-----END PGP SIGNATURE-----

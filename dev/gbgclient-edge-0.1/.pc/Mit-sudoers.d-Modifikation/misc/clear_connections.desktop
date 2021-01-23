@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=Reset all connections and initialize gbgclient
+Exec=/usr/local/bin/delete_connections.sh
+X-GNOME-Autostart-enabled=true

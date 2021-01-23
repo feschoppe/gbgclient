@@ -1,6 +1,3 @@
------BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA512
-
 Format: 1.0
 Source: convertibleclient-lehrer
 Binary: convertibleclient-lehrer
@@ -166,18 +163,3 @@ Environment:
  DEB_BUILD_OPTIONS="parallel=2"
  LANG="de_DE.UTF-8"
  SOURCE_DATE_EPOCH="1605948135"
-
------BEGIN PGP SIGNATURE-----
-
-iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAl/8uE0ACgkQs7/Yjblg
-MBB/uAv8DPh07FVAq/M4fH/tgikKg/NXRrixSkRroXFGEIMgC+qoo+QD1nlFX23T
-aa53fFGxzEagx7HEeEA0mtQqsCDiQMi+lv4xYkFGYMeemLeowulYxSeek4dT0Jf+
-dq3kB55AyWNP64BMhKlmWNWRTsA2PEFjte5d7O6zy8KLktAMEYh2V6aNgHziJ1U7
-Lb0Hczth2kNecejgaZ2spzxhdELbB/sCAXuPeA3RiWRbkRsvVw+KxTci54LMSawg
-cNuSntuSUnqvN6oB3e1L/Z6RDDkfXMB1u4h6OLlla6WHnn982wO7Z0e+CZhvdSTr
-Ml8V4MZlX7o0GUMn2VN7CYr/ClfOVCrilgLvQPXcsXu30L9KW1CzHBbTyKyUu6tA
-27lKJZmqARAcPUYuIHsSocvx0d5JYoYuHkD+0ACCGzXRqS0ED1yisqtiRnMIMyuj
-1T4SVp5pBk6NMnklnSgilQkNIPu2+CWbrPwykoH9UgnioSEkDvK/2vuTqs9UNDkH
-SScg1J5u
-=GhEL
------END PGP SIGNATURE-----
