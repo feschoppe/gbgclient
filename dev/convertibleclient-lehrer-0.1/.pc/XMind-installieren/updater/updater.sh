@@ -150,18 +150,6 @@ else
    sudo DEBIAN_FRONTEND=noninteractive apt-get -y install signal-desktop
 fi
 
-#XMind installieren!
-if [ -f /opt/XMind.deb ]; then
-   echo "XMind ist vorhanden."
-else
-   echo "--------------"
-   echo "XMind ist NICHT vorhanden!"
-   echo "--------------"
-   echo "XMind wird heruntergeladen und installiert!"
-   echo "--------------"
-   wget https://dl3.xmind.net/XMind-2020-for-Linux-amd-64bit-10.3.1-202101132117.deb -O /opt/XMind.deb
-   dpkg -i /opt/XMind.deb
-fi
 
 #SNAPS
 #snaps aktualisieren
