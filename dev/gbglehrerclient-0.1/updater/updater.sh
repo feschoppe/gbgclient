@@ -49,15 +49,15 @@ fi
 #http://schoppemail.de/deb/wpasupplicant_2.9-1ubuntu4.1-PATCHED_amd64.deb
 #wpasupplicant fixen
 
-if [ -f /opt/wpasupplicant_2.9-1ubuntu4.1-PATCHED_amd64.deb ]; then
-   echo "wpa_supplicant schon gefixt."
-else
-   echo "--------------"
-   echo "Fix von wpa_supplicant installieren."
-   echo "--------------"
-   wget http://schoppemail.de/deb/wpasupplicant_2.9-1ubuntu4.1-PATCHED_amd64.deb -O /opt/wpasupplicant_2.9-1ubuntu4.1-PATCHED_amd64.deb
-   dpkg -i /opt/wpasupplicant_2.9-1ubuntu4.1-PATCHED_amd64.deb
-fi
+#if [ -f /opt/wpasupplicant_2.9-1ubuntu4.1-PATCHED_amd64.deb ]; then
+#   echo "wpa_supplicant schon gefixt."
+#else
+#   echo "--------------"
+#   echo "Fix von wpa_supplicant installieren."
+#   echo "--------------"
+#   wget http://schoppemail.de/deb/wpasupplicant_2.9-1ubuntu4.1-PATCHED_amd64.deb -O /opt/wpasupplicant_2.9-1ubuntu4.1-PATCHED_amd64.deb
+#   dpkg -i /opt/wpasupplicant_2.9-1ubuntu4.1-PATCHED_amd64.deb
+#fi
 
 #Prüfen, ob xournalpp vorhanden ist, falls ja,
 #entfernen und neu installieren

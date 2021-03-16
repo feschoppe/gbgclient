@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sun, 06 Sep 2020 12:02:32 +0200
+Source: gbglehrerclient
+Architecture: source
+Version: 0.1-48
+Distribution: focal
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changes:
+ gbglehrerclient (0.1-48) focal; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 620f6b0b3aacfa6e5a3a3abcc523619b405ce8df 1610 gbglehrerclient_0.1-48.dsc
+ 3608f740d70ec59ac184e6a15ef578004e0f12a2 8984 gbglehrerclient_0.1.orig.tar.xz
+ d785b8cdc22263ea3344eb399b3da77f36ed6e19 6070356 gbglehrerclient_0.1-48.debian.tar.xz
+ e91d68d026c0a7452b224eed2bc2bf281ccbe21f 5847 gbglehrerclient_0.1-48_source.buildinfo
+Checksums-Sha256:
+ e63de2f211b01949cad90c4125b0dfdc3f75244368615c5ee937044252fa0624 1610 gbglehrerclient_0.1-48.dsc
+ d2146ea0e93128ea57812986768dcf7abd52b264fb3048de9d5b33c64f2574b6 8984 gbglehrerclient_0.1.orig.tar.xz
+ 9b6422fa79b15918e78513c47529841ac6f7094e270754387eb25dd7cb347e89 6070356 gbglehrerclient_0.1-48.debian.tar.xz
+ fcf64e63273cec71cf0eec28162cbbef208ec25e16e9a671d4d405e281ed51b0 5847 gbglehrerclient_0.1-48_source.buildinfo
+Files:
+ b0cbf9b37c030fadccb54ec2c6c8acb1 1610 utils optional gbglehrerclient_0.1-48.dsc
+ 8d5d8d797c96e5028a9af9a505dfbd9f 8984 utils optional gbglehrerclient_0.1.orig.tar.xz
+ 41dd2d9cb4bbf405c466c9153d585c86 6070356 utils optional gbglehrerclient_0.1-48.debian.tar.xz
+ c77b234cf26b551310281607bf82241f 5847 utils optional gbglehrerclient_0.1-48_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAmBRDCAACgkQs7/Yjblg
+MBA/tgv8Cw7VUJjJE5pjcDPALN1huOR6MP0hnQa2SJzP4XwwT9OeFa/YFyqzgTp2
+hDiiVsWfS/XoxZibdB2lAtUyKjXOM2UkI/GCm8UPdqM6ANv6uieewkFzf/lpI3SW
+Th7WbcQrSzSqApTBX+RjLBCECVMS289blOjnBsZPfHYromjWYK69Ori3qQTv1p39
+eoOMDIllfE5kp6UaNBAVCi8RZAtEo0vz5zdMbejfzKPlji1L28unCe2QGt+0CW9V
+pOUTYq2UYVE/2Kl6wLI+0bL1xWRqeMSqz60fOqxcy4m59FNreyTvAg249/4lbenC
+AF78TRhPEIQnUehkzbPYRSerc1OUzK0PNoBmoZK6Cmy0u4gJpZ3z0+pjnKd9Ge/b
+3EmtzGWGa/63Ffn/XYjg+B/Vw/HSbtClt0CeaNi3aPfsB8abVoC0CA2J0Pu3NNm2
+8oT6o9jmDA1WAKBn9pbt+8guRGwzTo7VyOM/cD972G2I820CYF3vFZv4L9kk3k4Q
+27l14/Ve
+=rn4w
+-----END PGP SIGNATURE-----
