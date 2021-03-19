@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
 Format: 3.0 (quilt)
 Source: gbgclient
 Binary: gbgclient
@@ -18,3 +21,18 @@ Checksums-Sha256:
 Files:
  11c6c12da5b80dfd70c2c5cce0ffc4bc 240 gbgclient_0.1.orig.tar.xz
  2d8b7d6e634a8ce91df6ce52d654b819 2782996 gbgclient_0.1-13.debian.tar.xz
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAmBUgQkACgkQs7/Yjblg
+MBDJ+Qv+OwIcU/PhG9wZPOVfXCgrXllsKzzfWKRB5YNsfE2zvvHBEbLEX9XJA27l
+7cd4ttFO4Q8PgIL3+jv6neGzvS7pGY34yR7Pal7KANhIEszKArtI/cYsFS8dX180
+fk9qkGgzpEg8CMq+QVMLWG1YM725Iq8Rb+GsSuPv/bUPTjwGqKXAY/GQTng3lR92
+DJbCoFPWoW/mUVdSPS9ycCnvfkw63SzNgGDoAyuXILRdi2DPydFy5gLvd1DEx/wW
+X7+lHLDi3k6iKejWmZvy1aA1KLWzz2Q8R+0TcGaphE+2GGXHt6w/2t75FZ6cfkvP
+xmQtdwH0I8/4hFHTuNxYCh6C93WLfyPMXiD+/1MopLg2EFr5fI6gT2GiBWrGYV3j
+JQGPjPX+UBzTAUiY9oBR5nUAvtA2uVg14wedihlHJENtR4c/CMmpojxIpfatPrxV
+H5LG/JWcCNjS1CrPqx3FEx/reBuTM1UzSOvMV70Lf2dDwnF/yBX9uFE+5nQCZ7Du
+qQ+MMkUX
+=55e8
+-----END PGP SIGNATURE-----

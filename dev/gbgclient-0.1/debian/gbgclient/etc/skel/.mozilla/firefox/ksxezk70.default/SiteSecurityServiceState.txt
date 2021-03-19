@@ -1,1 +1,0 @@
-shavar.services.mozilla.com^firstPartyDomain=safebrowsing.86868755-6b82-4842-b301-72671a0db32e.mozilla:HSTS	0	17801	1569606644349,1,1,2

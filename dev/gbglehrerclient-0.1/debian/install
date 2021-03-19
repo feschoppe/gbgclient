@@ -26,3 +26,5 @@ beamer/beamer.sh usr/bin
 beamer/beamer.png usr/share/icons
 usr/share/icons/Joplin.png usr/share/icons
 beamer/beamer.desktop usr/share/applications
+etc/ssh/sshd_config.d/gbg.conf etc/ssh/sshd_config.d
+

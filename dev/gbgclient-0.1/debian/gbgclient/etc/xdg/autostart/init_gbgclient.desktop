@@ -1,5 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Reset all connections and initialize gbgclient
-Exec=/usr/bin/init_gbgclient.sh
-X-GNOME-Autostart-enabled=true
