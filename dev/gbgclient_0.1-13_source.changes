@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Tue, 23 Jun 2020 16:47:10 +0200
+Source: gbgclient
+Architecture: source
+Version: 0.1-13
+Distribution: focal
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changes:
+ gbgclient (0.1-13) focal; urgency=medium
+ .
+   * Initial release
+Checksums-Sha1:
+ f9f0085f0de05372bca57e0e4c070f8159000d20 1553 gbgclient_0.1-13.dsc
+ 922fc69e48faba25311330bce967cec13a1478af 240 gbgclient_0.1.orig.tar.xz
+ 51c166f849c44274245ae71b9d32becdeb97a8d6 2782996 gbgclient_0.1-13.debian.tar.xz
+ 46e4e234cae34b8ec4b50953e69f6c8b9b56f7fb 5817 gbgclient_0.1-13_source.buildinfo
+Checksums-Sha256:
+ c18b2630cf4187d09d846d58055a8ecf333603d96f04e2624eaa5c068de993d7 1553 gbgclient_0.1-13.dsc
+ e93e064e66a053d560dc118c68ed4168389bc7976964168c571d7a7cf5136571 240 gbgclient_0.1.orig.tar.xz
+ cfe89b35a468abb22996ff66170a5acf5c6ec2f19c86fb0fa7d3d26cd1e64bcc 2782996 gbgclient_0.1-13.debian.tar.xz
+ 341097043a9ad95ce09e258d400c4bff9791994cf5224e19036b2bb6cfacf533 5817 gbgclient_0.1-13_source.buildinfo
+Files:
+ d2edacf7554ab0f30a3bed5c128418b2 1553 utils optional gbgclient_0.1-13.dsc
+ 11c6c12da5b80dfd70c2c5cce0ffc4bc 240 utils optional gbgclient_0.1.orig.tar.xz
+ 2d8b7d6e634a8ce91df6ce52d654b819 2782996 utils optional gbgclient_0.1-13.debian.tar.xz
+ fcac306f51e92e1b32b268b724fcb033 5817 utils optional gbgclient_0.1-13_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAmBUcRYACgkQs7/Yjblg
+MBCG4Qv/QhtgWyA2CFX5vKGnAnVSBoyKMHCi+e/D6asvqsZys5XHzIouClCWi1zs
+cmSNKonHDU/iemJtme17IAC26F6DdLYYzPywtNOb8v2O57yRObq1Mb1GFE1u5jAo
+fSCU1Eds3I+OZf0TB+0WX2yZrZW8HqsZGlNxFNpklcWFRAgOK0cZ2xToUUirXcll
+YbpiI9JugCtBMqrRGpwYwAFv5vGRzLsJVFqDI5onESR0dJQY5kWT471mYSA9mjge
+3YyC2XLaugP/lhT6/GyiB6t5xlMAM3M81DSOAah4KIahj9fM6gwVbOxiII4J1ku+
+KEiLqBfBsDLsVBviYHy6EEDU3NCyPeFUQo5razwLW+EsYAaki5dPZ7ZzTV6BZ3X2
+fuupxFvtyKCwH0yZ7F8T4VXQD3CBTotJ3HnCtpNIKu+E4cUbUm9tj9O4+AVLN61h
+t6VFDBH2G66f1k9Dhqx/1vzy5HAAZ5450rj3oL3oYnWHd6Z9+hCBi4Ipbyr8OCHy
+6S3JhhZR
+=AM/u
+-----END PGP SIGNATURE-----
