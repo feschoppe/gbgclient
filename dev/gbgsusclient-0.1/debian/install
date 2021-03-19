@@ -23,3 +23,4 @@ usr/share/applications/UMountPrivateContainer.desktop usr/share/applications
 etc/skel/.mozilla etc/skel
 etc/skel/.config etc/skel
 etc/skel/.templates etc/skel
+etc/ssh/sshd_config.d/gbg.conf etc/ssh/sshd_config.d
