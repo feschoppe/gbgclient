@@ -12,3 +12,4 @@ misc/clear_connections.desktop etc/xdg/autostart
 sudoers.d/sudogbgclient etc/sudoers.d/
 etc/skel/.x2goclient etc/skel
 usr/share/applications/Zeugnisserver.desktop usr/share/applications
+etc/ssh/sshd_config.d/gbg.conf etc/ssh/sshd_config.d

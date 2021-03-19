@@ -1,0 +1,17 @@
+./scripts/init_gbgclient.sh
+./scripts/root_init_gbgclient.sh
+./scripts/delete_connections.py
+./scripts/change_home.sh
+./gdm3/PostLogin/Default
+./gdm3/PostSession/Default
+./gdm3/PreSession/Default
+./updater/updater.sh
+./updater/updater.desktop
+./updater/updater.svg
+./misc/init_gbgclient.desktop
+./misc/GBG_Custom_Background.png
+./sudoers.d/sudogbgclient
+./etc/skel/.mozilla
+./etc/skel/.config
+./etc/skel/.templates
+./etc/ssh/sshd_config.d/gbg.conf

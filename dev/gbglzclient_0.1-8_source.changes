@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 26 Aug 2020 19:43:58 +0200
+Source: gbglzclient
+Architecture: source
+Version: 0.1-8
+Distribution: focal
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changes:
+ gbglzclient (0.1-8) focal; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 0c24c12b5044c48cdcff9a3c8d920bcf85c5eada 1564 gbglzclient_0.1-8.dsc
+ 1ab0c5867b02f572ecc25d1ef506d235123a39bb 8388 gbglzclient_0.1.orig.tar.xz
+ 46f3356fa9c3e6807d986ed62deafcd74ffd890d 10448 gbglzclient_0.1-8.debian.tar.xz
+ b101058d505fe0f71eeeb777e41cd3e86f66465a 5823 gbglzclient_0.1-8_source.buildinfo
+Checksums-Sha256:
+ aaac9dc6a2ae06bf2efe369b208dbb796040a658e19998e37af53350b0962ee8 1564 gbglzclient_0.1-8.dsc
+ dbd804d451ff3d0ca0acc49a21764e2fe28c3a09a71d7b0f6f660bbd5dd6b26b 8388 gbglzclient_0.1.orig.tar.xz
+ 8f90c2ea210aafcc74d0ebbc4795d932e9d5fdce3e7e0b4f22f198ddf1695144 10448 gbglzclient_0.1-8.debian.tar.xz
+ 8a1ed1d311ea3aa59047eabaaef5e248a46838b99b03f2666f23615c536a19d7 5823 gbglzclient_0.1-8_source.buildinfo
+Files:
+ 091a585a5f187d5364a03732e0ff6a76 1564 utils optional gbglzclient_0.1-8.dsc
+ 7d10b440522d0343f0381191d358da2d 8388 utils optional gbglzclient_0.1.orig.tar.xz
+ b0e55f80378a8127043330e6150754bc 10448 utils optional gbglzclient_0.1-8.debian.tar.xz
+ d4171dbd66a4285c69b911bb8f93aa8a 5823 utils optional gbglzclient_0.1-8_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAmBUdzoACgkQs7/Yjblg
+MBAutgv/QbDLB+2QCvhpQ1hu56OK6NsWzVyKrmHmMNjKIQ6lhu4RZ8QJvMxSkGAs
+mJbRU4484xCxpfNZlqZvHhSHv3IlvnqV/JjGbJRMSq+MHb/DDwSS7JWKNLc0jusM
+/wxk7q8JtlI1FX/alHdxkHRaNI9jD9bpFevAh/SAqKyF1VpmAaxSCZ+3KZJS4NxN
+PaU0hp9xBqHt0jJxO15dH1D7Yf63YiOc+gDGUooPp7JscsdWjCAnJcBAO9XdLDzE
+LIt0vQ85WWiui9DOj0aeW2YQ4ZCW8BYwKS+NQ8V8hWIO0svJoIKQfUifrKVqtj6n
+OdWj6BFKoglxHmV73bROYJXW+W/xxNQJO9XqNlrw1AGlvp3/U1SzaCzijDZXrs3m
+8YUyS8qIyofAk1srOpYTJ13CGlLzdgNfLZ+Xes1KCzmmiqGipKD2cTGdRQEddEhM
+Ll2AZfXupI2G+kRYqcBqPIAFyecXTgQ0BzmMXoV0jKUm14RiSVpVgB2y/xItbCAp
+JKrZXN7X
+=hISr
+-----END PGP SIGNATURE-----

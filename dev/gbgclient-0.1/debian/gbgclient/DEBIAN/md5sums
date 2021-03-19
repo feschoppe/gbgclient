@@ -1,0 +1,11 @@
+b7a6ff53a410ceed25370b6bda50b378  usr/bin/change_home.sh
+59da0fecc5da21e9d739f207174daf7a  usr/bin/delete_connections.py
+b30a9b58fe1a2cc893e2df8523a29475  usr/bin/init_gbgclient.sh
+8fd704019755a5dd54fb4a13b28cae61  usr/bin/root_init_gbgclient.sh
+00ee56e2fffbb4d577625d8f7b44aa84  usr/bin/updater.sh
+2b9b6395041d91b8eba0d8800fa5e078  usr/share/applications/updater.desktop
+a80709edea1314c26c03b06602eb33ff  usr/share/backgrounds/GBG_Custom_Background.png
+3c92ed7123a70f5040780de1fc638926  usr/share/doc/gbgclient/README.Debian
+3a6a2cc5908305eb8f036a90d90c8891  usr/share/doc/gbgclient/changelog.Debian.gz
+5687384925d885e3fbba54371cac5afb  usr/share/doc/gbgclient/copyright
+0023781cba28b9da0727a69782810578  usr/share/icons/updater.svg

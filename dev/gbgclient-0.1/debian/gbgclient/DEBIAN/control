@@ -1,0 +1,13 @@
+Package: gbgclient
+Version: 0.1-13
+Architecture: all
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Installed-Size: 19172
+Depends: musescore3, openssh-server, cryptsetup
+Conflicts: gbglehrerclient, gbglzclient, gbgsusclient, gnome-initial-setup
+Replaces: gbglehrerclient, gbglzclient, gbgsusclient, gdm3
+Section: utils
+Priority: optional
+Homepage: <insert the upstream URL, if relevant>
+Description: Standard-GBG-Client
+ Das ist der Standard-GBG-Client.

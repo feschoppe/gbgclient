@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Tue, 23 Jun 2020 16:47:10 +0200
+Source: gbgclient
+Binary: gbgclient
+Architecture: source all
+Version: 0.1-13
+Distribution: focal
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Description:
+ gbgclient  - Standard-GBG-Client
+Changes:
+ gbgclient (0.1-13) focal; urgency=medium
+ .
+   * Initial release
+Checksums-Sha1:
+ b358454578dace1f88a3aab04fca3f63bb522f10 844 gbgclient_0.1-13.dsc
+ 922fc69e48faba25311330bce967cec13a1478af 240 gbgclient_0.1.orig.tar.xz
+ 51c166f849c44274245ae71b9d32becdeb97a8d6 2782996 gbgclient_0.1-13.debian.tar.xz
+ 314456ec190ae88f5bc912abb80fd70263a39cd3 5074316 gbgclient_0.1-13_all.deb
+ 7c8f7e5c49e74c41a0309d0eb61a099fb3d54e4f 5350 gbgclient_0.1-13_amd64.buildinfo
+Checksums-Sha256:
+ 05d4901b7b96908695f4777e770eb5ec29f3bd1257341a4c92d6c69450e836cc 844 gbgclient_0.1-13.dsc
+ e93e064e66a053d560dc118c68ed4168389bc7976964168c571d7a7cf5136571 240 gbgclient_0.1.orig.tar.xz
+ cfe89b35a468abb22996ff66170a5acf5c6ec2f19c86fb0fa7d3d26cd1e64bcc 2782996 gbgclient_0.1-13.debian.tar.xz
+ b73345c97579e7d8d1490c34f1514a29e7c9485901c5ae2f6727a53740e93a4b 5074316 gbgclient_0.1-13_all.deb
+ 5c9e1aced53f0a2af227918b6f28f9857c556bcb352ecbae3da87b9d6c9dd007 5350 gbgclient_0.1-13_amd64.buildinfo
+Files:
+ cef33db247232e004cee5049f999aa44 844 utils optional gbgclient_0.1-13.dsc
+ 11c6c12da5b80dfd70c2c5cce0ffc4bc 240 utils optional gbgclient_0.1.orig.tar.xz
+ 2d8b7d6e634a8ce91df6ce52d654b819 2782996 utils optional gbgclient_0.1-13.debian.tar.xz
+ 0fb2218d9c866b1014ea9d117868a842 5074316 utils optional gbgclient_0.1-13_all.deb
+ 3af17b35c1dabebeb7503092a020c41b 5350 utils optional gbgclient_0.1-13_amd64.buildinfo
