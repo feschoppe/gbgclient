@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sun, 06 Sep 2020 12:02:32 +0200
+Source: gbglehrerclient
+Architecture: source
+Version: 0.1-50
+Distribution: focal
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changes:
+ gbglehrerclient (0.1-50) focal; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 2adf5ef69a7df282b65db38261ed7c85f9092d59 1610 gbglehrerclient_0.1-50.dsc
+ 3608f740d70ec59ac184e6a15ef578004e0f12a2 8984 gbglehrerclient_0.1.orig.tar.xz
+ 09ef2c28d82f74226a92e2e167b58b81f767a104 6069060 gbglehrerclient_0.1-50.debian.tar.xz
+ 19744ae9e995f454fe49e5be7d1a81239afbcbc6 5847 gbglehrerclient_0.1-50_source.buildinfo
+Checksums-Sha256:
+ cefc1a01d82c16ce7708dbb2b54e8d46a71d061a450124259ece93bd979e3341 1610 gbglehrerclient_0.1-50.dsc
+ d2146ea0e93128ea57812986768dcf7abd52b264fb3048de9d5b33c64f2574b6 8984 gbglehrerclient_0.1.orig.tar.xz
+ 96a0fbb6ede24cc9e24d685c8e42d7f34259f6c9a583488e535c0ab88417243c 6069060 gbglehrerclient_0.1-50.debian.tar.xz
+ 2c4fd2ad2c51081ffbc7819cd679426fcde31c4f1b2a6664762e50c6a5313d9d 5847 gbglehrerclient_0.1-50_source.buildinfo
+Files:
+ bb2882768571e1d8ee94cdd51d7042f6 1610 utils optional gbglehrerclient_0.1-50.dsc
+ 8d5d8d797c96e5028a9af9a505dfbd9f 8984 utils optional gbglehrerclient_0.1.orig.tar.xz
+ f584025e9e79069566580705b7c4e239 6069060 utils optional gbglehrerclient_0.1-50.debian.tar.xz
+ 0b8ddc46a1bdba267353bda2e47510df 5847 utils optional gbglehrerclient_0.1-50_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAmBdvlEACgkQs7/Yjblg
+MBAKUQv/a4eqA7avN8FJPER+5AqGGjB3KPz+HciYX34OLED0eb0YSM3zMu/dxsCv
+gTcoynrpzeSVK9FhbMi5r5szxgdAAp45FNPY6oP5KRqvQvu4X9IWP1P4//niGnyu
+a5z9E/m2p1cZhHbrZ9Ilk5cEfa0BFd6cHl1jEm0i98BeWT8aEz5xYlaZtzvoDc2B
+b8fLqTPu0g6pUJ3+JBbZtA4u5uQOBWSiT9FCl4ZasF8YKtJLRZ6gHN1Po4NQJJa5
+cFQY8Mo821hrJpjOsRxwtlY2gJGYCMtB6wo1Y1u73Kyf5GDY0iNzokTYBpB4q0Q3
+yeuG9dwcQoQFOOzXKOo82WRBmhHsj0U2eFzTluKhh9x9FcGfMnT3pPmpr50H5zk0
+ww3JxDCTXWiYtiKUKzmfpecWvNWyM/sWmnCXrQ0P7X1s8AXP4/D6mY5iuicVPwPh
+FTdQpahc+2LLGUnCDKWp97LQpMLyahljS2hTHgCgJYKibZj03AlHb95eOCUEBF51
+HaKNCJFK
+=hjk7
+-----END PGP SIGNATURE-----
