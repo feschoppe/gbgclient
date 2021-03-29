@@ -10,7 +10,7 @@ Homepage: <insert the upstream URL, if relevant>
 
 Package: convertibleclient-lehrer
 Architecture: all
-Depends: geary, thunderbird-locale-de, thunderbird-gnome-support, musescore3, flatpak, tesseract-ocr-deu, gimagereader, openssh-server, cryptsetup, apt-transport-https, wine32, winetricks, florence, libreoffice-base
+Depends: geary, thunderbird-locale-de, thunderbird-gnome-support, musescore3, flatpak, tesseract-ocr-deu, gimagereader, openssh-server, cryptsetup, apt-transport-https, wine32, winetricks, florence, libreoffice-base, default-jdk, netbeans
 Description: GBG-Client für Lehrer-Geräte (convertibles)
  Dieses Paket konfiguriert einen GBG-Lehrer-PC.
 Conflicts: gbgclient, gbgsusclient, gbglzclient, gnome-initial-setup, gbglehrerclient

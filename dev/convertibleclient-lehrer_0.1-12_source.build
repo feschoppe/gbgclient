@@ -1,0 +1,42 @@
+ dpkg-buildpackage -us -uc -ui -S -sa
+dpkg-buildpackage: Information: Quellpaket convertibleclient-lehrer
+dpkg-buildpackage: Information: Quellversion 0.1-12
+dpkg-buildpackage: Information: Quelldistribution focal
+dpkg-buildpackage: Information: Quelle geändert durch Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+ dpkg-source --before-build .
+ fakeroot debian/rules clean
+dh clean
+   dh_clean
+ dpkg-source -b .
+dpkg-source: Information: Quellformat »3.0 (quilt)« wird verwendet
+dpkg-source: Information: convertibleclient-lehrer wird unter Benutzung des existierenden ./convertibleclient-lehrer_0.1.orig.tar.xz gebaut
+dpkg-source: Information: Patchliste aus debian/patches/series wird verwendet
+dpkg-source: Information: convertibleclient-lehrer wird in convertibleclient-lehrer_0.1-12.debian.tar.xz gebaut
+dpkg-source: Information: convertibleclient-lehrer wird in convertibleclient-lehrer_0.1-12.dsc gebaut
+ dpkg-genbuildinfo --build=source
+ dpkg-genchanges -sa --build=source >../convertibleclient-lehrer_0.1-12_source.changes
+dpkg-genchanges: Information: kompletter Quellcode beim Hochladen hinzufügen
+ dpkg-source --after-build .
+dpkg-buildpackage: Information: Alles hochzuladen (Originalquellen enthalten)
+Now running lintian convertibleclient-lehrer_0.1-12_source.changes ...
+E: convertibleclient-lehrer source: debian-rules-is-dh_make-template
+E: convertibleclient-lehrer source: readme-source-is-dh_make-template
+E: convertibleclient-lehrer source: source-is-missing etc/skel/.mozilla/firefox/ksxezk70.default/gmp-gmpopenh264/1.7.1/libgmpopenh264.so
+E: convertibleclient-lehrer source: source-is-missing etc/skel/.mozilla/firefox/ksxezk70.default/gmp-widevinecdm/1.4.8.1008/libwidevinecdm.so
+E: convertibleclient-lehrer source: source-is-missing etc/skel/.mozilla/firefox/ksxezk70.default/prefs.js line length is 663 characters (>512)
+W: convertibleclient-lehrer source: bad-homepage <insert the upstream URL, if relevant>
+W: convertibleclient-lehrer source: debhelper-but-no-misc-depends convertibleclient-lehrer
+W: convertibleclient-lehrer source: dh-make-template-in-source debian/convertibleclient-lehrer.cron.d.ex
+W: convertibleclient-lehrer source: dh-make-template-in-source debian/convertibleclient-lehrer.doc-base.EX
+W: convertibleclient-lehrer source: dh-make-template-in-source debian/manpage.1.ex
+W: convertibleclient-lehrer source: dh-make-template-in-source debian/manpage.sgml.ex
+W: convertibleclient-lehrer source: dh-make-template-in-source debian/manpage.xml.ex
+W: convertibleclient-lehrer source: dh-make-template-in-source debian/postinst.ex
+W: convertibleclient-lehrer source: dh-make-template-in-source debian/postrm.ex
+W: convertibleclient-lehrer source: dh-make-template-in-source debian/preinst.ex
+W: convertibleclient-lehrer source: dh-make-template-in-source debian/prerm.ex
+W: convertibleclient-lehrer source: dh-make-template-in-source debian/salsa-ci.yml.ex
+W: convertibleclient-lehrer source: dh-make-template-in-source debian/watch.ex
+W: convertibleclient-lehrer source: space-in-std-shortname-in-dep5-copyright <special license> (paragraph at line 6)
+W: convertibleclient-lehrer source: superfluous-clutter-in-homepage <insert the upstream URL, if relevant>
+Finished running lintian.
