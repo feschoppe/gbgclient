@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sat, 23 Jan 2021 17:00:33 +0100
+Source: gbgclient-edge
+Architecture: source
+Version: 0.1-4
+Distribution: hirsute
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changes:
+ gbgclient-edge (0.1-4) hirsute; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 5deb494ed36cecd163fc68acb7813cafd2ed4028 1597 gbgclient-edge_0.1-4.dsc
+ 9dbf30fd4ec56365647506224064f843ad3b73f6 5043792 gbgclient-edge_0.1.orig.tar.xz
+ 42466b0f02324608a5306e9ae408665d4bef3600 8748 gbgclient-edge_0.1-4.debian.tar.xz
+ 7aac97ee5444561c7e8ab8a37317ba573486f5a9 5838 gbgclient-edge_0.1-4_source.buildinfo
+Checksums-Sha256:
+ 4a3883b01f9b62d8daeeaa45eae72822e0e55f6bc90a7ab99dff6a8f295bb1ba 1597 gbgclient-edge_0.1-4.dsc
+ f92f73e3efa5a722a43f46f81393d0ebd13e4090e95ca549531a1672403453b6 5043792 gbgclient-edge_0.1.orig.tar.xz
+ f41d98532175a443d4c90568bcb2554ab473a4c763e2edd7fa70dd7b2954827d 8748 gbgclient-edge_0.1-4.debian.tar.xz
+ a70d7f30e93cc4d27046572b4dd27b3ea85c7e0766300f95f54a445a0339aa36 5838 gbgclient-edge_0.1-4_source.buildinfo
+Files:
+ 3a6b8677d46343d97a416670f3045279 1597 utils optional gbgclient-edge_0.1-4.dsc
+ c0b0584852210a428df66dd818908fa0 5043792 utils optional gbgclient-edge_0.1.orig.tar.xz
+ 3b64b3bd18c7232e508ee59a52efee2e 8748 utils optional gbgclient-edge_0.1-4.debian.tar.xz
+ 71770c0c8fe7045f3e87b2447b824375 5838 utils optional gbgclient-edge_0.1-4_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAmBh30AACgkQs7/Yjblg
+MBBC2wv+MzVH4sauShC5T1MYIaZXGU0a7R1H2RK+ZUgpaZ85KbMo4RPCnp7LvlCD
+ttPF3YTfoyRrZXoj1UyzBM4an/59gNmWCS7RIid23Gf9chq51SQNsOOUMlLQpDhf
+pROgj39Ov3qsFUYBmvxxfuv3M+pi5GY4qNC8H8dO0pKWS9lgKhLen4ES92S2Hk3g
+M9LicWE9Jz+DHfIXWoiV0jlN+EnH5LDB+LF8z8/Rkrj2uo9kXGRd54YAAjJi8N9w
+QanAmn15gHWWbq0CfPEtkdU5MjeVj8SETdY66S7+/1b48znw2tkWQDY17GxRBHea
+FNXKwFwg6F/fJHDfw4A0OVJ20Uq2Q4OWP2aFJElVhFAnTe1gV0tsA2sIEaPz5IMC
+aDY5m18LL4yeYXCK0f6CbV7gnX+U/Pb2xNGJ2v3sjotj/Hh3HQ0Mk7PeY4lM6p9z
+h0SOq8NWeBTQzoPiDEHlhYNrY6+h1XNYtxq/AUzHTeZNmZz5XZ7SJeycZ4o4+srZ
+CA5U2nXw
+=W2Qy
+-----END PGP SIGNATURE-----

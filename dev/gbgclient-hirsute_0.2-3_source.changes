@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 29 Mar 2021 18:47:06 +0200
+Source: gbgclient-hirsute
+Architecture: source
+Version: 0.2-3
+Distribution: hirsute
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changes:
+ gbgclient-hirsute (0.2-3) hirsute; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ dc2676e90ab5f7b518df3e2f5ab0353cb897d7fb 1627 gbgclient-hirsute_0.2-3.dsc
+ 3024ff30b1803ae5d950d00d540b9b25092b7f8c 5041440 gbgclient-hirsute_0.2.orig.tar.xz
+ 0e7f7857f2c270785e67958ffe2fd615f4c25b88 10480 gbgclient-hirsute_0.2-3.debian.tar.xz
+ cb0fc813e6788aa9ebf6ece39edc181c29b6d6f0 5853 gbgclient-hirsute_0.2-3_source.buildinfo
+Checksums-Sha256:
+ d25d09a4818f69f0b69f5a6d355faf384943032ed7ce4d7bd38baf05537de7af 1627 gbgclient-hirsute_0.2-3.dsc
+ b38c54c65785a0ab63db32811c2241c1f59121225a4b1097952648fa329f2699 5041440 gbgclient-hirsute_0.2.orig.tar.xz
+ c24dee39fd51ab9905acfd3c26e75be6ac491b347a884d2f59515506cdef8803 10480 gbgclient-hirsute_0.2-3.debian.tar.xz
+ 03d0eb44dfd726f829bc644931759357d6857d2c8989c9a0d75894744f3dd22c 5853 gbgclient-hirsute_0.2-3_source.buildinfo
+Files:
+ b1cafcea4ee4da2fb97ab47684968ecf 1627 utils optional gbgclient-hirsute_0.2-3.dsc
+ e3c30c2071e71dfb8b0c97b6659aee5d 5041440 utils optional gbgclient-hirsute_0.2.orig.tar.xz
+ 7a3d0e15034f66642da6ddec30249ab5 10480 utils optional gbgclient-hirsute_0.2-3.debian.tar.xz
+ d201f17b33d88007b29b8a9f0ac59626 5853 utils optional gbgclient-hirsute_0.2-3_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAmBiELIACgkQs7/Yjblg
+MBDFfwwAifAZU0eokIwdj0hHar+VRW7Tg/z+jOKxN1/3rKbSMIcj7lLvtnV3gGal
+/iVDgh24jRvO+lkZV02MXOvu2pco6dKZRCeAbIds/QIflwtrQpqPoFWlE3nTVg56
+QzfDL+n96PidbMp1J1rS9+2VppSkOh8cSzgFkE9TKalsBwiNwbfXpcrC5ikdluXo
+BzrUusJkhjzozuuGRyE9sGvkiutoKTZ8EM/MJt1J0ALW2H0li3YD2ZpIb8Vu7eKy
+9ApFi78c9uGLPuD0g21ftOF0Pbf+CLtQQdHvYZ6rFQcooNC+fCwjHvTpOdyZCiy1
+87hq7q4k4MoNyJxzVMF5h5n6x+qF8GP9p+6dB7FNqmN2YO7wujX8dUt5gVSDFDnp
+5+Pd4rusXd72n45rm90T5Cv3yJBR89V2n9hdkgWXRSK2PcJwKsJiGN8y+xfaWx7S
+AI9yZNegLhlUujVMb2PTaqmjDbnLIh4ubaPMZRYsO0JiaJ54mRNaCvKMOVw0f8Px
+jbePUSL2
+=Xwei
+-----END PGP SIGNATURE-----

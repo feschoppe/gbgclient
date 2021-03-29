@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=sudo /usr/bin/UMountPrivateContainer.sh
+Icon=/usr/share/icons/Adwaita/scalable/actions/edit-delete-symbolic.svg
+Name=Privates Laufwerk aushängen
+StartupNotify=true
+Terminal=true
+Type=Application

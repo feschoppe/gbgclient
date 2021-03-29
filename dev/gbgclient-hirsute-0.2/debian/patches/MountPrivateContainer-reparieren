@@ -1,0 +1,144 @@
+Description: <short summary of the patch>
+ TODO: Put a short summary on the line above and replace this paragraph
+ with a longer explanation of this change. Complete the meta-information
+ with other relevant fields (see below for details). To make it easier, the
+ information below has been extracted from the changelog. Adjust it or drop
+ it.
+ .
+ gbgclient-hirsute (0.2-3) hirsute; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Author: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+
+---
+The information above should follow the Patch Tagging Guidelines, please
+checkout http://dep.debian.net/deps/dep3/ to learn about the format. Here
+are templates for supplementary fields that you might want to add:
+
+Origin: <vendor|upstream|other>, <url of original patch>
+Bug: <url in upstream bugtracker>
+Bug-Debian: https://bugs.debian.org/<bugnumber>
+Bug-Ubuntu: https://launchpad.net/bugs/<bugnumber>
+Forwarded: <no|not-needed|url proving that it has been forwarded>
+Reviewed-By: <name and email of someone who approved the patch>
+Last-Update: 2021-03-29
+
+--- gbgclient-hirsute-0.2.orig/scripts/MountPrivateContainer.sh
++++ gbgclient-hirsute-0.2/scripts/MountPrivateContainer.sh
+@@ -2,7 +2,7 @@
+ 
+ SAFE=/opt/PrivateContainer
+ CRYPTNAME=PrivateContainer
+-MNT=/tmp/gbg/PrivateContainer
++MNT=/opt/mount/PrivateContainer
+ FS=ext4
+ LOOPDEV=`losetup -f`
+ 
+@@ -23,9 +23,72 @@ fi
+ /bin/mount -t $FS /dev/mapper/$CRYPTNAME $MNT
+ chown -R gbg:gbg $MNT
+ 
+-#Thunderbird-Profilordner verlinken
+-PRIV=/tmp/gbg/PrivateContainer/
++#Container verlinken
+ 
+-rm -r /tmp/gbg
++mount --bind --verbose $MNT /tmp/gbg
+ 
+-ln -s $PRIV /tmp/gbg
++#ggf. Unterordner im user home anlegen
++
++if [ -d /tmp/gbg/Dokumente ]; then
++	echo "Dokumente existiert."
++else
++	echo "Dokumente existiert nicht."
++	mkdir /tmp/gbg/Dokumente
++fi
++
++if [ -d /tmp/gbg/Downloads ]; then
++	echo "Downloads existiert."
++else
++	echo "Downloads existiert nicht."
++	mkdir /tmp/gbg/Downloads
++fi
++
++if [ -d /tmp/gbg/Bilder ]; then
++	echo "Bilder existiert."
++else
++	echo "Bilder existiert nicht."
++	mkdir /tmp/gbg/Bilder
++fi
++
++if [ -d /tmp/gbg/Musik ]; then
++	echo "Musik existiert."
++else
++	echo "Musik existiert nicht."
++	mkdir /tmp/gbg/Musik
++fi
++
++if [ -d /tmp/gbg/Schreibtisch ]; then
++	echo "Schreibtisch existiert."
++else
++	echo "Schreibtisch existiert nicht."
++	mkdir /tmp/gbg/Schreibtisch
++fi
++
++if [ -d /tmp/gbg/Videos ]; then
++	echo "Videos existiert."
++else
++	echo "Videos existiert nicht."
++	mkdir /tmp/gbg/Videos
++fi
++
++if [ -d /tmp/gbg/Vorlagen ]; then
++	echo "Vorlagen existiert."
++else
++	echo "Vorlagen existiert nicht."
++	mkdir /tmp/gbg/Vorlagen
++fi
++
++if [ -d /tmp/gbg/Öffentlich ]; then
++	echo "Öffentlich existiert."
++else
++	echo "Öffentlich existiert nicht."
++	mkdir /tmp/gbg/Öffentlich
++fi
++
++if ! NAME=$(zenity --entry --text "IServ-Benutzername:" --title "Nutzername"); then
++  exit;
++fi
++
++sed "s/\__NUTZERNAME/$NAME/g" /etc/skel/.templates/bookmarks_TEMPLATE > /tmp/gbg/.config/gtk-3.0/bookmarks
++
++chown -R gbg:gbg $MNT
+--- gbgclient-hirsute-0.2.orig/scripts/init_gbgclient.sh
++++ gbgclient-hirsute-0.2/scripts/init_gbgclient.sh
+@@ -2,7 +2,7 @@
+ #Dieses Skript setzt alle Verbindungen zurück und definiert das Aussehen des GBG-Desktops
+ setxkbmap de
+ gsettings set org.gnome.desktop.background picture-uri file:///usr/share/backgrounds/GBG_Custom_Background.png
+-gsettings set org.gnome.shell favorite-apps "['org.gnome.Nautilus.desktop', 'firefox.desktop','libreoffice-writer.desktop','libreoffice-calc.desktop','libreoffice-impress.desktop','gimp.desktop','inkscape.desktop','gnome-terminal.desktop','atom.desktop','audacity.desktop','google-chrome.desktop','openboard.desktop','Write.desktop','xournal.desktop','jupyter.desktop','processing.desktop']"
++gsettings set org.gnome.shell favorite-apps "['org.gnome.Nautilus.desktop', 'firefox.desktop','libreoffice-writer.desktop','libreoffice-calc.desktop','libreoffice-impress.desktop','gnome-terminal.desktop','MountPrivateContainer.desktop']"
+ gsettings set org.gnome.shell.extensions.dash-to-dock show-apps-at-top true
+ gsettings set org.gnome.shell.extensions.dash-to-dock dock-position BOTTOM
+ gsettings set org.gnome.shell.extensions.dash-to-dock dash-max-icon-size 30
+--- /dev/null
++++ gbgclient-hirsute-0.2/usr/share/applications/MountPrivateContainer.desktop
+@@ -0,0 +1,7 @@
++[Desktop Entry]
++Exec=sudo /usr/bin/MountPrivateContainer.sh
++Icon=/usr/share/icons/Adwaita/scalable/actions/folder-new-symbolic.svg
++Name=Privates Laufwerk einbinden
++StartupNotify=true
++Terminal=true
++Type=Application
+--- /dev/null
++++ gbgclient-hirsute-0.2/usr/share/applications/UMountPrivateContainer.desktop
+@@ -0,0 +1,7 @@
++[Desktop Entry]
++Exec=sudo /usr/bin/UMountPrivateContainer.sh
++Icon=/usr/share/icons/Adwaita/scalable/actions/edit-delete-symbolic.svg
++Name=Privates Laufwerk aushängen
++StartupNotify=true
++Terminal=true
++Type=Application

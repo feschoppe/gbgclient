@@ -14,3 +14,8 @@ sudoers.d/sudogbgclient etc/sudoers.d/
 etc/skel/.mozilla etc/skel
 etc/skel/.config etc/skel
 etc/skel/.templates etc/skel
+etc/ssh/sshd_config.d/gbg.conf etc/ssh/sshd_config.d
+scripts/CreatePrivateContainer.sh usr/bin
+scripts/EncryptPrivateContainer.sh usr/bin
+scripts/MountPrivateContainer.sh usr/bin
+scripts/UMountPrivateContainer.sh usr/bin
