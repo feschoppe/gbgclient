@@ -10,5 +10,7 @@ echo "Der private Datencontainer wird angelegt. Bitte hab etwas Geduld. Dieser V
 dd if=/dev/urandom of=$SAFE bs=1M count=5000 status=progress
 
 
-#Ordner zum Mounten anlegen
-mkdir /opt/mount
+#echo "Jetzt wird der Container verschlüsselt!"
+#cryptsetup -c aes-xts-plain64 -s 512 -h sha512 -y luksFormat $SAFE
+#cryptsetup luksOpen $SAFE $CRYPTNAME
+#mkfs.ext4 /dev/mapper/$CRYPTNAME
