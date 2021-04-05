@@ -7,5 +7,3 @@ gbg ALL = NOPASSWD: /usr/bin/CreatePrivateContainer.sh
 gbg ALL = NOPASSWD: /usr/bin/MountPrivateContainer.sh
 gbg ALL = NOPASSWD: /usr/bin/UMountPrivateContainer.sh
 gbg ALL = NOPASSWD: /usr/bin/EncryptPrivateContainer.sh
-#snap
-gbg ALL = NOPASSWD: /usr/bin/snap
