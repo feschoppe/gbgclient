@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 29 Mar 2021 18:47:06 +0200
+Source: gbgclient-hirsute
+Architecture: source
+Version: 0.2-7
+Distribution: hirsute
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changes:
+ gbgclient-hirsute (0.2-7) hirsute; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 70749f8e0650b5976ac16940efabb5f945b4a5a2 1627 gbgclient-hirsute_0.2-7.dsc
+ 3024ff30b1803ae5d950d00d540b9b25092b7f8c 5041440 gbgclient-hirsute_0.2.orig.tar.xz
+ 6835f2b4e1b6c31ddc20e698e64dc4d9001a8719 24312 gbgclient-hirsute_0.2-7.debian.tar.xz
+ 44b4f3b49c926bf43d2586a8f5c7dc915eaf0459 5853 gbgclient-hirsute_0.2-7_source.buildinfo
+Checksums-Sha256:
+ 3ec158bac7721c36468d03338a67b37300ca8d4ea59e60831fa6fef81c395de3 1627 gbgclient-hirsute_0.2-7.dsc
+ b38c54c65785a0ab63db32811c2241c1f59121225a4b1097952648fa329f2699 5041440 gbgclient-hirsute_0.2.orig.tar.xz
+ 31158fcc0d3dcd3b4ade25a4115062a6896cb9b59966326b2776396e4a44fb96 24312 gbgclient-hirsute_0.2-7.debian.tar.xz
+ e98af4bebdb0493f69be9591f0a7129d7c246c9ad2556b1bc12391d7cc58ad7d 5853 gbgclient-hirsute_0.2-7_source.buildinfo
+Files:
+ 86d5d6925869a294880cfd42694ce54c 1627 utils optional gbgclient-hirsute_0.2-7.dsc
+ e3c30c2071e71dfb8b0c97b6659aee5d 5041440 utils optional gbgclient-hirsute_0.2.orig.tar.xz
+ 39d8afe7523de9b4789a85ed46b1f68c 24312 utils optional gbgclient-hirsute_0.2-7.debian.tar.xz
+ ae67991caf9a6ebe52feef43ae1b90fc 5853 utils optional gbgclient-hirsute_0.2-7_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAmB//kEACgkQs7/Yjblg
+MBAjHgv+I031yoRJIJ63ziNZFP8TBu3blVtQnxnBk5BZFcipACUM0OjF1wETAFgg
+5OEevg+1n3DBTrw7jdlFMTiGczeFVoDi96X6vBP0jjKWS9c7XPPrreyNZuBvNi1Z
+XxvEt7U6clChzXHdQnq2VXiJLFst5lXkCxMv/odFksOITv4LsDOmYBnJ+kMGmOAQ
+btCxuebrJn5fN4gYiV0mtn3FvdxnB5ly3OMdZfEAwXoJECTzuhP+2BW+7WgaY5Tn
+/jmsPZ8Gs226ACN7mx6In7zQ3hS0+VcNdt3VVkW07d/McVrG5vIsTf22W+XzCAwE
+UArwyBBZUw/ZgkeIXMHT1C/hC/SLSnfW/jx8tmQBTfQPbjRnq+NOoJE2AqauhOip
+GGf2Ck5SXGwZI/C971snzA4VTZ0mgBKFXwh6uAUKka9W/850W0kiwOH5Gc51kJiH
+zqf4RJGeCqggNIIsr4di/9qTgFjWIwu1FTOE7se9BqZihONaEWJDvVomeE5R76lw
+LplHWNzz
+=36Da
+-----END PGP SIGNATURE-----
