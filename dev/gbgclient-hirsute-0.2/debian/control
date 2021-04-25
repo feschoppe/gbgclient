@@ -10,7 +10,7 @@ Homepage: <insert the upstream URL, if relevant>
 
 Package: gbgclient-hirsute
 Architecture: all
-Depends: openssh-server, cryptsetup, wireguard
+Depends: openssh-server, cryptsetup, wireguard, zbar-tools
 Description: Standard-GBG-Client
  Das ist der Standard-GBG-Client.
 Replaces: gdm3, gbgsusclient, gbglzclient, gbglehrerclient

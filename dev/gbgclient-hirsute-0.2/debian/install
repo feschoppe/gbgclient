@@ -15,11 +15,10 @@ etc/skel/.mozilla etc/skel
 etc/skel/.config etc/skel
 etc/skel/.templates etc/skel
 etc/ssh/sshd_config.d/gbg.conf etc/ssh/sshd_config.d
-etc/wireguard/template.conf etc/wireguard
+etc/wireguard/start_wg.sh etc/wireguard/start_wg.sh
 scripts/CreatePrivateContainer.sh usr/bin
 scripts/EncryptPrivateContainer.sh usr/bin
 scripts/MountPrivateContainer.sh usr/bin
 scripts/UMountPrivateContainer.sh usr/bin
 scripts/install_gbgclient.sh usr/bin
-scripts/create_wireguard_keys.sh usr/bin
 usr/share/applications/MountPrivateContainer.desktop usr/share/applications
