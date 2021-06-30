@@ -1,6 +1,3 @@
------BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA512
-
 Format: 3.0 (quilt)
 Source: gbglehrerclient
 Binary: gbglehrerclient
@@ -21,18 +18,3 @@ Checksums-Sha256:
 Files:
  8d5d8d797c96e5028a9af9a505dfbd9f 8984 gbglehrerclient_0.1.orig.tar.xz
  78c6a05eaf3aaf71151917970f00f2eb 6069304 gbglehrerclient_0.1-51.debian.tar.xz
-
------BEGIN PGP SIGNATURE-----
-
-iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAmCFG5oACgkQs7/Yjblg
-MBC2YQv+PI2JNZ1RY+U4yaIDIErCqEqnRpep0CHoCi8btE/18dIP6Zul6lxY8I7z
-vlzXOG5/GC2Xm2kWaJ3LBXO9QQTRFAKZsrWocH9tDRmVp5DVK2KldprQ0KwAJdya
-GSIEpUnitvLJsON8N7XdAjvhj/SeePlPfJ+vR4pOOgtTcgh2+9rTLl5tcS0/9jpy
-TWx6x9hd0dFLqHT7F2AkU1Agy+yGf55EXnkAp/rEYm5XbF4x1nvVhkiv21G+30/2
-Yasc7a1/YWmMGEPr7nbt6dYFE5/1S1KOH5qCkiCEV7Mvmxwey5d5tAB9QuhJnbp4
-pEemS3Iu60X9glNuCcAJ93xpnq537oVV3iBnscv7fwNE9LBDltlygZgwhK55ue4L
-xGKgffEbBos6tX3rEpbylj0OHxQcWWZ6IqMEtc5aP3zcpXqkli9VSH8VlUDgFhwg
-6OBlUdErBW6AlrUpB9ofPkjirRf8TuIlN9H/q6ghnubK0qWp5Y2czKyfes9X6YdH
-F9Q/BnOn
-=Cc7d
------END PGP SIGNATURE-----

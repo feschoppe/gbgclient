@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Beamer anpassen
+Exec=/usr/bin/beamer.sh
+Icon=/usr/share/icons/beamer.png
+Terminal=false
+Type=Application
+Name[de_DE]=Beamer einschalten

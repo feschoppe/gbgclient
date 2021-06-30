@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 30 Jun 2021 06:28:06 +0200
+Source: gbglehrerclient2
+Architecture: source
+Version: 0.1-1
+Distribution: focal
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changes:
+ gbglehrerclient2 (0.1-1) focal; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 01e64d1b1812d48ff7a32915583392812e8286ec 1615 gbglehrerclient2_0.1-1.dsc
+ 3ab6e323088a3dc55ac20f5ff359df1184c37420 5071024 gbglehrerclient2_0.1.orig.tar.xz
+ 39d50603204cf5b74973fc4c138f501c03eb56d6 8448 gbglehrerclient2_0.1-1.debian.tar.xz
+ 3e3d5671896f4bbc75342ab95736e3031e4a6d51 5848 gbglehrerclient2_0.1-1_source.buildinfo
+Checksums-Sha256:
+ edb35f30f48252654701a9b597811dd492315456c7ce4c31724785b1158103b5 1615 gbglehrerclient2_0.1-1.dsc
+ df8dac87af064e0a9b1ee2b6f6da2eca334efcb8e65d935617e528e2debbcac0 5071024 gbglehrerclient2_0.1.orig.tar.xz
+ efd4686c5890c1e6196d33cc5747fda23e2417e24e7ff976f51e280984132a64 8448 gbglehrerclient2_0.1-1.debian.tar.xz
+ 127f4bf4ebf957d7b8d71a03a4e7769b7f0d26eb842b2092e9724b5531fe052a 5848 gbglehrerclient2_0.1-1_source.buildinfo
+Files:
+ 97fa1d680201bed91b0195a4cf6594e3 1615 utils optional gbglehrerclient2_0.1-1.dsc
+ cff4f54c1142e3840a17134e53546f23 5071024 utils optional gbglehrerclient2_0.1.orig.tar.xz
+ 2bf85ae3df919bafc74b078e251bb159 8448 utils optional gbglehrerclient2_0.1-1.debian.tar.xz
+ d0356b74f4186ef4ac988b86c3225bc3 5848 utils optional gbglehrerclient2_0.1-1_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAmDb/MUACgkQs7/Yjblg
+MBDhmwv+M+pbQR2aBO05ys5F44foc341CWZ/J96/wbsp+OH5FkcSGfauwDMQyX+v
+Dgy4AFCCEjPZ1bVkHftg3TWa8DQsZ/dJM+0IL6mojCLuo6kc2yMjxjl04av/I4jj
+1GZyMQ8GkESTpKtTocNcQcUp6pqL19laElHxYFReJVUEphF6pD0aP4NpOcqIPReF
+zuzpvuzOmd0LWmf4PuVNmPdySVl/GMzK1xGT0+73kwH7C9Ns8MBZadezZhO+gc8A
+rJSGAYN9rm61XlySndbks6xsDXOqs4y6BnRXtTnYc+tSQqIxSHxHy0Xqbi6GPQ82
+uruyjnuGs9JtXhPFhuUD2f/WPfCM8EJxqoYhxIjpQTm+m1SnLRKwBvP8HUQY17zc
+Fu4cfFPou1jZ4utuO4TWqqnCxcjlSkvgxf1GvIWPzKCXSuECfiM/qNAFRTJWHPuz
+6EaGE79GjmDgUNspFpIka183XibgSv8my3uZrmo0SrGNAXflMMsrFUb9dRR/qMYm
+9papGCY7
+=gmhr
+-----END PGP SIGNATURE-----

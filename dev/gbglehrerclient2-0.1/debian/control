@@ -1,0 +1,17 @@
+Source: gbglehrerclient2
+Section: utils
+Priority: optional
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.4.1
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Browser: https://salsa.debian.org/debian/gbglehrerclient2
+#Vcs-Git: https://salsa.debian.org/debian/gbglehrerclient2.git
+
+Package: gbglehrerclient2
+Architecture: all
+Description: GBG-Client für Lehrer-Geräte
+ Dieses Paket konfiguriert einen GBG-Lehrer-PC.
+Replaces: gdm3, gbgclient, gbgsusclient, gbglzclient, systemd
+Conflicts: gbgclient, gbgsusclient, gbglzclient, gnome-initial-setup
+Depends: thunderbird, thunderbird-locale-de, thunderbird-gnome-support, musescore3, flatpak, tesseract-ocr-deu, gimagereader, openssh-server, cryptsetup, apt-transport-https, winetricks, flashplugin-installer, libreoffice-base, wireguard, zbar-tools

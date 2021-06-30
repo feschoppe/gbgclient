@@ -1,6 +1,3 @@
------BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA512
-
 Format: 1.8
 Date: Sun, 06 Sep 2020 12:02:32 +0200
 Source: gbglehrerclient
@@ -29,18 +26,3 @@ Files:
  8d5d8d797c96e5028a9af9a505dfbd9f 8984 utils optional gbglehrerclient_0.1.orig.tar.xz
  78c6a05eaf3aaf71151917970f00f2eb 6069304 utils optional gbglehrerclient_0.1-51.debian.tar.xz
  7f3e2766308fe3218d58821b0cc49b44 5847 utils optional gbglehrerclient_0.1-51_source.buildinfo
-
------BEGIN PGP SIGNATURE-----
-
-iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAmCFG58ACgkQs7/Yjblg
-MBB9dQv+JI8OxI21Dz0N/5Atn835TJWzONsTQufy+FbdqADGJH9LqNelcRhXRFAi
-0x8diRHWwOWjaGCzd9u8KVTLNFeuByUwnIDVpN1dkXL8xTjCMvyOx8LnZAJTV3jZ
-uaXkHK6IszAr/LDXYlvBWhLQ6mNlQBNmznzq4PSbxIzYFFm/YOZCLH+V4IhRpHyL
-zuJVqHcUauNbScsex9T8NC+obV6Ok3sE4QB24QgEuU9Ui+s+flyWDR81vdCeyNJ5
-uKzCuv6mWMHq+QnB+0UkunzBskFluwM81TTc5OjJ3PnLGUfKXvdr/bsHzHELSJvj
-JEr2c1P36RyV5egV7U/Xs0GIS2AwK9lRYJHTrZyFHbrM+SQhvYUuYpoSoy1jbarv
-8ivYFdyCPgx2cE7tG1pxeMpuIP824c4mx6ik4ewdc6Kj7i8seL7wxWQUaohRMvEq
-pahPw5l7tw084O4waUtQGDYr7U9c+zL/LgbjmJ62SI5OQWTofGPmGBnOzmlB+/7Z
-3hcWH5nc
-=GEiI
------END PGP SIGNATURE-----
