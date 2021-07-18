@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 30 Jun 2021 06:28:06 +0200
+Source: gbglehrerclient2
+Architecture: source
+Version: 0.1-3
+Distribution: focal
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changes:
+ gbglehrerclient2 (0.1-3) focal; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ ef87cd91796cb1f7242d163a18292c972763dd70 1615 gbglehrerclient2_0.1-3.dsc
+ 3ab6e323088a3dc55ac20f5ff359df1184c37420 5071024 gbglehrerclient2_0.1.orig.tar.xz
+ 9e009da3ebc69d732cafffe5959fbf1dcd763aac 9456 gbglehrerclient2_0.1-3.debian.tar.xz
+ d54139dab2362f89ef23b2f07d4cb730d9b7d4b2 5878 gbglehrerclient2_0.1-3_source.buildinfo
+Checksums-Sha256:
+ d38bbab3cade35d936457cc7eb3e7b4f4807f05cec80b6e1ce5b8fde73596873 1615 gbglehrerclient2_0.1-3.dsc
+ df8dac87af064e0a9b1ee2b6f6da2eca334efcb8e65d935617e528e2debbcac0 5071024 gbglehrerclient2_0.1.orig.tar.xz
+ 1d3497d4adaa1204f44a46885b3ebdf289184980737e58b69cc9f1803e302721 9456 gbglehrerclient2_0.1-3.debian.tar.xz
+ f3ae9ff417222ded0081267d8f4a54c7f202c83b8f03186abdf9a811d8f05eec 5878 gbglehrerclient2_0.1-3_source.buildinfo
+Files:
+ fc5ef81abf7d30766440cb65503b9f58 1615 utils optional gbglehrerclient2_0.1-3.dsc
+ cff4f54c1142e3840a17134e53546f23 5071024 utils optional gbglehrerclient2_0.1.orig.tar.xz
+ f54f43b63b3e112433cd8d4244f0683a 9456 utils optional gbglehrerclient2_0.1-3.debian.tar.xz
+ 258b2d6ba836f04ef83aae4356a02ff8 5878 utils optional gbglehrerclient2_0.1-3_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAmD0ZiQACgkQs7/Yjblg
+MBDKygv+PEPnq7Ol4etvtnJdIK+QaVCoJIEtfyz8Vltcu4hafCZdTP+DYtqg1m4d
++oZ1xFmHJ7HeetaTdG9Ke+GXjJt/S8HcUGXUW4wfjUuUVNoZVg9q0+xuYPFiZsdS
+9+PuiBn6Ojx+an+/KF11n8y3hspJBjrc4uMwBOYbNgfCcgngfHCU+WPXKh4Te0Pj
+ySC4mjoxd1EQf9d3rQcm98LwExN8Hh/Y94SQBgKUotIgBxQxVblDgSyLvw0zJ4xc
+h+S0Q1nEV6/Og7Fj9oG0X4UmTL/B6KCsElH3Z2XNFOVZN1wDDFyxdsuDAAd+4Nmg
+kqwOaipgBJbYQ4yUaoR1Mb+ijkTDLGauQ2Ym5p9ZpLCslShQ9pSpbNHOO/nE5gKP
+cR+ntPf8zuRgQwlrvWU5q8ORrjBf/QTZw91kJwJOLzojntg5I+QcjOGI+i8DYQfM
+3Bf9qb2YIG3V4o7wSRGF6zJVbdYPwnV0vqObpuTAFzXoOu8o9G/vQ7y2PI64qe3S
+Tv2zs9lf
+=5HGX
+-----END PGP SIGNATURE-----

@@ -95,19 +95,19 @@ else
 fi
 
 #Joplin installieren
-#if [ -f /usr/local/bin/Joplin-1.4.12.AppImage ]; then
-#   echo "Joplin ist vorhanden."
-#else
-#   echo "--------------"
-#   echo "Joplin ist NICHT vorhanden!"
-#   echo "--------------"
-#   echo "Jolin wird heruntergeladen und installiert!"
-#   echo "--------------"
-#   wget https://github.com/laurent22/joplin/releases/download/v1.4.12/Joplin-1.4.12.AppImage -O /usr/local/bin/Joplin-1.4.12.AppImage
-#   chmod +x /usr/local/bin/Joplin-1.4.12.AppImage
-#   wget http://schoppemail.de/deb/Joplin.desktop -O /usr/share/applications/Joplin.desktop
-#   chmod 755 /usr/share/applications/Joplin.desktop
-#fi
+if [ -f /usr/local/bin/Joplin-1.4.12.AppImage ]; then
+   echo "Joplin ist vorhanden."
+else
+   echo "--------------"
+   echo "Joplin ist NICHT vorhanden!"
+   echo "--------------"
+   echo "Jolin wird heruntergeladen und installiert!"
+   echo "--------------"
+   wget https://github.com/laurent22/joplin/releases/download/v1.4.12/Joplin-1.4.12.AppImage -O /usr/local/bin/Joplin-1.4.12.AppImage
+   chmod +x /usr/local/bin/Joplin-1.4.12.AppImage
+   wget http://schoppemail.de/deb/Joplin.desktop -O /usr/share/applications/Joplin.desktop
+   chmod 755 /usr/share/applications/Joplin.desktop
+fi
 
 #Skype installieren
 if [ -f /opt/skypeforlinux-64.deb ]; then
