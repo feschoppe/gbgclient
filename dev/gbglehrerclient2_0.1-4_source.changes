@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 30 Jun 2021 06:28:06 +0200
+Source: gbglehrerclient2
+Architecture: source
+Version: 0.1-4
+Distribution: focal
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changes:
+ gbglehrerclient2 (0.1-4) focal; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 67ad87342a4e9bbb50ae124a1b0c1c144c772beb 1615 gbglehrerclient2_0.1-4.dsc
+ 3ab6e323088a3dc55ac20f5ff359df1184c37420 5071024 gbglehrerclient2_0.1.orig.tar.xz
+ 8b0165f80902434ea99cfa94200a14073684020c 9772 gbglehrerclient2_0.1-4.debian.tar.xz
+ 7bbab59d3e034e2d56aeee592f114711bd4f1d3a 5882 gbglehrerclient2_0.1-4_source.buildinfo
+Checksums-Sha256:
+ e8aed91d0c038089b499632472bdb3e9ab54e9a245d3f49bf8db484ace37c3f8 1615 gbglehrerclient2_0.1-4.dsc
+ df8dac87af064e0a9b1ee2b6f6da2eca334efcb8e65d935617e528e2debbcac0 5071024 gbglehrerclient2_0.1.orig.tar.xz
+ 8af6b5c1d0d32ba838a53edae306dc5bf6f5d1f1bff398363d05d60ac97aeeef 9772 gbglehrerclient2_0.1-4.debian.tar.xz
+ 8b3a80481729fa2ada0e33bfadbf7f9946449f99d1e8cb66ce8bb2fb55f554be 5882 gbglehrerclient2_0.1-4_source.buildinfo
+Files:
+ 6cc2301dd6c46243580ad6518facd7c0 1615 utils optional gbglehrerclient2_0.1-4.dsc
+ cff4f54c1142e3840a17134e53546f23 5071024 utils optional gbglehrerclient2_0.1.orig.tar.xz
+ 2fcfd51d69b804cd8286d8ec36526372 9772 utils optional gbglehrerclient2_0.1-4.debian.tar.xz
+ ebfec94b51cd244263e525ba37895c0a 5882 utils optional gbglehrerclient2_0.1-4_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAmEw0lQACgkQs7/Yjblg
+MBCdUgwAgH3mbzERcviiMouzHtemj0r30B77JpduPSq8rSYDBIsEIVXpELMDWJ1o
+JIYlkYqxzclhEuF9JJVJOJ/VnXWmNpXHS4RldVuYOXWG7qtgune3J2ewjj9xxcNx
+sEBrZd+PdpALSEN5v5zV53mbkpR3lttyBbihCSxZ7J9NZgA/LelnxRJQwJrYrnjK
+DHUqs32lVvTy+5wk8m1KFNr0Jx/f8udLECr+ILH4vZLIPg7oqx0XrzeBBy8NPx8z
+kQc1Yo0uoBoo5h017lW4AleJheKwkIpVRSgn+DGPaZGXssFSWgm9Kgk3SlBrxI9Q
+GM3L3yL0V8I5+7Cp+G70wl9Dqbpq1DYc2AKO8gjLW5l8PgVuIy71a9N51jzI6Z+N
+7t1gfMXlZPLwqppym8kdEN0m7BMcI8CllTHpNtBz+jTml6UY+Nu81xxDE1cNGI1X
+8DhpajjguJ2UpAXzM46ngj4xDqyuydQsZZVlJI3yar0onuY/E6a9V/tXnVSnFFrR
+oyVBSrFW
+=nrty
+-----END PGP SIGNATURE-----

@@ -15,11 +15,6 @@ gsettings set org.gnome.shell.extensions.dash-to-dock dash-max-icon-size 30
 #Warnung ausgeben
 notify-send "Auf diesem Gerät werden keine Daten lokal gespeichert!"
 
-#Tap to click
-gsettings set org.gnome.desktop.peripherals.touchpad tap-to-click true
-#Ruhezustand bei Druck auf Ein-/Ausschalter
-gsettings set org.gnome.settings-daemon.plugins.power power-button-action 'suspend'
-
 #Aufruf des Skripts zum Zurücksetzen der Verbindungen
 #python /usr/bin/delete_connections.py
 
