@@ -94,19 +94,20 @@ else
    #chmod 755 /usr/share/applications/bibox2.desktop
 fi
 
-#Joplin auf Version 2.4.6 aktualisieren
-if [ -f /usr/local/bin/Joplin-2.4.6.AppImage ]; then
-   echo "Joplin 2.4.6 ist vorhanden."
-else
-   echo "--------------"
-   echo "Joplin 2.4.6 ist NICHT vorhanden!"
-   echo "--------------"
-   echo "Jolin 2.4.6 wird heruntergeladen und installiert!"
-   echo "--------------"
-   wget https://github.com/laurent22/joplin/releases/download/v2.4.6/Joplin-2.4.6.AppImage -O /usr/local/bin/Joplin-2.4.6.AppImage
-   cp /usr/local/bin/Joplin-2.4.6.AppImage /usr/local/bin/Joplin.AppImage
-   chmod +x /usr/local/bin/Joplin.AppImage
-fi
+#Joplin installieren
+#if [ -f /usr/local/bin/Joplin-1.4.12.AppImage ]; then
+#   echo "Joplin ist vorhanden."
+#else
+#   echo "--------------"
+#   echo "Joplin ist NICHT vorhanden!"
+#   echo "--------------"
+#   echo "Jolin wird heruntergeladen und installiert!"
+#   echo "--------------"
+#   wget https://github.com/laurent22/joplin/releases/download/v1.4.12/Joplin-1.4.12.AppImage -O /usr/local/bin/Joplin-1.4.12.AppImage
+#   chmod +x /usr/local/bin/Joplin-1.4.12.AppImage
+#   wget http://schoppemail.de/deb/Joplin.desktop -O /usr/share/applications/Joplin.desktop
+#   chmod 755 /usr/share/applications/Joplin.desktop
+#fi
 
 #Skype installieren
 if [ -f /opt/skypeforlinux-64.deb ]; then
