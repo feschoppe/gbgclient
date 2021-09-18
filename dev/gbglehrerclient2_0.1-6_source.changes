@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 30 Jun 2021 06:28:06 +0200
+Source: gbglehrerclient2
+Architecture: source
+Version: 0.1-6
+Distribution: focal
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changes:
+ gbglehrerclient2 (0.1-6) focal; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 47a4f6799a74490e2bb6dc3f3b1bbd2dbf73b8b7 1618 gbglehrerclient2_0.1-6.dsc
+ 3ab6e323088a3dc55ac20f5ff359df1184c37420 5071024 gbglehrerclient2_0.1.orig.tar.xz
+ 586b9bd96bb00d81b9f3bdad167be3d55b98089c 10420 gbglehrerclient2_0.1-6.debian.tar.xz
+ eabc8b722c2348902e5649961168e6d7b9f4c7bc 5884 gbglehrerclient2_0.1-6_source.buildinfo
+Checksums-Sha256:
+ 172ce42a23875eba591a9299d652502ec8913eea254e7ac2cb4cd4da255bf10f 1618 gbglehrerclient2_0.1-6.dsc
+ df8dac87af064e0a9b1ee2b6f6da2eca334efcb8e65d935617e528e2debbcac0 5071024 gbglehrerclient2_0.1.orig.tar.xz
+ 3a28c62bcbcdad76b1187a294c1107dd8915edb80a5c8dcef4a225804e4d5a91 10420 gbglehrerclient2_0.1-6.debian.tar.xz
+ 3eeb324dbc8600c4fa3bdf85519512d6805561fb6179defb5f8bcafd28737284 5884 gbglehrerclient2_0.1-6_source.buildinfo
+Files:
+ b5d8611241de2919f0617694dc4b1253 1618 utils optional gbglehrerclient2_0.1-6.dsc
+ cff4f54c1142e3840a17134e53546f23 5071024 utils optional gbglehrerclient2_0.1.orig.tar.xz
+ 607d03a833159bd232b1297251d15213 10420 utils optional gbglehrerclient2_0.1-6.debian.tar.xz
+ 361d8989d5b6a20d307bc94cb8d92f46 5884 utils optional gbglehrerclient2_0.1-6_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAmFGGucACgkQs7/Yjblg
+MBDi8wv9G4yO2rIWkYizoIyg6V4vcxFTKT90Ch2gp5V3yMukcKxqyEXn51h2e5k7
++cHYWv8QneuTYpgUBRdcXh2a1fw8tbQtKkjoXLHZgwfpWSbDtqahG8MNmwxWtch+
+cd7Qxk0wVcHg2he9ZGedmMUlXvWG7qU9sdtetTgLkoEhrZ/LB5/Nv6I5ijF/asnv
+7s8pOSqGd5ioFLd8SoPHUKIoNoV3Spus5CC5GyEyt1x5+/1zvSTM3Zn5nqkOChf3
++IBbUCSvp1oIAWuV9u+584MmII1+cEJZU8Vq0MShiKE/RXZ2nsY2yW9rgT4bWpO6
+x6/5EGgYaXoU6XoeTuJ+8b5wZm1DjUodre7XlB7HTWOv9Ppyud+/N4dExEKIjvA2
+fHtn2qNNMbPPVjpQJ29nFoJmtB/utp2mdSQdOKn3iuCD/NusaGMxZC4IWvWSoVUM
+ww44x/2lvjnmxxXxC5zKIeCWHeGvDO8xe+pUoxpY08IupShMqHD3iA0t/tD8FNM1
+LRDpd78M
+=vR8m
+-----END PGP SIGNATURE-----
