@@ -11,8 +11,6 @@ gsettings set org.gnome.shell favorite-apps "['org.gnome.Nautilus.desktop','Moun
 gsettings set org.gnome.shell.extensions.dash-to-dock show-apps-at-top true
 gsettings set org.gnome.shell.extensions.dash-to-dock dock-position BOTTOM
 gsettings set org.gnome.shell.extensions.dash-to-dock dash-max-icon-size 30
-#Abdunkelung des Bildschirms bei Inaktivität deaktivieren
-gsettings set org.gnome.desktop.session idle-delay 0
 
 #Warnung ausgeben
 notify-send "Auf diesem Gerät werden keine Daten lokal gespeichert!"
