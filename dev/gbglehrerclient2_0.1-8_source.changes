@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 30 Jun 2021 06:28:06 +0200
+Source: gbglehrerclient2
+Architecture: source
+Version: 0.1-8
+Distribution: focal
+Urgency: medium
+Maintainer: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changed-By: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+Changes:
+ gbglehrerclient2 (0.1-8) focal; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 8f5bf18318d45064bb883b758f55a68603024fd6 1618 gbglehrerclient2_0.1-8.dsc
+ 3ab6e323088a3dc55ac20f5ff359df1184c37420 5071024 gbglehrerclient2_0.1.orig.tar.xz
+ 5f45e8b09165fd9b908d77f12937b70c31322c3c 10672 gbglehrerclient2_0.1-8.debian.tar.xz
+ 3a978f9ae932311288e81f6ae77a35478bbe4e3b 5884 gbglehrerclient2_0.1-8_source.buildinfo
+Checksums-Sha256:
+ b57deb3255cae242125c06cd31acc047d82e7ad4680187365f9376ce17a81d3c 1618 gbglehrerclient2_0.1-8.dsc
+ df8dac87af064e0a9b1ee2b6f6da2eca334efcb8e65d935617e528e2debbcac0 5071024 gbglehrerclient2_0.1.orig.tar.xz
+ e89ef933300ce44a8da856a1c71b5fdd9e0b3ff85ad01265eee7e23b530a2118 10672 gbglehrerclient2_0.1-8.debian.tar.xz
+ f7b9d3499c534a2500b33b602f95d17b3f030fda5e5b20619f8ada5d2da454cc 5884 gbglehrerclient2_0.1-8_source.buildinfo
+Files:
+ db4b61bfe32bc5446c981f73a139f7fb 1618 utils optional gbglehrerclient2_0.1-8.dsc
+ cff4f54c1142e3840a17134e53546f23 5071024 utils optional gbglehrerclient2_0.1.orig.tar.xz
+ 457e7fe7504b750fc7b9ca8e6110340c 10672 utils optional gbglehrerclient2_0.1-8.debian.tar.xz
+ dfb8595dfe4f9bf0d2d7399be233cb9b 5884 utils optional gbglehrerclient2_0.1-8_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEuEIm7yu+5PFBkC/Ls7/YjblgMBAFAmFljfEACgkQs7/Yjblg
+MBAGuAv8CTPDLVsKk+5vSI4rcI4riihyRMRYSC49+3em6CDVAksl6Dr1JOxm4d/y
+X3bs9VTjOde/oTCEFrxBfOX3YDqtWdQHAMTn6LmQ77GtsUvGvFps9Sjlh+Tv5ZGu
+G27f4OtukGdMXimUOKs+Xx8XAy/B7aQ4zsh1UaJ+NRiZc3dAHHVIdWQ2PFtoG0Vr
+36Gg0Jw40CJ0vXzq6q90O98OkjOIRrequhtS6wBpWLQciBTs29MNd+0jT2PaDHgD
+5TvbJM2uDoY/FCrFKy6BkmEblcirDxqIT07cvEvjCAxwkqJWgEUDBUV/4HWNPMm1
+QsN0ofG2n+73h/1uYtTr7L1HYPzrVO5+vzN+MQa+YFgkEJvt2Avnp8l8hv4yUUA4
+ZcGAnmf8p9wm/74ob/YzCt1WzvXn+OnU+hYSb8y0PZs3JaZiOHR7N8ZrHFbrnYoZ
+KQ5WP2TPd/Os1nAGct40S9uwRtL1eAfRBcYrgwWfE46CO+zzJbL48DsgKpiDpNhz
+v30VBZny
+=STMy
+-----END PGP SIGNATURE-----
