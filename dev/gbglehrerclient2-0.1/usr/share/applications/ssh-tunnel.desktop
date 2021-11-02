@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=/usr/bin/ssh-tunnel.sh
+Icon=/usr/share/icons/ssh-tunnel.svg
+Name=Remote Desktop Session herstellen
+StartupNotify=true
+Terminal=true
+Type=Application

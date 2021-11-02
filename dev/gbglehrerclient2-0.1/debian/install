@@ -28,3 +28,6 @@ usr/share/icons/Joplin.png usr/share/icons
 beamer/beamer.desktop usr/share/applications
 etc/ssh/sshd_config.d/gbg.conf etc/ssh/sshd_config.d
 etc/wireguard/start_wg.sh etc/wireguard
+scripts/ssh-tunnel.sh usr/bin
+usr/share/icons/ssh-tunnel.svg usr/share/icons
+usr/share/applications/ssh-tunnel.desktop usr/share/applications
