@@ -3,7 +3,7 @@
 if ! NAME=$(zenity --entry --text "IServ-Benutzername:" --title "Nutzername"); then
   exit;
 fi
-if ! IP=$(zenity --entry --title "Rechner auswählen" --text "Bitte wähle die IP-Adresse aus" 10.2.200.1 10.2.200.2 10.2.200.4 10.2.200.5 10.2.200.6 10.2.200.7 10.2.200.8 10.2.200.9 10.2.200.10 10.2.200.11); then
+if ! IP=$(zenity --entry --title "Rechner auswählen" --text "Bitte wähle die IP-Adresse aus" 10.2.200.7 10.2.200.5 10.2.200.1 10.2.200.2); then
   exit;
 fi
 #ssh-Tunnel herstellen
