@@ -101,31 +101,6 @@ else
    fi
 fi
 
-#SweetHome3D Version 6.6 installieren
-if [ -f /usr/local/bin/SweetHome3D.tgz ]; then
-   echo "SweetHome3D Version 6.6 ist vorhanden!"
-else
-   echo "--------------"
-   echo "SweetHome3D Version 6.6 ist nicht vorhanden!"
-   echo "--------------"
-   echo "SweetHome3D Version 6.6 wird heruntergeladen und installiert!"
-   echo "--------------"
-   wget https://downloads.sourceforge.net/project/sweethome3d/SweetHome3D/SweetHome3D-6.6/SweetHome3D-6.6-linux-x64.tgz -O /usr/local/bin/SweetHome3D.tgz
-   tar -xvzf /usr/local/bin/SweetHome3D.tgz -C /usr/local/bin/
-   chmod -R 755 /usr/local/bin/SweetHome3D-6.6/
-   chmod +x /usr/local/bin/SweetHome3D-6.6/SweetHome3D
-   echo "[Desktop Entry]" > /usr/share/applications/SweetHome3D.desktop
-   echo "Version=6.6" >> /usr/share/applications/SweetHome3D.desktop
-   echo "Name=SweetHome3D" >> /usr/share/applications/SweetHome3D.desktop
-   echo "Exec=/usr/local/bin/SweetHome3D-6.6/SweetHome3D" >> /usr/share/applications/SweetHome3D.desktop
-   echo "Path=/usr/local/bin/SweetHome3D-6.6" >> /usr/share/applications/SweetHome3D.desktop
-   echo "Icon=/usr/local/bin/SweetHome3D-6.6/SweetHome3DIcon.png" >> /usr/share/applications/SweetHome3D.desktop
-   echo "Terminal=false" >> /usr/share/applications/SweetHome3D.desktop
-   echo "Type=Application" >> /usr/share/applications/SweetHome3D.desktop
-   echo "Categories=Application;Development;" >> /usr/share/applications/SweetHome3D.desktop
-   chmod 755 /usr/share/applications/SweetHome3D.desktop
-fi
-
 #Skype installieren
 if [ -f /opt/skypeforlinux-64.deb ]; then
    echo "Skype ist vorhanden."
@@ -173,16 +148,14 @@ else
    echo "--------------"
    echo "Veracrypt mit GUI ist NICHT vorhanden!"
    echo "--------------"
-   PKG_OK_VERA=$(dpkg-query -W --showformat='${Status}\n' veracrypt-console|grep "install ok installed")
-   echo Checking for veracrypt-console: $PKG_OK_VERA
-   if [ "" = "$PKG_OK_VERA" ]; then
-      echo "Bestehende Installation von Veracrypt (Konsole) muss nicht entfernt werden."
-   else
-      echo "Veracrypt-Console ist vorhanden und muss entfernt werden!"
-      apt remove veracrypt-console -y
-   fi
    echo "Veracrypt mit GUI wird heruntergeladen und installiert!"
    echo "--------------"
    wget https://launchpad.net/veracrypt/trunk/1.24-update7/+download/veracrypt-1.24-Update7-Ubuntu-20.04-amd64.deb -O /opt/veracrypt-1.24-Update7-Ubuntu-20.04-amd64.deb
    dpkg -i /opt/veracrypt-1.24-Update7-Ubuntu-20.04-amd64.deb
 fi
+
+#SNAPS
+#snaps aktualisieren
+#snap refresh
+#fractal installieren
+#snap install fractal
