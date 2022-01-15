@@ -186,12 +186,3 @@ else
    wget https://launchpad.net/veracrypt/trunk/1.24-update7/+download/veracrypt-1.24-Update7-Ubuntu-20.04-amd64.deb -O /opt/veracrypt-1.24-Update7-Ubuntu-20.04-amd64.deb
    dpkg -i /opt/veracrypt-1.24-Update7-Ubuntu-20.04-amd64.deb
 fi
-
-#calibre installieren
-if [[ -d /opt/calibre ]]; then
-   echo "calibre ist vorhanden."
-else
-   echo "calibre ist nicht vorhanden"
-   echo "calibre wird installiert"
-   sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
-fi
