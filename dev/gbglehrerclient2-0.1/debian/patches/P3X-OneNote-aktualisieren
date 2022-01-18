@@ -1,0 +1,48 @@
+Description: <short summary of the patch>
+ TODO: Put a short summary on the line above and replace this paragraph
+ with a longer explanation of this change. Complete the meta-information
+ with other relevant fields (see below for details). To make it easier, the
+ information below has been extracted from the changelog. Adjust it or drop
+ it.
+ .
+ gbglehrerclient2 (0.1-16) focal; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Author: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+
+---
+The information above should follow the Patch Tagging Guidelines, please
+checkout http://dep.debian.net/deps/dep3/ to learn about the format. Here
+are templates for supplementary fields that you might want to add:
+
+Origin: <vendor|upstream|other>, <url of original patch>
+Bug: <url in upstream bugtracker>
+Bug-Debian: https://bugs.debian.org/<bugnumber>
+Bug-Ubuntu: https://launchpad.net/bugs/<bugnumber>
+Forwarded: <no|not-needed|url proving that it has been forwarded>
+Reviewed-By: <name and email of someone who approved the patch>
+Last-Update: 2022-01-18
+
+--- gbglehrerclient2-0.1.orig/updater/updater.sh
++++ gbglehrerclient2-0.1/updater/updater.sh
+@@ -81,6 +81,20 @@ else
+    #chmod 755 /usr/share/applications/bibox2.desktop
+ fi
+ 
++
++#P3X OneNote aktualisieren!
++if [ -f /opt/p3x-onenote_2022.4.104_amd64.deb ]; then
++   echo "P3X OneNote Version 2022.4.104 ist vorhanden"
++else
++   echo "--------------"
++   echo "P3X OneNote Version 2022.4.104 ist NICHT vorhanden!"
++   echo "--------------"
++   echo "P3X OneNote wird heruntergeladen und installiert!"
++   echo "--------------"
++   wget https://github.com/patrikx3/onenote/releases/download/v2022.4.104/p3x-onenote_2022.4.104_amd64.deb -O /opt/p3x-onenote_2022.4.104_amd64.deb
++   dpkg -i /opt/p3x-onenote_2022.4.104_amd64.deb
++fi
++
+ #Joplin auf Version 2.5.10 aktualisieren
+ if [ -f /usr/local/bin/Joplin-2.5.10.AppImage ]; then
+    echo "Joplin 2.5.10 ist vorhanden."

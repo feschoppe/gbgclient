@@ -81,20 +81,6 @@ else
    #chmod 755 /usr/share/applications/bibox2.desktop
 fi
 
-
-#P3X OneNote aktualisieren!
-if [ -f /opt/p3x-onenote_2022.4.104_amd64.deb ]; then
-   echo "P3X OneNote Version 2022.4.104 ist vorhanden"
-else
-   echo "--------------"
-   echo "P3X OneNote Version 2022.4.104 ist NICHT vorhanden!"
-   echo "--------------"
-   echo "P3X OneNote wird heruntergeladen und installiert!"
-   echo "--------------"
-   wget https://github.com/patrikx3/onenote/releases/download/v2022.4.104/p3x-onenote_2022.4.104_amd64.deb -O /opt/p3x-onenote_2022.4.104_amd64.deb
-   dpkg -i /opt/p3x-onenote_2022.4.104_amd64.deb
-fi
-
 #Joplin auf Version 2.5.10 aktualisieren
 if [ -f /usr/local/bin/Joplin-2.5.10.AppImage ]; then
    echo "Joplin 2.5.10 ist vorhanden."
