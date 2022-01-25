@@ -95,23 +95,23 @@ else
    dpkg -i /opt/p3x-onenote_2022.4.104_amd64.deb
 fi
 
-#Joplin auf Version 2.6.10 aktualisieren
-if [ -f /usr/local/bin/Joplin-2.6.10.AppImage ]; then
-   echo "Joplin 2.6.10 ist vorhanden."
+#Joplin auf Version 2.5.10 aktualisieren
+if [ -f /usr/local/bin/Joplin-2.5.10.AppImage ]; then
+   echo "Joplin 2.5.10 ist vorhanden."
 else
    echo "--------------"
-   echo "Joplin 2.6.10 ist NICHT vorhanden!"
+   echo "Joplin 2.5.10 ist NICHT vorhanden!"
    echo "--------------"
-   echo "Joplin 2.6.10 wird heruntergeladen und installiert!"
+   echo "Joplin 2.5.10 wird heruntergeladen und installiert!"
    echo "--------------"
-   wget https://github.com/laurent22/joplin/releases/download/v2.6.10/Joplin-2.6.10.AppImage -O /usr/local/bin/Joplin-2.6.10.AppImage
-   cp /usr/local/bin/Joplin-2.6.10.AppImage /usr/local/bin/Joplin.AppImage
+   wget https://github.com/laurent22/joplin/releases/download/v2.5.10/Joplin-2.5.10.AppImage -O /usr/local/bin/Joplin-2.5.10.AppImage
+   cp /usr/local/bin/Joplin-2.5.10.AppImage /usr/local/bin/Joplin.AppImage
    chmod +x /usr/local/bin/Joplin.AppImage
-   if [ -f /usr/local/bin/Joplin-2.5.10.AppImage ]; then
-      echo "Joplin 2.5.10 ist noch vorhanden und muss entfernt werden."
-      rm /usr/local/bin/Joplin-2.5.10.AppImage
+   if [ -f /usr/local/bin/Joplin-2.4.9.AppImage ]; then
+      echo "Joplin 2.4.9 ist noch vorhanden und muss entfernt werden."
+      rm /usr/local/bin/Joplin-2.4.9.AppImage
    else
-      echo "Joplin 2.5.10 muss nicht entfernt werden."
+      echo "Joplin 2.4.9 muss nicht entfernt werden."
    fi
 fi
 
