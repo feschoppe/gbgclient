@@ -46,42 +46,25 @@ else
    dpkg -i /opt/klett-sprachen_2.2.0_amd64.deb
 fi
 
-#xournalpp auf stable downgraden
-if [ -f "/etc/apt/sources.list.d/andreasbutti-ubuntu-xournalpp-master-focal.list" ];
-then
-  echo "xournalpp unstable entfernen"
-  DEBIAN_FRONTEND=noninteractive apt-get remove --yes xournalpp
-  #Xournalpp Unstable PPA entfernen
-  echo "xournalpp unstable PPA entfernen"
-  DEBIAN_FRONTEND=noninteractive add-apt-repository -r --yes ppa:andreasbutti/xournalpp-master
-  rm /etc/apt/sources.list.d/andreasbutti-ubuntu-xournalpp-master-focal.list
-  #Xournalpp Stable PPA hinzufügen
-  echo "xournalpp stable PPA hinzufügen"
-  DEBIAN_FRONTEND=noninteractive add-apt-repository --yes ppa:apandada1/xournalpp-stable
-  #Paketquellen aktualisieren
-  DEBIAN_FRONTEND=noninteractive apt-get update
-  #Xournalpp wieder installieren
-  DEBIAN_FRONTEND=noninteractive apt-get install --yes xournalpp
-  echo "xournal installiert!"
-fi
-
 #Prüfen, ob xournalpp vorhanden ist, falls ja,
 #entfernen und neu installieren
-#REQUIRED_PKG="xournalpp"
-#PKG_OK=$(dpkg-query -W --showformat='${Status}\n' $REQUIRED_PKG|grep "install ok installed")
-#echo Checking for $REQUIRED_PKG: $PKG_OK
-#if [ "" = "$PKG_OK" ]; then
-  #echo "No $REQUIRED_PKG. Setting up $REQUIRED_PKG."
-  #apt install xournalpp -y
-#else
-  #echo "xournalpp ist vorhanden!"
+
+REQUIRED_PKG="xournalpp"
+
+PKG_OK=$(dpkg-query -W --showformat='${Status}\n' $REQUIRED_PKG|grep "install ok installed")
+echo Checking for $REQUIRED_PKG: $PKG_OK
+if [ "" = "$PKG_OK" ]; then
+  echo "No $REQUIRED_PKG. Setting up $REQUIRED_PKG."
+  apt install xournalpp -y
+else
+  echo "xournalpp ist vorhanden!"
   #Vorhandene xournalpp-Installation entfernen
   #apt remove xournalpp -y
   #Vorhandene Installation von xournal entfernen
   #apt remove xournal -y
   #xournalpp neu installieren
   #apt install xournalpp -y
-#fi
+fi
 
 #BiBox installieren!
 if [ -f /opt/BiBox20210630.deb ]; then

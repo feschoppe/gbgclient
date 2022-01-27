@@ -1,0 +1,81 @@
+Description: <short summary of the patch>
+ TODO: Put a short summary on the line above and replace this paragraph
+ with a longer explanation of this change. Complete the meta-information
+ with other relevant fields (see below for details). To make it easier, the
+ information below has been extracted from the changelog. Adjust it or drop
+ it.
+ .
+ gbglehrerclient2 (0.1-17) focal; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Author: Felix Schoppe <felix.schoppe@gbg-seelze.eu>
+
+---
+The information above should follow the Patch Tagging Guidelines, please
+checkout http://dep.debian.net/deps/dep3/ to learn about the format. Here
+are templates for supplementary fields that you might want to add:
+
+Origin: <vendor|upstream|other>, <url of original patch>
+Bug: <url in upstream bugtracker>
+Bug-Debian: https://bugs.debian.org/<bugnumber>
+Bug-Ubuntu: https://launchpad.net/bugs/<bugnumber>
+Forwarded: <no|not-needed|url proving that it has been forwarded>
+Reviewed-By: <name and email of someone who approved the patch>
+Last-Update: 2022-01-27
+
+--- gbglehrerclient2-0.1.orig/updater/updater.sh
++++ gbglehrerclient2-0.1/updater/updater.sh
+@@ -46,25 +46,42 @@ else
+    dpkg -i /opt/klett-sprachen_2.2.0_amd64.deb
+ fi
+ 
++#xournalpp auf stable downgraden
++if [ -f "/etc/apt/sources.list.d/andreasbutti-ubuntu-xournalpp-master-focal.list" ];
++then
++  echo "xournalpp unstable entfernen"
++  DEBIAN_FRONTEND=noninteractive apt-get remove --yes xournalpp
++  #Xournalpp Unstable PPA entfernen
++  echo "xournalpp unstable PPA entfernen"
++  DEBIAN_FRONTEND=noninteractive add-apt-repository -r --yes ppa:andreasbutti/xournalpp-master
++  rm /etc/apt/sources.list.d/andreasbutti-ubuntu-xournalpp-master-focal.list
++  #Xournalpp Stable PPA hinzufügen
++  echo "xournalpp stable PPA hinzufügen"
++  DEBIAN_FRONTEND=noninteractive add-apt-repository --yes ppa:apandada1/xournalpp-stable
++  #Paketquellen aktualisieren
++  DEBIAN_FRONTEND=noninteractive apt-get update
++  #Xournalpp wieder installieren
++  DEBIAN_FRONTEND=noninteractive apt-get install --yes xournalpp
++  echo "xournal installiert!"
++fi
++
+ #Prüfen, ob xournalpp vorhanden ist, falls ja,
+ #entfernen und neu installieren
+-
+-REQUIRED_PKG="xournalpp"
+-
+-PKG_OK=$(dpkg-query -W --showformat='${Status}\n' $REQUIRED_PKG|grep "install ok installed")
+-echo Checking for $REQUIRED_PKG: $PKG_OK
+-if [ "" = "$PKG_OK" ]; then
+-  echo "No $REQUIRED_PKG. Setting up $REQUIRED_PKG."
+-  apt install xournalpp -y
+-else
+-  echo "xournalpp ist vorhanden!"
++#REQUIRED_PKG="xournalpp"
++#PKG_OK=$(dpkg-query -W --showformat='${Status}\n' $REQUIRED_PKG|grep "install ok installed")
++#echo Checking for $REQUIRED_PKG: $PKG_OK
++#if [ "" = "$PKG_OK" ]; then
++  #echo "No $REQUIRED_PKG. Setting up $REQUIRED_PKG."
++  #apt install xournalpp -y
++#else
++  #echo "xournalpp ist vorhanden!"
+   #Vorhandene xournalpp-Installation entfernen
+   #apt remove xournalpp -y
+   #Vorhandene Installation von xournal entfernen
+   #apt remove xournal -y
+   #xournalpp neu installieren
+   #apt install xournalpp -y
+-fi
++#fi
+ 
+ #BiBox installieren!
+ if [ -f /opt/BiBox20210630.deb ]; then
